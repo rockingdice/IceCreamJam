@@ -1,0 +1,13 @@
+ID,Price,ItemName,Quantity
+gold120,120,gold,1380
+gold100,100,gold,1150
+gold50,50,gold,560
+gold10,10,gold,110
+gold5,5,gold,52
+gold1,1,gold,10
+beans50,50,beans,57500
+beans5,5,beans,5000
+upgradelife30,30,lives,1
+upgradelives30,30,lives,1
+superpower1,1,superpower,1
+move1,1,move,5

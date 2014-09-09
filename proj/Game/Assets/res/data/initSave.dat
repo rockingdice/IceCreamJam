@@ -1,0 +1,16 @@
+{
+    "leveldata": {
+        "0-0": {
+            "highscore": 0,
+            "stars": 0,
+            "unlocked": 1
+        }
+    }, 
+    "goldbar": 20,
+    "life": 5,
+    "maxlifeunlock": 0,
+    "time": -1,
+    "boosters": [-1, -1, -1, -1, -1, -1, -1],
+    "boostertime": [-1, -1, -1, -1, -1, -1, -1],
+    "furthestlevel": [0, 0]
+}

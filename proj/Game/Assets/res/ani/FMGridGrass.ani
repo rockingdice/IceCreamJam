@@ -1,0 +1,56 @@
+<NEAFileData Version="0.5.1.0">
+ <StringCache>
+  <String String="" SID="-1"/>
+  <String String="GrassIdle" SID="1001"/>
+  <String String="Map.plist|grass.png" SID="1024"/>
+  <String String="Map.plist|grasswhite.png" SID="1025"/>
+ </StringCache>
+ <xidLinks>
+  <Link SID="1024" XID="1"/>
+  <Link SID="1025" XID="2"/>
+ </xidLinks>
+ <Variables/>
+ <Skins/>
+ <NodeStructure>
+  <Node From="-1" Type="1" To="0" Name="根节点"/>
+  <Node From="0" Type="2" To="1" Name="图层"/>
+ </NodeStructure>
+ <Animations>
+  <Animation>
+   <TextureFiles>
+    <TexFile FileName="Map.plist"/>
+   </TextureFiles>
+   <Keyframes>
+    <Node NodeID="0">
+     <Property Type="16">
+      <Keyframe index="0" data="1001" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="19">
+      <Keyframe index="0" data="10" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+    </Node>
+    <Node NodeID="1">
+     <Property Type="5">
+      <Keyframe index="2" data="200" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="4" data="255" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="5" data="255" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="7" data="200" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="9" data="255" ref="-1" changeType="1" changeClass="0"/>
+     </Property>
+     <Property Type="7">
+      <Keyframe index="0" data="1" ref="-1" changeType="0" changeClass="0"/>
+      <Keyframe index="2" data="1" ref="-1" changeType="0" changeClass="0"/>
+      <Keyframe index="7" data="1" ref="-1" changeType="0" changeClass="0"/>
+      <Keyframe index="9" data="1" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="8">
+      <Keyframe index="0" data="1" ref="-1" changeType="0" changeClass="0"/>
+      <Keyframe index="2" data="2" ref="-1" changeType="0" changeClass="0"/>
+      <Keyframe index="7" data="2" ref="-1" changeType="0" changeClass="0"/>
+      <Keyframe index="9" data="1" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+    </Node>
+   </Keyframes>
+  </Animation>
+ </Animations>
+</NEAFileData>

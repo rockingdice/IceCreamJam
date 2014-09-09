@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>kServiceRoot</key>
+	<string>http://topfarm.5pop.com:8001/tms/</string>
+	<key>kLocalSavePath</key>
+	<string>RemoteLevels</string>
+	<key>kDownloadLinkRoot</key>
+	<string>http://topfarm.5pop.com:8001/static/upload/level/</string>
+</dict>
+</plist>

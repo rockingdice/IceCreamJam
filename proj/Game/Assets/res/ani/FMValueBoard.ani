@@ -1,0 +1,70 @@
+<NEAFileData Version="0.5.1.0">
+ <StringCache>
+  <String String="" SID="-1"/>
+  <String String="" SID="0"/>
+  <String String="addValue" SID="1001"/>
+  <String String="1" SID="1070"/>
+  <String String="font_8" SID="1071"/>
+  <String String="Init" SID="1099"/>
+ </StringCache>
+ <xidLinks/>
+ <Variables>
+  <Var VID="0" name="0"/>
+  <Var VID="1" name="1"/>
+ </Variables>
+ <Skins/>
+ <NodeStructure>
+  <Node From="-1" Type="1" To="0" Name="根节点"/>
+  <Node From="0" Type="3" To="1" Name="1"/>
+ </NodeStructure>
+ <Animations>
+  <Animation>
+   <TextureFiles/>
+   <Keyframes>
+    <Node NodeID="0">
+     <Property Type="16">
+      <Keyframe index="0" data="1001" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="19">
+      <Keyframe index="0" data="10" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+    </Node>
+    <Node NodeID="1">
+     <Property Type="7">
+      <Keyframe index="0" data="1" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="11">
+      <Keyframe index="0" data="1070" ref="0" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="28">
+      <Keyframe index="0" data="1071" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+    </Node>
+   </Keyframes>
+  </Animation>
+  <Animation>
+   <TextureFiles/>
+   <Keyframes>
+    <Node NodeID="0">
+     <Property Type="16">
+      <Keyframe index="0" data="1099" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="19">
+      <Keyframe index="0" data="1" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+    </Node>
+    <Node NodeID="1">
+     <Property Type="7">
+      <Keyframe index="0" data="1" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="11">
+      <Keyframe index="0" data="1070" ref="1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="28">
+      <Keyframe index="0" data="1071" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+    </Node>
+   </Keyframes>
+  </Animation>
+ </Animations>
+</NEAFileData>

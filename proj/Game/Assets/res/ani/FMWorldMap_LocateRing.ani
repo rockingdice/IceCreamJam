@@ -1,0 +1,104 @@
+<NEAFileData Version="0.5.1.0">
+ <StringCache>
+  <String String="" SID="-1"/>
+  <String String="" SID="0"/>
+  <String String="WorldMapButtons.plist|r1.png" SID="1019"/>
+  <String String="WorldMapButtons.plist|r10.png" SID="1020"/>
+  <String String="WorldMapButtons.plist|r11.png" SID="1021"/>
+  <String String="WorldMapButtons.plist|r12.png" SID="1022"/>
+  <String String="WorldMapButtons.plist|r13.png" SID="1037"/>
+  <String String="WorldMapButtons.plist|r14.png" SID="1038"/>
+  <String String="WorldMapButtons.plist|r15.png" SID="1039"/>
+  <String String="WorldMapButtons.plist|r16.png" SID="1040"/>
+  <String String="WorldMapButtons.plist|r17.png" SID="1041"/>
+  <String String="WorldMapButtons.plist|r18.png" SID="1042"/>
+  <String String="WorldMapButtons.plist|r2.png" SID="1043"/>
+  <String String="WorldMapButtons.plist|r3.png" SID="1044"/>
+  <String String="WorldMapButtons.plist|r4.png" SID="1045"/>
+  <String String="WorldMapButtons.plist|r5.png" SID="1046"/>
+  <String String="WorldMapButtons.plist|r6.png" SID="1047"/>
+  <String String="WorldMapButtons.plist|r7.png" SID="1048"/>
+  <String String="WorldMapButtons.plist|r8.png" SID="1049"/>
+  <String String="WorldMapButtons.plist|r9.png" SID="1050"/>
+  <String String="Init" SID="1051"/>
+ </StringCache>
+ <xidLinks>
+  <Link SID="1019" XID="19"/>
+  <Link SID="1020" XID="20"/>
+  <Link SID="1021" XID="21"/>
+  <Link SID="1022" XID="22"/>
+  <Link SID="1037" XID="23"/>
+  <Link SID="1038" XID="24"/>
+  <Link SID="1039" XID="25"/>
+  <Link SID="1040" XID="26"/>
+  <Link SID="1041" XID="27"/>
+  <Link SID="1042" XID="28"/>
+  <Link SID="1043" XID="29"/>
+  <Link SID="1044" XID="30"/>
+  <Link SID="1045" XID="31"/>
+  <Link SID="1046" XID="32"/>
+  <Link SID="1047" XID="33"/>
+  <Link SID="1048" XID="34"/>
+  <Link SID="1049" XID="35"/>
+  <Link SID="1050" XID="36"/>
+ </xidLinks>
+ <Variables/>
+ <Skins/>
+ <NodeStructure>
+  <Node From="-1" Type="1" To="0" Name="根节点"/>
+  <Node From="0" Type="2" To="1" Name="图层"/>
+ </NodeStructure>
+ <Animations>
+  <Animation>
+   <TextureFiles>
+    <TexFile FileName="WorldMapButtons.plist"/>
+   </TextureFiles>
+   <Keyframes>
+    <Node NodeID="0">
+     <Property Type="16">
+      <Keyframe index="0" data="1051" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="18">
+      <Keyframe index="0" data="33" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="19">
+      <Keyframe index="0" data="33" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="27">
+      <Keyframe index="0" data="1" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+    </Node>
+    <Node NodeID="1">
+     <Property Type="3">
+      <Keyframe index="0" data="0|0" ref="-1" changeType="1" changeClass="6"/>
+     </Property>
+     <Property Type="5">
+      <Keyframe index="0" data="200" ref="-1" changeType="1" changeClass="0"/>
+     </Property>
+     <Property Type="7">
+      <Keyframe index="0" data="1" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="8">
+      <Keyframe index="0" data="20" ref="-1" changeType="0" changeClass="0"/>
+      <Keyframe index="2" data="21" ref="-1" changeType="0" changeClass="0"/>
+      <Keyframe index="4" data="22" ref="-1" changeType="0" changeClass="0"/>
+      <Keyframe index="6" data="23" ref="-1" changeType="0" changeClass="0"/>
+      <Keyframe index="8" data="24" ref="-1" changeType="0" changeClass="0"/>
+      <Keyframe index="10" data="25" ref="-1" changeType="0" changeClass="0"/>
+      <Keyframe index="12" data="26" ref="-1" changeType="0" changeClass="0"/>
+      <Keyframe index="14" data="27" ref="-1" changeType="0" changeClass="0"/>
+      <Keyframe index="16" data="28" ref="-1" changeType="0" changeClass="0"/>
+      <Keyframe index="18" data="19" ref="-1" changeType="0" changeClass="0"/>
+      <Keyframe index="20" data="30" ref="-1" changeType="0" changeClass="0"/>
+      <Keyframe index="22" data="31" ref="-1" changeType="0" changeClass="0"/>
+      <Keyframe index="24" data="32" ref="-1" changeType="0" changeClass="0"/>
+      <Keyframe index="26" data="33" ref="-1" changeType="0" changeClass="0"/>
+      <Keyframe index="28" data="34" ref="-1" changeType="0" changeClass="0"/>
+      <Keyframe index="30" data="35" ref="-1" changeType="0" changeClass="0"/>
+      <Keyframe index="32" data="36" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+    </Node>
+   </Keyframes>
+  </Animation>
+ </Animations>
+</NEAFileData>

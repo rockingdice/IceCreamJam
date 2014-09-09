@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>kGameServerGlobal</key>
+	<string>car.topgame.com</string>
+	<key>kGameServerChina</key>
+	<string>car.13580.com</string>
+	<key>kImageServerGlobal</key>
+	<string>carimg.topgame.com</string>
+	<key>kImageServerChina</key>
+	<string>car-img.13580.com</string>
+	<key>kFeedImageServerGlobal</key>
+	<string>carimg.topgame.com</string>
+	<key>kStatServerChina</key>
+	<string>cnpstat.diogame.com</string>
+	<key>kStatServerGlobal</key>
+	<string>pstat.diogame.com</string>
+	<key>kFeedImageServerChina</key>
+	<string>car-img.13580.com</string>
+	<key>kiTunesAppDownloadLink</key>
+	<string>http://itunes.apple.com/us/app/pet-inn/id446748626?ls=1&amp;mt=8</string>
+	<key>kiTunesAppRateLink</key>
+	<string>http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?id=446748626&amp;pageNumber=0&amp;sortOrdering=1&amp;type=Purple+Software&amp;mt=8</string>
+	<key>kFlurryCallbackAppID</key>
+	<string>1</string>
+	<key>kFlurryAppIdKey</key>
+	<string>2TPBWLF8II2Z79WXKSID</string>
+	<key>kFlurryHookName</key>
+	<string>PetInnHook</string>
+	<key>kFlurryVideoHookName</key>
+	<string>PetInnVideoHook2</string>
+	<key>kTapjoyAppIDKey</key>
+	<string>c0d676d1-4a36-46f0-9230-ba0684b25fc5</string>
+	<key>kTapjoyAppSecret</key>
+	<string>l0fROQNr5YGDT3uF2U18</string>
+	<key>kiTunesAppID</key>
+	<string>446748626</string>
+	<key>kSupportEmail</key>
+	<string>support@playdino.com</string>
+	<key>kSupportEmailTitle</key>
+	<string>I need help in Tiny Cars</string>
+	<key>kSupportEmailGreeting</key>
+	<string>Dear Sir,</string>
+	<key>kSupportEmailSuffix</key>
+	<string>Debug info is attached, please don&apos;t touch any characters below.</string>
+	<key>kTopClickAppID</key>
+	<string>1</string>
+	<key>kTopClickAppSecret</key>
+	<string>23435fdfjsrwery7rw9r</string>
+	<key>protectedFiles</key>
+	<array>
+		<string>pets.csv</string>
+		<string>friendGame.plist</string>
+		<string>login.csv</string>
+		<string>funroom.csv</string>
+		<string>expansion.csv</string>
+		<string>rating.csv</string>
+		<string>staff.csv</string>
+		<string>exp.csv</string>
+	</array>
+	<key>kAdColonyZoneID</key>
+	<string>z4e81e1fa74b64</string>
+	<key>kAdColonyAppID</key>
+	<string>app4e81e0c36504d</string>
+	<key>kChartBoostAppID</key>
+	<string>4ebb3acf5d2b94bd13000000</string>
+	<key>kChartBoostAppSig</key>
+	<string>1601c758e8e115d4834fab78c7297c70527e2fee</string>
+</dict>
+</plist>

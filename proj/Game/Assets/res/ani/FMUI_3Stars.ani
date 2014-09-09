@@ -1,0 +1,74 @@
+<NEAFileData Version="0.5.2.0">
+ <StringCache>
+  <String String="" SID="-1"/>
+  <String String="" SID="0"/>
+  <String String="Init" SID="1001"/>
+  <String String="FMUI_SummaryStar" SID="1002"/>
+  <String String="1_Get" SID="1011"/>
+  <String String="2_Get" SID="1012"/>
+  <String String="3_Get" SID="1013"/>
+ </StringCache>
+ <xidLinks/>
+ <Variables/>
+ <Skins/>
+ <NodeStructure>
+  <Node From="-1" Type="1" To="0" Name="根节点"/>
+  <Node From="0" Type="5" To="1" Name="1"/>
+  <Node From="0" Type="5" To="2" Name="2"/>
+  <Node From="0" Type="5" To="3" Name="3"/>
+ </NodeStructure>
+ <Animations>
+  <Animation>
+   <TextureFiles/>
+   <Keyframes>
+    <Node NodeID="0">
+     <Property Type="16">
+      <Keyframe index="0" data="1001" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+    </Node>
+    <Node NodeID="1">
+     <Property Type="0">
+      <Keyframe index="0" data="-39.2535|-4.19793" ref="-1" changeType="1" changeClass="0"/>
+     </Property>
+     <Property Type="7">
+      <Keyframe index="0" data="1" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="13">
+      <Keyframe index="0" data="1002" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="21">
+      <Keyframe index="0" data="0|1011|-1|0" ref="-1" changeType="4" changeClass="0"/>
+     </Property>
+    </Node>
+    <Node NodeID="2">
+     <Property Type="0">
+      <Keyframe index="0" data="5.23847|1.49671" ref="-1" changeType="1" changeClass="0"/>
+     </Property>
+     <Property Type="7">
+      <Keyframe index="0" data="1" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="13">
+      <Keyframe index="0" data="1002" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="21">
+      <Keyframe index="0" data="0|1012|-1|0" ref="-1" changeType="4" changeClass="0"/>
+     </Property>
+    </Node>
+    <Node NodeID="3">
+     <Property Type="0">
+      <Keyframe index="0" data="45.9185|-6.28395" ref="-1" changeType="1" changeClass="0"/>
+     </Property>
+     <Property Type="7">
+      <Keyframe index="0" data="1" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="13">
+      <Keyframe index="0" data="1002" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="21">
+      <Keyframe index="0" data="0|1013|-1|0" ref="-1" changeType="4" changeClass="0"/>
+     </Property>
+    </Node>
+   </Keyframes>
+  </Animation>
+ </Animations>
+</NEAFileData>

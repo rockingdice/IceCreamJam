@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>WorldBg12.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,0},{400,600}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{400,600}}</string>
+                <key>sourceSize</key>
+                <string>{400,600}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>2</integer>
+            <key>realTextureFileName</key>
+            <string>WorldBG12.pvr.ccz</string>
+            <key>size</key>
+            <string>{600,600}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:3190e98768a97e125cede3fd962bd1b2:b7b86207d8295a3f08ff5ee161f52083:aa74a4214f4091e2148aa65b6f6a542b$</string>
+            <key>textureFileName</key>
+            <string>WorldBG12.pvr.ccz</string>
+        </dict>
+    </dict>
+</plist>

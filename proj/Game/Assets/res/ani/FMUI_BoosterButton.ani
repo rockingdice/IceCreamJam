@@ -1,0 +1,89 @@
+<NEAFileData Version="0.5.1.0">
+ <StringCache>
+  <String String="" SID="-1"/>
+  <String String="" SID="0"/>
+  <String String="Init" SID="1001"/>
+  <String String="FMBooster" SID="1002"/>
+  <String String="Boosters.plist|boost_bg.png" SID="1010"/>
+  <String String="Boosters.plist|boost_plus.png" SID="1011"/>
+  <String String="FMUI_BoosterCount" SID="1014"/>
+  <String String="FMUI_Clock" SID="1015"/>
+ </StringCache>
+ <xidLinks>
+  <Link SID="1010" XID="1"/>
+  <Link SID="1011" XID="2"/>
+ </xidLinks>
+ <Variables>
+  <Var VID="0" name="Count_Pos"/>
+  <Var VID="1" name="Clock_Pos"/>
+ </Variables>
+ <Skins>
+  <Skin name="UI">
+   <Keyframe type="0" data="17.4273|16.6773" VID="1" changeType="1" changeClass="0"/>
+  </Skin>
+  <Skin name="Game">
+   <Keyframe type="0" data="0|-20.975" VID="0" changeType="1" changeClass="0"/>
+   <Keyframe type="0" data="16.7289|17.7208" VID="1" changeType="1" changeClass="0"/>
+  </Skin>
+ </Skins>
+ <NodeStructure>
+  <Node From="-1" Type="1" To="0" Name="根节点"/>
+  <Node From="0" Type="5" To="1" Name="Booster"/>
+  <Node From="0" Type="5" To="2" Name="Count"/>
+  <Node From="0" Type="5" To="3" Name="Clock"/>
+ </NodeStructure>
+ <Animations>
+  <Animation>
+   <TextureFiles/>
+   <Keyframes>
+    <Node NodeID="0">
+     <Property Type="16">
+      <Keyframe index="0" data="1001" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+    </Node>
+    <Node NodeID="1">
+     <Property Type="7">
+      <Keyframe index="0" data="1" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="13">
+      <Keyframe index="0" data="1002" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="21">
+      <Keyframe index="0" data="0|1001|-1|0" ref="-1" changeType="4" changeClass="0"/>
+     </Property>
+    </Node>
+    <Node NodeID="2">
+     <Property Type="0">
+      <Keyframe index="0" data="0|-32.9367" ref="0" changeType="1" changeClass="0"/>
+     </Property>
+     <Property Type="7">
+      <Keyframe index="0" data="1" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="13">
+      <Keyframe index="0" data="1014" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="21">
+      <Keyframe index="0" data="0|1001|-1|0" ref="-1" changeType="4" changeClass="0"/>
+     </Property>
+    </Node>
+    <Node NodeID="3">
+     <Property Type="0">
+      <Keyframe index="0" data="18.8392|17.5939" ref="1" changeType="1" changeClass="0"/>
+     </Property>
+     <Property Type="1">
+      <Keyframe index="0" data="0.705167|0.705167" ref="-1" changeType="1" changeClass="0"/>
+     </Property>
+     <Property Type="7">
+      <Keyframe index="0" data="1" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="13">
+      <Keyframe index="0" data="1015" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="21">
+      <Keyframe index="0" data="0|1001|-1|0" ref="-1" changeType="4" changeClass="0"/>
+     </Property>
+    </Node>
+   </Keyframes>
+  </Animation>
+ </Animations>
+</NEAFileData>

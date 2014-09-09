@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>kGameServerGlobal</key>
+	<string>farm.topgame.com</string>
+	<key>kGameServerGlobalBackup</key>
+	<string>farm.playdino.com</string>
+	<key>kGameServerChina</key>
+	<string>farm.13580.com:8001</string>
+	<key>kGameServerChinaBackup</key>
+	<string>farm.diogame.com:8001</string>
+	<key>kImageServerGlobal</key>
+	<string>farm.topgame.com</string>
+	<key>kImageServerGlobalBackup</key>
+	<string>farm.playdino.com</string>
+	<key>kImageServerChina</key>
+	<string>farm.13580.com:8001</string>
+	<key>kImageServerChinaBackup</key>
+	<string>farm.diogame.com:8001</string>
+	<key>kFeedImageServerGlobal</key>
+	<string>farm.topgame.com</string>
+	<key>kFeedImageServerGlobalBackup</key>
+	<string>farm.playdino.com</string>
+	<key>kFeedImageServerChina</key>
+	<string>farm.13580.com:8001</string>
+	<key>kFlurryCallbackServer</key>
+	<string>car.topgame.com</string>
+	<key>kFlurryCallbackAppID</key>
+	<string>31</string>
+	<key>kFlurryAppIdKey</key>
+	<string>NKHNH5BQTSG7M5YQP5SY</string>
+	<key>kFlurryHookName</key>
+	<string>OfferHook</string>
+	<key>kFlurryVideoHookName</key>
+	<string>VideoHook</string>
+	<key>kTopStatLinkPayment</key>
+	<string>http://topstat.topgame.com/api/statPayment.php</string>
+	<key>kTopStatLinkLogin</key>
+	<string>http://topstat.topgame.com/api/statLogin.php</string>
+	<key>kTopStatLinkRoot</key>
+	<string>http://topstat.topgame.com/api/</string>
+	<key>kTopStatAppID</key>
+	<string>FarmManiaChinese</string>
+	<key>kTapjoyAppIDKey</key>
+	<string>6b8d7965-38ae-472a-9aa5-b5d597f75a1a</string>
+	<key>kTapjoyAppSecret</key>
+	<string>99JTFzSmKSgPE3rjmbBn</string>
+	<key>kTapjoyPrizeType</key>
+	<string>1</string>
+	<key>kiTunesAppID</key>
+	<string>659387389</string>
+	<key>kSupportEmail</key>
+	<string>farm-support@topgame.com</string>
+	<key>kSupportEmailTitle</key>
+	<string>I need help in Farm Family</string>
+	<key>kSupportEmailGreeting</key>
+	<string>Dear Sir,</string>
+	<key>kSupportEmailSuffix</key>
+	<string>Debug info is attached, please don&apos;t touch any characters below.</string>
+	<key>protectedFiles</key>
+	<array>
+		<string>IapItemList.csv</string>
+		<string>data/initSave.dat</string>
+		<string>data/initConfig.dat</string>
+		<string>data/initLevel.dat</string>
+	</array>
+	<key>kAdColonyZoneID</key>
+	<string>vz35ed90fa44854b63a69daa</string>
+	<key>kAdColonyAppID</key>
+	<string>app8d3ebbbc7c644aeca5f208</string>
+	<key>kChartBoostAppID</key>
+	<string>519368f417ba476544000018</string>
+	<key>kChartBoostAppSig</key>
+	<string>bae06b0353876c8ebd1f689c3727af554640067e</string>
+	<key>kIapItemPrefix</key>
+	<string>com.snsgame.baoweifarm.</string>
+	<key>kIapCoinName</key>
+	<string>coin</string>
+	<key>kIapLeafName</key>
+	<string>gem</string>
+	<key>kIapPromotionName</key>
+	<string>Promos</string>
+	<key>kIapItemList</key>
+	<array>
+		<string>gold100</string>
+		<string>gold50</string>
+		<string>gold10</string>
+		<string>gold5</string>
+		<string>gold1</string>
+		<string>beans50</string>
+		<string>beans5</string>
+		<string>upgradelife30</string>
+		<string>superpower1</string>
+		<string>move1</string>
+	</array>
+	<key>kSaveFileRootKey</key>
+	<string>ROOT</string>
+	<key>kGameOrientation</key>
+	<string>Portrait</string>
+	<key>kForceNetwork</key>
+	<string>0</string>
+	<key>kLoadingImageList</key>
+	<array>
+		<string>loadingBG</string>
+	</array>
+	<key>kLoadingAnimationList</key>
+	<array/>
+	<key>kLoadingAnimationPosiPod</key>
+	<string>160,7</string>
+	<key>kLoadingAnimationPosiPad</key>
+	<string>354,78</string>
+	<key>kLoadingAnimationInterval</key>
+	<string>0.5</string>
+	<key>kFacebookAppID</key>
+	<string>174214739408335</string>
+	<key>kFacebookFeedLink</key>
+	<string>https://itunes.apple.com/app/id659387389?ls=1&amp;mt=8</string>
+	<key>kFacebookFeedIcon</key>
+	<string>http://www.topgame.com/icons/farm.png</string>
+	<key>kFacebookFansLink</key>
+	<string>http://www.facebook.com/pages/Farm-Mania-Community/587585591274659</string>
+	<key>kFacebookFeedCaption</key>
+	<string>Farm Family is exciting!</string>
+	<key>kFacebookFeedDescription</key>
+	<string>Come to play Farm Family together!</string>
+	<key>kFacebookConnectPrize</key>
+	<string>30</string>
+	<key>kFacebookPrizeType</key>
+	<string>2</string>
+	<key>kFacebookRequestMessage</key>
+	<string>Hi, here&apos;s 100 beans for you! It&apos;s totally free.</string>
+	<key>kFacebookRequestPrize</key>
+	<string>1:100</string>
+	<key>kFacebookURLSchemeSuffix</key>
+	<string>cn</string>
+	<key>kRemoteItemFilePrefix</key>
+	<string>item_</string>
+	<key>kRemoteConfigFileDict</key>
+	<dict>
+		<key>IapItemList.csv</key>
+		<string>item_iapitemlist</string>
+		<key>remoteFiles</key>
+		<string>item_remotefiles</string>
+	</dict>
+	<key>kLocalNotifySound</key>
+	<string>ShengJi.caf</string>
+	<key>kPlayHavenToken</key>
+	<string>de0a29a089e74e8ebd8429652df72d68</string>
+	<key>kPlayHavenSecret</key>
+	<string>56f4169ef5df4362a3f5c965ff4e6ec1</string>
+	<key>kMinLevelToShowBonus</key>
+	<string>1</string>
+	<key>kLimeiCoinType</key>
+	<string>1</string>
+	<key>kLiMeiEntranceID</key>
+	<string>45bccc7832f98bef90d01b5717b12a2d</string>
+	<key>kTinyMobiAppID</key>
+	<string>2001229</string>
+	<key>kTinyMobiAppSecret</key>
+	<string>d1d38892</string>
+	<key>kMdotMAppKey</key>
+	<string>b1039c67dd95e658f166cee78a366efb</string>
+	<key>kSponsorpayAppID</key>
+	<string>13295</string>
+	<key>kSponsorpayAppToken</key>
+	<string>6efdfb01019f428af075b81e29311607</string>
+	<key>kAarkiAppID</key>
+	<string>66A270FE9757464DOU</string>
+	<key>kAarkiAppKey</key>
+	<string>jpGIxkwF4teXCzjldNt12n7pvO5U</string>
+	<key>kAarkiPlacementID</key>
+	<string>0B60EC200507B4EEAA</string>
+	<key>kAppDriverSiteID</key>
+	<string>187</string>
+	<key>kAppDriverSiteKey</key>
+	<string>a36bdd6fe26c0e89fd0f6ec14e7ed5b6</string>
+	<key>kAppDriverMediaID</key>
+	<string>79</string>
+	<key>kAppDriverLeafRate</key>
+	<string>1</string>
+	<key>kRootViewFlipped</key>
+	<string>0</string>
+	<key>kInviteEmailBody</key>
+	<string>Hi, there, 
+
+No need to go to Las Vegas. Slots Casino provides all the fun of real slots right on your iphone, and it&apos;s free to play! Get it now: %4$@
+
+Don&apos;t miss out!</string>
+	<key>kInviteEmailTitle</key>
+	<string>Come to play Farm Family on your iPhone/iPad!</string>
+	<key>kGiftEmailPrizeType</key>
+	<string>coin</string>
+	<key>kGiftEmailTitle</key>
+	<string>Hi, here is 1000 coins for you in Farm Family(iPhone/iPad)!</string>
+	<key>kGiftEmailPrizeCount</key>
+	<string>1000</string>
+	<key>kGiftEmailBody</key>
+	<string>&lt;HTML&gt;
+  &lt;HEAD&gt;
+    &lt;META HTTP-EQUIV=&quot;content-type&quot; CONTENT=&quot;text/html;charset=UTF-8&quot;&gt;
+    &lt;TITLE&gt;Bonus Poker&lt;/TITLE&gt;
+&lt;/HEAD&gt;
+&lt;BODY&gt;
+
+&lt;p&gt;Hi, there,&lt;/p&gt;
+&lt;p&gt;Running out of coins in Bonus Poker™? Here is &lt;strong&gt;%1$d&lt;/strong&gt; coins for you, come to enjoy the amasing poker game together!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;%4$@&quot;&gt;&lt;img src=&quot;http://www.topgame.com/icons/poker-emailbonus.jpg&quot; width=&quot;310&quot; height=&quot;174&quot; alt=&quot;Click here to receive your %1$d %3$@!&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p style=&quot;font:17px Helvetica,Arial,sans-serif;&quot;&gt;If you haven&apos;t installed Bonus Poker™, check out this application on the App Store:&lt;/p&gt;
+&lt;table border=&quot;0&quot;&gt;
+  &lt;tbody&gt;&lt;tr&gt;
+    &lt;td style=&quot;padding-right:10px;vertical-align:top&quot;&gt;
+      &lt;a role=&quot;text&quot; aria-label=&quot;Dragon Soul™&quot; href=&quot;http://itunes.apple.com/us/app/bonus-poker/id564579932?ls=1&amp;amp;mt=8&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;170&quot; style=&quot;-webkit-border-radius: 30px;&quot; src=&quot;http://www.topgame.com/icons/poker.png&quot;  /&gt;&lt;/a&gt;
+      
+    &lt;/td&gt;
+    &lt;td style=&quot;vertical-align:top&quot;&gt;
+      &lt;a aria-label=&quot;&quot; role=&quot;text&quot; style=&quot;color:black;text-decoration:none&quot; href=&quot;http://itunes.apple.com/us/app/bonus-poker/id564579932?ls=1&amp;amp;mt=8&quot;&gt;
+      &lt;h1 style=&quot;font:bold 16px Helvetica,Arial,sans-serif;margin:-2px 0 3px&quot;&gt;Bonus Poker™&lt;/h1&gt;
+      &lt;p style=&quot;font:14px Helvetica,Arial,sans-serif;margin:0 0 2px&quot;&gt;TOPGAME GLOBAL LIMITED&lt;/p&gt;
+      
+        &lt;p style=&quot;font:14px Helvetica,Arial,sans-serif;margin:0 0 2px&quot;&gt;Category: Games&lt;/p&gt;
+      
+      
+      
+        &lt;p style=&quot;font:14px Helvetica,Arial,sans-serif;margin:0 0 2px&quot;&gt;Updated: Jan 1, 2013&lt;/p&gt;
+      
+      
+      &lt;/a&gt;
+      
+        &lt;ul style=&quot;display:inline-block;margin:0 0 10px;padding:0;-webkit-box-reflect: below -10px -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(255, 255, 255, 0.7)));&quot; role=&quot;text&quot; aria-label=&quot;4 stars&quot;&gt;
+          &lt;li style=&quot;display:inline;margin:0 -2px 0 0&quot;&gt;&lt;img src=&quot;http://ax.phobos.apple.com.edgesuite.net/email/images_shared/rating-star.png&quot;  /&gt;&lt;/li&gt;
+          &lt;li style=&quot;display:inline;margin:0 -2px 0 0&quot;&gt;&lt;img src=&quot;http://ax.phobos.apple.com.edgesuite.net/email/images_shared/rating-star.png&quot;  /&gt;&lt;/li&gt;
+          &lt;li style=&quot;display:inline;margin:0 -2px 0 0&quot;&gt;&lt;img src=&quot;http://ax.phobos.apple.com.edgesuite.net/email/images_shared/rating-star.png&quot;  /&gt;&lt;/li&gt;
+          &lt;li style=&quot;display:inline;margin:0 -2px 0 0&quot;&gt;&lt;img src=&quot;http://ax.phobos.apple.com.edgesuite.net/email/images_shared/rating-star.png&quot;  /&gt;&lt;/li&gt;
+          &lt;li style=&quot;display:inline;margin:0 -2px 0 0&quot;&gt;&lt;img src=&quot;http://ax.phobos.apple.com.edgesuite.net/email/images_shared/rating-star.png&quot;  /&gt;&lt;/li&gt;
+          &lt;!--
+          &lt;li style=&quot;display:inline;margin:0 -2px 0 0&quot;&gt;&lt;img src=&quot;http://ax.phobos.apple.com.edgesuite.net/email/images_shared/rating-star-ghost.png&quot;  /&gt;&lt;/li&gt;
+          --&gt;
+        &lt;/ul&gt;
+        &lt;span style=&quot;display:inline-block;font:bold 11px Helvetica,Arial,sans-serif;color:#4f5459&quot;&gt; 1825 Ratings&lt;/span&gt;
+      
+      
+      &lt;p style=&quot;font:14px Helvetica,Arial,sans-serif;margin:0;&quot;&gt;
+        &lt;a role=&quot;button&quot; aria-label=&quot;View In iTunes&quot; href=&quot;http://itunes.apple.com/us/app/bonus-poker/id5564579932?ls=1&amp;amp;mt=8&quot;&gt;&lt;img src=&quot;http://ax.phobos.apple.com.edgesuite.net/email/images_shared/view_item_button.png&quot;  /&gt;&lt;/a&gt;
+      &lt;/p&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/BODY&gt;&lt;/HTML&gt;
+
+</string>
+	<key>kMyAppURLScheme</key>
+	<string>FarmMania</string>
+	<key>kGiftAcceptMessage</key>
+	<string>Congratulations! You just received a gift of %1$@!</string>
+	<key>kSubAppID</key>
+	<string>2</string>
+	<key>kWeixinAppID</key>
+	<string>wx3afe8f0abede7468</string>
+	<key>kWeixinAppSecret</key>
+	<string>ac777912ad0c23af767cdeaf2350f539</string>
+	<key>kWeixinConnectPrizeAmount</key>
+	<string>30</string>
+	<key>kWeixinConnectPrizeType</key>
+	<string>2</string>
+	<key>kWeixinConnectPrizeHint</key>
+	<string>分享成功，你获得了30个宝石奖励！以后每天第一次分享可以获得10个星星奖励哦。</string>
+	<key>kWeixinDailyPrizeAmount</key>
+	<string>10</string>
+	<key>kWeixinDailyPrizeType</key>
+	<string>1</string>
+	<key>kWeixinDailyPrizeHint</key>
+	<string>分享成功，这是今天首次分享，你得到了10个星星的奖励。</string>
+	<key>kWeixinDailyPrizeDuplicate</key>
+	<string></string>
+	<key>BubbleServerConfig</key>
+	<dict>
+		<key>kServiceRoot</key>
+		<string>http://topfarm2.freeapper.com/tms/</string>
+		<key>kDownloadLinkRoot</key>
+		<string>http://topfarm2.freeapper.com/static/upload/level/</string>
+		<key>kServiceRootBackup</key>
+		<string>http://topfarm2.playdino.com/tms/</string>
+		<key>kDownloadLinkRootBackup</key>
+		<string>http://topfarm2.playdino.com/static/upload/level/</string>
+		<key>kLocalSavePath</key>
+		<string>RemoteLevels</string>
+		<key>kServiceRootChina</key>
+		<string>http://topfarm2.13580.com:8001/tms/</string>
+		<key>kDownloadLinkRootChina</key>
+		<string>http://topfarm2.13580.com:8001/static/upload/level/</string>
+		<key>kServiceRootChinaBackup</key>
+		<string>http://topfarm2.diogame.com:8001/tms/</string>
+		<key>kDownloadLinkRootChinaBackup</key>
+		<string>http://topfarm2.diogame.com:8001/static/upload/level/</string>
+		<key>kLocalCacheFile</key>
+		<string>topbubbleinfo.dat</string>
+	</dict>
+</dict>
+</plist>

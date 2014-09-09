@@ -1,0 +1,214 @@
+/*
+ Localizable.strings
+ TapCar
+ 
+ Created by LEON on 11-11-10.
+ Copyright 2011 topgame.com. All rights reserved.
+ */
+"Pick Friends" = "กรุณาเลือกเพื่อน";
+
+"We detect the game session crashed. This bug is fixed in lastest version. Please download and update now." = "เราตรวจสอบพบสาเหตุที่ทำให้เกมเกิดข้อผิดพลาด บัคนี้ได้รับการแก้ไขในเวอร์ชั่นล่าสุดแล้ว กรุณาดาวน์โหลดและอัพเดทเกม.";
+
+"View" = "ตรวจดู";
+"What's New" = "ฟังก์ชั่นใหม่";
+
+"Transaction Pending" = "อยู่ในระหว่างการดำเนินการซื้อขาย";
+"Another transaction is pending, please try again later." = "การซื้อขายรายการอื่นกำลังดำเนินการอยู่ กรุณาลองใหม่ภายหลัง";
+"OK" = "ตกลง";
+"Network Required" = "ต้องใช้อินเตอร์เน็ทในการเชื่อมต่อ";
+"You must be connected to the Internet to make purchases." = "ต้องใช้อินเตอร์เน็ทเชื่อมต่อในการซื้อสินค้า";
+"In App purchasing is disabled" = "การซื้อสินค้าในเกมไม่สามารถทำได้ในขณะนี้";
+"Purchases have been successfully restored!" = "สามารถทำการซื้อสินค้าในเกมได้ตามปกติแล้ว";
+"Sorry, no previous purchases could be restored." = "เสียใจด้วย การซื้อครั้งก่อนหน้าไม่สามารถนำกลับมาได้";
+"Please check your device restrictions and settings." = "กรุณาตรวจสอบข้อจำกัดของอุปกรณ์และการตั้งค่า";
+"Downloading Products" = "ดาวน์โหลดสินค้า";
+"The application is downloading IAP products in background, please try again later." = "แอพกำลังดาวน์โหลดข้อมูลเกี่ยวกับ IAP กรุณาลองใหม่ภายหลัง";
+
+"Chunk of %@" = "จำนวนน้อย %@";
+"Wad of %@" = "จำนวนเล็กน้อย %@";
+"Bundle of %@" = "ช่อนึง %@";
+"Heap of %@" = "กองนึง %@";
+"Barrel of %@" = "ถังหนึ่ง %@";
+"Crate of %@" = "กล่องหนึ่ง %@";
+"Lump of %@" = "จำนวนน้อย %@";
+
+"Payment Success" = "การซื้อสำเร็จ";
+"Great, You just bought %@!" = "เยี่ยม คุณเพิ่งซื้อ %@!";
+
+"You just bought %1$d %2$@ successfully!" = "ยินดีด้วย! คุณได้ทำการซื้อ %1$d %2$@ สำเร็จแล้ว !";
+"Great, you just got %1$d %2$@ for watching advertizement!" = "เยี่ยมเลย! คุณเพิ่งได้ %1$d %2$@ จากการชมโฆษณา!";
+"Congratulations! You've got %1$i %2$@ for free!" = "ยินดีด้วย! คุณเพิ่งได้รับ %1$i %2$@ ฟรี!";
+
+"No Thanks" = "ไม่ ขอบคุณ";
+"Download Now!" = "ดาวน์โหลดตอนนี้";
+"New Version Available!" = "เวอร์ชั่นใหม่พร้อมให้ดาวน์โหลดแล้ว รีบโหลดเพื่อรับฟังก์ชั่นใหม่ๆ !";
+"Please update" = "กรูณาอัพเดทเกม";
+
+"No Offer Now" = "ไม่มีโบนัสฟรีขณะนี้";
+"There's no free offer now, please try again later!" = "ไม่มีโบนัสฟรีขณะนี้ กรุณาลองใหม่ภายหลัง";
+"No Video Available" = "ไม่มีวีดีโอในขณะนี้";
+"No video is available now, please try again later." = "ไม่มีวีดีโอในขณะนี้ กรุณาลองใหม่ภายหลัง";
+"No Ad Available" = "ไม่มีโฆษณาในขณะนี้";
+"No ad is available now, please try again later." = "ไม่มีโฆษณาในขณะนี้ กรุณาลองใหม่ภายหลัง";
+
+
+"Checking Network Status" = "ตรวจสอบสถานะการเชื่อมต่ออินเตอร์เน็ท";
+
+
+"Finish Watching Ad" = "จบการชมโฆษณา";
+"Download and run the following applications to get bonus %@." = "ดาวน์โหลดและเล่นแอพตามนี้เพื่อรับโบนัส %@.";
+"Prize Offers" = "ติดตั้งเพื่อรับรางวัล";
+"%@ Offers" = "%@ ฟรี";
+
+"Loading Tutorial File" = "กำลังโหลดคำแนะนำการเล่นเกม";
+"Loading Remote Save File" = "กำลังโหลดไฟล์ที่เซฟไว้";
+"Checking Game Status" = "กำลังตรวจสอบสถานะของเกม";
+"Can't Send Email" = "ไม่สามารถส่งอีเมล์ได้";
+"Send Email Failed" = "การส่งอีเมล์ล้มเหลว";
+
+"Please check your email setting." = "กรุณาตรวจสอบการตั้งค่าอีเมล์ เพื่อให้คุณรับข่าวสารได้อย่างถูกต้อง";
+"Please connect to network and restart the game again." = "กรุณาเชื่อมต่อกับอินเตอร์เน็ทและเข้าเกมใหม่อีกครั้ง";
+
+"Close" = "ปิด";
+"Remote Item Required" = "ต้องใช้รีโมทไอเท็ม";
+"Remote items are required to load your save properly. Please connect to network and restart the game again." = "ต้องใช้รีโมทไอเท็มเพื่อให้การโหลดสมบูรณ์ กรุณาเชื่อมต่อกับอินเตอร์เน็ทและเข้าเกมใหม่อีกครั้ง";
+"Config File Corrupt" = "ไฟล์ดาวน์โหลดไม่สมบูรณ์";
+"Configuration file is corrupt, please reinstall this application." = "ไฟล์ดาวน์โหลดไม่สมบูรณ์ กรุณาติดตั้งแอพใหม่อีกครั้ง";
+"Reload Game Required" = "ต้องโหลดเกมใหม่อีกครั้ง";
+"Remote game is newer, you must restart the game to continue with new save file." = "รีโมทเกมเป็นเกมใหม่กว่า คุณต้องรีสตาร์ทเกมเพื่อเล่นเกมใหม่ที่เซฟไว้";
+"Abnormal Device Time Changement" = "อุปกรณ์การเปลี่ยนเวลาผิดปกติ";
+"We found that you just changed your device time to speed up the growth. If you do that again, you'll not be able to play the game in offline mode." = "เราพบว่าคุณได้ปรับเวลาในอุปกรณ์ที่เล่นเพื่อเร่งการเติบโต หากคุณทำเช่นนี้อีกครั้ง คุณจะไม่สามารถเล่นเกมในโหมดออฟไลน์ได้อีก";
+"OK" = "ยืนยัน";
+"Ok" = "ยืนยัน";
+"Restart" = "ออกจากเกม";
+"Having Fun?" = "สนุกไหม?";
+"Please rate the game if you enjoy it!" = "กรุณาเข้าไปให้ดาวหากคุณชื่นชอบเกมของเรา";
+"Rate It!" = "ให้ดาว";
+"Free" = "ฟรี";
+"Yipee!" = "ไชโย!";
+"Oops!" = "อุ๊ปส์!";
+"Transaction failed.\n" = "การซื้อล้มเหลว \n";
+"You have successfully purchased %d gold." = "คุณได้ซื้อ %d เหรียญทองสำเร็จแล้ว";
+"You have successfully purchased %d magic beans." = "คุณได้ซื้อ %d ถั่วมหัศจรรย์สำเร็จแล้ว";
+"You have successfully upgraded max lives to 8 with all lives remaining." = "คุณได้อัพเกรดชีวิตถึงขั้นสูงสุด 8 ชีวิตจนครบแล้ว";
+"You have successfully restored your max lives to 8 with all lives remaining." = "คุณได้ฟื้นคืนชีวิตถึงขั้นสูงสุด 8 ชีวิตจนครบแล้ว";
+"Your purchase is successful!" = "การซื้อสำเร็จแล้ว";
+
+"There's no video available, please try agian later." = "ไม่มีวีดีโอในขณะนี้ กรุณาลองใหม่ภายหลัง";
+
+"Loading Remote Notice" = "กำลังโหลดการแจ้งเตือน";
+"Loading Language File" = "กำลังโหลดไฟล์ภาษา";
+"Loading Item Images(%i/%i)" = "กำลังโหลดไอเท็มรูปภาพ(%i/%i)";
+"Loading Item Assets(%i/%i)" = "กำลังโหลดข้อมูล(%i/%i)";
+"Sending Save File to Server" = "กำลังส่งไฟล์ที่เซฟไว้เข้าเซิร์ฟเวอร์";
+"Achievement Earned!" = "ได้รับความสำเร็จ";
+"%i Item Assets Loaded." = "%i โหลดไอเท็มข้อมูล";
+"Load Result: %i OK, %i failed." = "สถานภาพการโหลด : %i สำเร็จ, %i ล้มเหลว.";
+
+
+"Loading Game Scene" = "กำลังโหลดภาพเกม";
+"Loading Game Data"  = "กำลังโหลดข้อมูลเกม";
+"Loading Game Config" = "กำลังโหลดคอนฟิกเกม";
+"Checking Loaded Resources" = "กำลังตรวจสอบข้อมูลการโหลด";
+"Crash Detected" = "พบปัญหา";
+"No Now" = "ยกเลิก";
+"We detect the game session crashed. Please write a email to describe how did it happen. Thanks." = "เราตรวจสอบพบว่าเกมเกิดปัญหา กรุณาอีเมล์แจ้งรายละเอียดเข้ามาเพื่อการตรวจสอบที่ถูกต้อง ขอบคุณ";
+
+"Failed to start transaction, please try again later. \nError Message: %@" = "ไม่สามารถทำการซื้อได้ กรุณาลองใหม่ภายหลัง ข้อมูลมีปัญหา : %@";
+
+"SM_DAILY_BONUS_TITLE" = "โบนัสการเข้าล็อกอินทุกวัน";
+
+// tinyimail
+
+"Mailing List Subscription" = "ขอรับข้อมูลข่าวสารจากเกม";
+"Subscribe to %@ Mailing List" = "ขอรับ %@ ข่าวสารข้อมูล";
+"Please enter your email" = "กรุณากรอกอีเมล์";
+"Send Verification Email" = "ส่งอีเมล์การรับรอง";
+
+"Bonus: %@" = "โบนัส %@";
+"Great! You've got %@ for subscribing to our mail list." = "เจ๋งเลย! คุณได้รับ %@ จากการสมัครเป็นสมาชิกอีเมล์เรา";
+
+"Email is empty or improperly formatted email!" = "อีเมล์ว่างเปล่า การส่งอีเมล์ไม่ถูกต้อง";
+"Subscribe" = "สมัคร";
+"Subscribe to the %@ mailing list for all the latest updates, news, bonuses and gifts!" = "สมัครเพื่อรับ %@ อีเมล์ข่าวสารล่าสุด โบนัสและของรางวัลต่างๆ";
+"Note: depending on the network condition, sometimes it needs a day to receive your verification email, please be patient. Once we get your email, you'll get %@ as bonus!" = "หมายเหตู : ขึ้นอยู่กับความเร็วของอินเตอร์เน็ท บางครั้งอาจใช้เวลา 1 วันในการรับอีเมล์รับรองจากคุณ กรุณาอดใจรอ เมื่อเราได้รับอีเมล์แล้ว จะรีบส่ง %@โบนัสให้ทันที!";
+
+"Modify" = "แก้ไข";
+
+"Thanks for subscribing to %@ mail list, we'll send you the updates, news, bonus, festival gifts at the very fist time!" = "ขอบคุณที่สมัคร %@ เพื่อรับอีเมล์ เราจะส่งข้อมูล ข่าวสาร โบนัส การแจกรางวัล ทุกครั้งที่มีการอัพเดทให้ทราบ!";
+
+"Email Sent OK" = "ส่งอีเมล์สำเร็จ";
+"You've sent out the verification email. Once our mail system verifies your message, you'll get the bonus automatically. This may needs one day, please be patient!" = "คุณได้ส่งอีเมล์การรับรองมาแล้ว เมื่อเราได้รับอีเมล์ คุณจะได้รับโบนัสทันที แต่หากเกิดการผิดพลาดทางอินเตอร์เน็ท การรับรางวัลอาจล่าช้าไป 1 วัน กรุณาอดใจรอ";
+
+
+"I want to subscribe to the mail list. The verification message is below, please check:" = "ฉันต้องการสมัครสมาชิกอีเมล์ การรับรองข้อมูลอยู่ด้านล่าง โปรดตรวจสอบ ขอบคุณ.";
+"Dear Sir," = "สวัสดี,";
+"Debug info is attached, please don't touch any characters below." = "ข้อมูลด้านล่างคือตัวแก้บัค กรุณาตรวจสอบ";
+"I need help in %@" = "I need help in %@";
+
+"Weekend sales time! Don't miss it!" = "ลดราคาสุดสัปดาห์! ห้ามพลาด!";
+"Tap to verify your email" = "แตะเพื่อส่งอีเมล์การรับรอง";
+
+
+"Update Required" = "ต้องอัพเดทเกม";
+"Update Now" = "อัพเดทตอนนี้";
+"You have to update to the newest version for playing this game properly." = "คุณต้องอัพเดทเป็นเวอร์ชั่นใหม่ล่าสุดเพื่อจะสามารถเล่นเกมได้อย่างเหมาะสม";
+"Email Us" = "อีเมล์หาเรา";
+"Cheating Behavior Detected" = "ตรวจสอบพบพฤติกรรมการโกง";
+"Your account is frozen because of cheating behavior. You are forbidden to play this game. You can send us email if you have any question." = "บัญชีผู้เล่นของคุณถูกระงับเนื่องจากเราพบพฤติกรรมการโกง คุณถูกห้ามไม่ให้เล่นเกมนี้ กรุณาส่งอีเมล์สอบถามหากต้องการข้อมูลเพิ่ม";
+
+"Payment Fail" = "การซื้อล้มเหลว";
+"Failed to start transaction, please try again later. \nError Message: %@" = "ไม่สามารถทำการซื้อได้ กรุณาลองใหม่ภายหลัง \nข้อมูลมีปัญหา : %@";
+
+"Send Invitation Email" = "ส่งอีเมล์เชิญชวน";
+"The invitation code from your friend" = "โค๊ดเชิญชวนจากเพื่อนของคุณ";
+"Verify" = "ตรวจสอบ";
+"No Code" = "ไม่มีโค๊ดเชิญชวน";
+"Invite Friends" = "ชวนเพื่อนมาเล่นเกมเพื่อรับโบนัส";
+"Type in the invitation code you received from your friend. You'll get %@ as bonus after verification." = "พิมพ์โค๊ดเชิญชวนที่คุณได้รับจากเพื่อนของคุณ คุณจะได้รับ %@ โบนัสหลังจากเราตรวจสอบแล้ว";
+"Invite friends to join %@, you'll earn %@ for each successful invitation." = "ชวนเพื่อนมาเล่นเกม %@ คุณจะได้รับ %@ สำหรับทุกๆ คำชวนที่มีเพื่อนตอบกลับ";
+"This invitation code is invalid, please check." = "โค๊ดเชิญชวนไม่ถูกต้อง กรุณาลองใหม่อีกครั้ง";
+"The verification service is not available temporarily because of bad network status. Please try again later." = "การตรวจสอบการรับรองมีปัญหาเนื่องจากสัญญาณอินเตอร์เน็ทไม่ดี กรุณาลองใหม่ภายหลัง";
+"Verification Failed" = "การรับรองล้มเหลว";
+"Great! The invitation code is valid, you just got %@ as bonus!" = "เยี่ยม! โค๊ดเชิญชวนถูกต้อง คุณเพิ่งได้รับ %@ โบนัส!";
+"Verification Success" = "การรับรองสำเร็จ";
+"Hi there,\n\nCome and check out %1$@! It's mind-blowingly awesome! If you accept my invite, we'll both get a bonus of %2$@.\n\nMy invitation code is: %3$@\n\nAnd here is the download link: %4$@\n\nDon't miss out!\n\n" = "ฮัลโหล,\n\nมาลองดู %1$@! มันเป็นเกมที่สนุกมากๆ หากเธอรับคำเชิญของฉัน เราทั้งคู่จะได้โบนัส %2$@. \n\nโค๊ดเชิญชวนของฉันคือ :%3$@\n\n และนี่คือลิงก์ดาวน์โหลดเกม :%4$@\n\n อย่าพลาดหล่ะ! \n\n";
+"%@ is funny!" = "เราเล่นเกมนี้บนไอโฟน/ไอแพด :%@ มันเป็นเกมที่สนุกมากๆ";
+"Hi, %1$@,\n\nI find %2$@ is really funny, download and play together. If you accept my invitation, we'll both get %3$@ as bonus.\n\nMy invitation code:%4$@\nDownload link:\n%5$@\n\nDon't miss it!\n\n" = "ฮัลโหล,%1$@,\n\n ฉันว่า %2$@ มันเป็นเกมที่สนุกมากๆ หากเธอรับคำเชิญของฉัน เราทั้งคู่จะได้โบนัส %3$@. \n\nโค๊ดเชิญชวนของฉันคือ :%4$@\nลิงก์ดาวน์โหลดเกม :\n%5$@\n\n อย่าพลาดหล่ะ! \n\n";
+"Invitation Success" = "การส่งคำเชิญสำเร็จ";
+"Great! You just got %@ as bonus for inviting %@ successfully!" = "เยี่ยม! คุณเพิ่งได้ %1$@ โบนัสจากการส่งคำเชิญ %2$@ สำเร็จ!";
+"friend" = "เพื่อน";
+"Invitation Code" = "โค๊ดเชิญชวน";
+"Send" = "ส่ง";
+"Cancel" = "ยกเลิก";
+"I'm Invited" = "ใส่โค๊ดเชิญชวน";
+
+"Reset Game Data Confirm" = "ยืนยันรีเซ็ทข้อมูลเกม";
+"Do you really want to reset the save data and start playing this game as a new player?" = "คุณต้องการรีเซ็ทข้อมูล เพื่อทำการเล่นเกมใหม่?";
+"Yes" = "ใช่";
+"No" = "ไม่ใช่";
+"Reset Game Data Finished" = "รีเซ็ทข้อมูลสำเร็จแล้ว";
+"Game data is reset now, you must restart the game to play as a new user." = "ข้อมูลเกมได้ถูกรีเซ็ทแล้ว คุณต้องเริ่มเล่นเกมแบบเป็นผู้เล่นใหม่";
+
+// yangjie add start
+"UI_COLLECTION_BUTTON_TITLE_CASH1"="ฟรี";
+"UI_COLLECTION_BUTTON_TITLE_CASH2"="X10";
+"UI_COLLECTION_BUTTON_TITLE_COIN1"="ฟรี";
+"UI_COLLECTION_BUTTON_TITLE_GIFTBOX1"="X100";
+"UI_COLLECTION_BUTTON_TITLE_GIFTBOX2"="X100";
+"UI_COLLECTION_TITLE"="รับลูกอมและเหรียญทองฟรี";
+"feedImageSuccess!" = "แชร์รูปภาพสำเร็จ";
+
+"Rateing takes less than a minute." = "ไม่ถึงนาทีก็สามารถให้ดาวเราได้แล้ว";
+// yangjie add end
+
+// "Verification email is sent. Waiting for response." = "Verification email is sent. Waiting for response.";
+"Invalid Email" = "อีเมลล์นี้ไม่ถูกต้อง";
+"Verification email is sent. Waiting for response." = "อีเมล์รับรองได้ส่งไปแล้ว กรุณารอผลตอบกลับ";
+
+// "LocalNotification"
+"lives_refilled" = "Lives have been refilled. Come on! let's save jellies! ";
+"daily_bonus" = "The reward has been available. Come to try your luck!";
+
+"Love the game? Please like us on Facebook if you enjoy it!" = "คุณชอบเกมเราไหม?หากชอบ\nช่วยกดไลค์บนเฟสบุ๊คให้เราด้วยนะ!";
+"Like!" = "ไลค์!";

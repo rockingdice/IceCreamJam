@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  PyramidSlot
+
+  Created by XU LE on 12-9-13.
+  Copyright (c) 2012年 __MyCompanyName__. All rights reserved.
+*/
+
+"GameName" = "Jelly Mania";
+"CoinName1" = "coin";
+"CoinName2" = "gem";
+"seed" = "seed";
+"seeds" = "seeds";
+"NOTICE_COMPLETE_TUTORIAL_01" = "Jelly Mania needs you!";
+"NOTICE_TUTORIAL_NOT_START" = "Your bonus is ready, come back to get it!";
+"NOTICE_LEFT_3_DAYS" = "Your bonus is ready, come back to get it!";
+"NOTICE_LEFT_7_DAYS" = "Your bonus is ready, come back to get it!";
+"NOTICE_LEFT_15_DAYS" = "Your bonus is ready, come back to get it!";
+"NOTICE_LEFT_30_DAYS" = "Your bonus is ready, come back to get it!";
+"Feed Bonus" = "Feed Bonus";
+
+"coin" = "coin";

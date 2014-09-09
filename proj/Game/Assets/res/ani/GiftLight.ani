@@ -1,0 +1,111 @@
+<NEAFileData Version="0.5.2.0">
+ <StringCache>
+  <String String="" SID="-1"/>
+  <String String="" SID="0"/>
+  <String String="Animation1" SID="1000"/>
+  <String String="unlimitlife.plist|13.png" SID="1019"/>
+ </StringCache>
+ <xidLinks>
+  <Link SID="1019" XID="1"/>
+ </xidLinks>
+ <Variables/>
+ <Skins/>
+ <NodeStructure>
+  <Node From="-1" Type="1" To="0" Name="根节点"/>
+  <Node From="0" Type="2" To="2" Name="图层"/>
+  <Node From="0" Type="2" To="4" Name="图层"/>
+  <Node From="0" Type="2" To="6" Name="图层"/>
+ </NodeStructure>
+ <Animations>
+  <Animation>
+   <TextureFiles>
+    <TexFile FileName="unlimitlife.plist"/>
+   </TextureFiles>
+   <Keyframes>
+    <Node NodeID="0">
+     <Property Type="16">
+      <Keyframe index="0" data="1000" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="18">
+      <Keyframe index="0" data="7" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="19">
+      <Keyframe index="0" data="20" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="27">
+      <Keyframe index="0" data="1" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+    </Node>
+    <Node NodeID="2">
+     <Property Type="0">
+      <Keyframe index="0" data="-18.5841|-0.492258" ref="-1" changeType="1" changeClass="0"/>
+     </Property>
+     <Property Type="1">
+      <Keyframe index="0" data="1.23565|1.23565" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="5" data="2.03542|2.03542" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="8" data="2.035|2.035" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="10" data="0.917882|0.917882" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="14" data="1.36769|1.36769" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="17" data="1.36769|1.36769" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="19" data="1.36769|1.36769" ref="-1" changeType="1" changeClass="0"/>
+     </Property>
+     <Property Type="5">
+      <Keyframe index="0" data="0" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="5" data="255" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="8" data="0" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="10" data="0" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="14" data="255" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="17" data="0" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="19" data="0" ref="-1" changeType="1" changeClass="0"/>
+     </Property>
+     <Property Type="7">
+      <Keyframe index="0" data="1" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="8">
+      <Keyframe index="0" data="1" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+    </Node>
+    <Node NodeID="4">
+     <Property Type="0">
+      <Keyframe index="0" data="29.8097|23.9746" ref="-1" changeType="1" changeClass="0"/>
+     </Property>
+     <Property Type="1">
+      <Keyframe index="0" data="1.36769|1.36769" ref="-1" changeType="1" changeClass="0"/>
+     </Property>
+     <Property Type="5">
+      <Keyframe index="0" data="0" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="5" data="255" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="10" data="0" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="15" data="255" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="19" data="0" ref="-1" changeType="1" changeClass="0"/>
+     </Property>
+     <Property Type="7">
+      <Keyframe index="0" data="1" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="8">
+      <Keyframe index="0" data="1" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+    </Node>
+    <Node NodeID="6">
+     <Property Type="0">
+      <Keyframe index="0" data="-17.3017|49.4202" ref="-1" changeType="1" changeClass="0"/>
+     </Property>
+     <Property Type="1">
+      <Keyframe index="0" data="1.36769|1.36769" ref="-1" changeType="1" changeClass="0"/>
+     </Property>
+     <Property Type="5">
+      <Keyframe index="0" data="0" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="9" data="255" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="17" data="0" ref="-1" changeType="1" changeClass="0"/>
+     </Property>
+     <Property Type="7">
+      <Keyframe index="0" data="1" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="8">
+      <Keyframe index="0" data="1" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+    </Node>
+   </Keyframes>
+  </Animation>
+ </Animations>
+</NEAFileData>

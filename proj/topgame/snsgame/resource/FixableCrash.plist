@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bugs</key>
+	<array>
+		<dict>
+			<key>Exception</key>
+			<string>NSInvalidArgumentException</string>
+			<key>Keywords</key>
+			<string>Cannot set metadata in read-only store.</string>
+			<key>Hint</key>
+			<string>[zh-Hans]检测到在拍照时发生了异常，进行以下操作可以自动修复此异常： 打开iPhone/iPod/iPad的照相程序并拍一张照片。[/zh-Hans] [en]We detected session crash when taking snapshot. You can fix this problem by taking the following action: Open the camera application of iPhone/iPod/iPad and take a random photo.[/en] [zh-Hant]檢測到在拍照時發生了異常，進行以下操作可以自動修復此異常： 打開iPhone/iPod/iPad的照相程序並拍一張照片。 [/zh-Hant]</string>
+		</dict>
+		<dict>
+			<key>Exception</key>
+			<string>NSFileHandleOperationException</string>
+			<key>Keywords</key>
+			<string>No space left on device</string>
+			<key>Hint</key>
+			<string>[zh-Hans]检测到你的设备上没有空间了，请删除一些不需要的应用。[/zh-Hans] 
+[en]We detected session crash because no space is left on your device. Please delete some unused applications.[/en] 
+[zh-Hant]檢測到你的設備上沒有空間了，請刪除一些不需要的應用。[/zh-Hant]</string>
+		</dict>
+		<dict>
+			<key>Exception</key>
+			<string>NSInvalidArgumentException</string>
+			<key>Keywords</key>
+			<string>[NSConcreteData initWithBytes:length:copy:freeWhenDone:bytesAreVM:|||BaiduInputMethod.dylib</string>
+			<key>Hint</key>
+			<string>检测到上次游戏崩溃，原因是百度输入法自身的问题，请不要用百度输入法在此游戏中输入文字。</string>
+		</dict>
+	</array>
+</dict>
+</plist>

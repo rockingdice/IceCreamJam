@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>tree_mid.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,0},{768,1024}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{768,1024}}</string>
+                <key>sourceSize</key>
+                <string>{768,1024}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>2</integer>
+            <key>realTextureFileName</key>
+            <string>FamilyTree.png</string>
+            <key>size</key>
+            <string>{1024,1024}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:db9c426896d3e3991136810101cc236a:068b92dde127fb858edd1eea483cb10d:050974cf1074c108ea95c9ec387cfee4$</string>
+            <key>textureFileName</key>
+            <string>FamilyTree.png</string>
+        </dict>
+    </dict>
+</plist>

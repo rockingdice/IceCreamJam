@@ -1,0 +1,170 @@
+{
+    "tutorials": [
+        {"tid":1, "ui":"game", "seed":438839924, "repeat":1,"world":0, "level":0, "quest":0,  "phase": [
+            {"tut":"tut1-1", "tutinfo":"V100_TUT1_1", "mask1":{"type":"grid", "from":"4,1", "to":"6,2"}, "indicator":{"from":"6,1", "to":"6,2"}, "maplimit":["6,1", "6,2"], "buttonlimit":[], "hand":{"from":"6,1", "to":"6,2"}, "anifile":"FMUI_GuideNPC.ani", "aniname":"InCage"},
+            {"tut":"tut1-2", "tutinfo":"V100_TUT1_2", "mask1":{"type":"grid", "from":"3,4", "to":"5,5"}, "indicator":{"from":"5,4", "to":"5,5"}, "maplimit":["5,4", "5,5"], "buttonlimit":[], "stable":1, "hand":{"from":"5,5", "to":"5,4"}, "anifile":"FMUI_GuideNPC.ani", "aniname":"InCage"},
+            {"tut":"tut1-3", "tutinfo":"V100_TUT1_3", "mask1":{"type":"grid", "from":"3,8", "to":"6,8"}, "indicator":{"from":"3,8", "to":"4,8"}, "maplimit":["3,8", "4,8"], "buttonlimit":[], "stable":1, "hand":{"from":"3,8", "to":"4,8"}, "anifile":"FMUI_GuideNPC.ani", "aniname":"InCage"}
+        ]},
+
+        {"tid":200, "ui":"world","checkLevel":"next", "world":0, "level":0, "quest":0, "event":"jellyRelease","phase": [
+            {"tut":"jellyRescue", "tutinfo":"V100_TUT200_1","mask1":{"type":"story"}, "tap":1, "anifile":"FMUI_GuideNPC.ani", "aniname":"Init"},
+            {"tut":"tut17-1", "tutinfo":"V100_TUT200_2", "mask1":{"type":"quest", "size":"80,80"}, "tap":1, "shownow":1, "anifile":"FMUI_GuideNPC.ani", "aniname":"Init"},
+            {"tut":"tut17-2", "tutinfo":"V100_TUT200_3", "mask1":{"type":"levelbutton", "world":0, "level":1, "size":"70, 70"}, "tap":1, "shownow":1, "anifile":"FMUI_GuideNPC.ani", "aniname":"Init"}
+        ]},
+
+        {"tid":201, "ui":"world","checkLevel":"next", "world":0, "level":0, "quest":1, "event":"jellyRelease","phase": [
+            {"tut":"jellyRescue", "tutinfo":"V100_TUT201_1","mask1":{"type":"story"}, "tap":1, "anifile":"Jelly_Role1.ani", "aniname":"Idle1"},
+            {"tut":"jellyRescue", "tutinfo":"V100_TUT201_2","mask1":{"type":"story"}, "tap":1, "anifile":"Jelly_Role1.ani", "aniname":"Idle2", "shownow":1}
+        ]},
+
+        {"tid":202, "ui":"world","checkLevel":"next", "world":1, "level":0, "quest":1,"event":"jellyRelease", "phase": [
+            {"tut":"jellyRescue", "tutinfo":"V100_TUT202_1","mask1":{"type":"story"}, "tap":1, "anifile":"Jelly_Role2.ani", "aniname":"Idle1"},
+            {"tut":"jellyRescue", "tutinfo":"V100_TUT202_2","mask1":{"type":"story"}, "tap":1, "anifile":"Jelly_Role2.ani", "aniname":"Idle2", "shownow":1}
+        ]},
+
+        {"tid":203, "ui":"world","checkLevel":"next", "world":2, "level":0, "quest":1, "event":"jellyRelease","phase": [
+            {"tut":"jellyRescue", "tutinfo":"V100_TUT203_1","mask1":{"type":"story"}, "tap":1, "anifile":"Jelly_Role3.ani", "aniname":"Idle1"},
+            {"tut":"jellyRescue", "tutinfo":"V100_TUT203_2","mask1":{"type":"story"}, "tap":1, "anifile":"Jelly_Role3.ani", "aniname":"Idle2", "shownow":1}
+        ]},
+
+        {"tid":204, "ui":"world","checkLevel":"next", "world":3, "level":0, "quest":1,"event":"jellyRelease", "phase": [
+            {"tut":"jellyRescue", "tutinfo":"V100_TUT204_1","mask1":{"type":"story"}, "tap":1, "anifile":"Jelly_Role4.ani", "aniname":"Idle1"},
+            {"tut":"jellyRescue", "tutinfo":"V100_TUT204_2","mask1":{"type":"story"}, "tap":1, "anifile":"Jelly_Role4.ani", "aniname":"Idle2", "shownow":1}
+        ]},
+    
+    {"tid":205, "ui":"world","checkLevel":"next", "world":4, "level":0, "quest":1, "event":"jellyRelease","phase": [
+        {"tut":"jellyRescue", "tutinfo":"V100_TUT205_1","mask1":{"type":"story"}, "tap":1, "anifile":"Jelly_Role5.ani", "aniname":"Idle1"},
+        {"tut":"jellyRescue", "tutinfo":"V100_TUT205_2","mask1":{"type":"story"}, "tap":1, "anifile":"Jelly_Role5.ani", "aniname":"Idle2", "shownow":1},
+        {"tut":"jellyRescue", "tutinfo":"V100_TUT205_3","mask1":{"type":"story"}, "tap":1, "anifile":"Jelly_Role5.ani", "aniname":"Idle1", "shownow":1}
+    ]},
+
+    {"tid":206, "ui":"world","checkLevel":"next", "world":5, "level":0, "quest":1,"event":"jellyRelease", "phase": [
+        {"tut":"jellyRescue", "tutinfo":"V100_TUT206_1","mask1":{"type":"story"}, "tap":1, "anifile":"Jelly_Role6.ani", "aniname":"Idle1"},
+        {"tut":"jellyRescue", "tutinfo":"V100_TUT206_2","mask1":{"type":"story"}, "tap":1, "anifile":"Jelly_Role6.ani", "aniname":"Idle2", "shownow":1},
+        {"tut":"jellyRescue", "tutinfo":"V100_TUT206_3","mask1":{"type":"story"}, "tap":1, "anifile":"Jelly_Role6.ani", "aniname":"Idle1", "shownow":1}
+    ]},
+
+    {"tid":207, "ui":"world","checkLevel":"next", "world":6, "level":0, "quest":1, "event":"jellyRelease","phase": [
+        {"tut":"jellyRescue", "tutinfo":"V100_TUT207_1","mask1":{"type":"story"}, "tap":1, "anifile":"Jelly_Role7.ani", "aniname":"Idle1"},
+        {"tut":"jellyRescue", "tutinfo":"V100_TUT207_2","mask1":{"type":"story"}, "tap":1, "anifile":"Jelly_Role7.ani", "aniname":"Idle2", "shownow":1}
+    ]},
+
+    {"tid":208, "ui":"world","checkLevel":"next", "world":7, "level":0, "quest":1, "event":"jellyRelease","phase": [
+        {"tut":"jellyRescue", "tutinfo":"V100_TUT207_1","mask1":{"type":"story"}, "tap":1, "anifile":"Jelly_Role8.ani", "aniname":"Idle1"},
+        {"tut":"jellyRescue", "tutinfo":"V100_TUT207_2","mask1":{"type":"story"}, "tap":1, "anifile":"Jelly_Role8.ani", "aniname":"Idle2", "shownow":1}
+    ]},
+
+        {"tid":2, "ui":"game", "seed":420411249, "basetid":1, "world":0, "level":1, "quest":0,"repeat":1, "phase": [
+            {"tut":"tut2-1", "tutinfo":"V100_TUT2_1", "mask1":{"type":"grid", "from":"4,2", "to":"6,3"}, "indicator":{"from":"5,2", "to":"5,3"}, "maplimit":["5,2", "5,3"], "buttonlimit":[], "hand":{"from":"5,2", "to":"5,3"}},
+            {"tut":"tut2-2", "tutinfo":"V100_TUT2_2", "mask1":{"type":"grid", "from":"3,6", "to":"5,7"}, "mask2":{"type":"move", "size":"75,75"}, "indicator":{"from":"4,6", "to":"4,7"}, "maplimit":["4,6", "4,7"], "buttonlimit":[], "stable":1, "hand":{"from":"4,7", "to":"4,6"}}
+        ]},
+
+        {"tid":3, "ui":"world", "basetid":2, "world":0, "level":1, "quest":0, "phase": [
+            {"tut":"tut3-1", "tutinfo":"V100_TUT3_1", "mask1":{"type":"statusgold", "size":"112,35"}, "tap":1}
+        ]},
+        
+    {"tid":30, "ui":"world", "checkLevel":"pass", "world":2, "level":0, "quest":0, "phase": [
+        {"tut":"tut30-1", "tutinfo":"V100_TUT30_1", "mask1":{"type":"statusbook", "size":"60,60"}, "tap":1, "anifile":"FMUI_GuideNPC.ani", "aniname":"Init"}
+    ]},
+        
+    {"tid":31, "ui":"FMUIHandBook","phase": [
+        {"tut":"tut31-1", "tutinfo":"V100_TUT31_1", "mask1":{"type":"playbranch", "size":"105,42"}, "tap":1,"anifile":"Jelly_Role1.ani", "aniname":"Idle1"}
+    ]},
+
+        
+        {"tid":100, "ui":"FMUIResult", "event":"failed", "phase": [
+            {"tut":"tut100-1", "tutinfo":"V100_TUT100_1", "mask1":{"type":"statuslife", "size":"105,35"}, "tap":1,"anifile":"FMUI_GuideNPC.ani", "aniname":"Init"}
+        ]},
+         
+        {"tid":4, "ui":"world", "world":0, "level":3, "quest":0, "phase": [
+            {"showui":"unlockbooster", "boosterid":0}
+        ]},
+        
+        {"tid":5, "ui":"game", "basetid":4, "seed":1546388106, "world":0, "level":4, "quest":0, "repeat":1, "phase": [
+            {"tut":"tut5-1", "tutinfo":"V100_TUT5_1", "mask1":{"type":"booster", "boosterid":0, "size":"65,65"}, "buttonlimit":[1], "maplimit":["-1,-1"]},
+            {"tut":"tut5-2", "tutinfo":"V100_TUT5_2", "mask1":{"type":"grid", "from":"6,2", "to":"6,2"}, "maplimit":["6,2"], "buttonlimit":[], "indicator":{"from":"6,2", "to":"6,2"}, "shownow":1, "hand":{"from":"6,2", "to":"6,2"}}
+        ]},
+        
+        {"tid":101, "ui":"game", "event":"boostempty", "phase": [
+            {"tut":"tut101-1", "tutinfo":"V100_TUT101_1", "mask1":{"type":"allboost"}, "tap":1,"anifile":"FMUI_GuideNPC.ani", "aniname":"Init"}
+        ]},
+
+        {"tid":6, "ui":"world", "world":0, "level":6, "quest":0, "phase": [
+            {"showui":"unlockbooster", "boosterid":1}
+        ]},        
+        
+        {"tid":7, "ui":"game", "basetid":6, "seed":467471259, "world":0, "level":7, "quest":0, "repeat":1, "phase": [
+            {"tut":"tut7-1", "tutinfo":"V100_TUT7_1", "mask1":{"type":"booster", "boosterid":1, "size":"65,65"}, "buttonlimit":[2], "maplimit":["-1,-1"] },
+            {"tut":"tut7-2", "tutinfo":"V100_TUT7_2", "mask1":{"type":"grid", "from":"6,1", "to":"6,8"}, "maplimit":["6,1"], "buttonlimit":[], "indicator":{"from":"6,1", "to":"6,1"}, "shownow":1, "hand":{"from":"6,1", "to":"6,1"}}
+        ]},
+        
+        {"tid":8, "ui":"game", "world":0, "level":8, "quest":0, "seed":2046351690,  "repeat":1, "phase": [
+            {"tut":"tut8-1", "tutinfo":"V100_TUT8_1", "mask1":{"type":"grid", "from":"6,6", "to":"8,7"}, "indicator":{"from":"6,6", "to":"6,7"}, "maplimit":["6,6", "6,7"], "buttonlimit":[], "hand":{"from":"6,6", "to":"6,7"}},
+            {"tut":"tut8-2", "tutinfo":"V100_TUT8_2", "mask1":{"type":"grid", "from":"5,6", "to":"8,6"}, "indicator":{"from":"5,6", "to":"6,6"}, "maplimit":["5,6", "6,6"], "buttonlimit":[], "stable":1, "hand":{"from":"5,6", "to":"6,6"}}
+        ]},
+
+        {"tid":10, "ui":"game", "world":1, "level":1, "quest":0, "seed": 687443268, "repeat":1, "phase": [
+            {"tut":"tut10-1", "tutinfo":"V100_TUT10_1", "mask1":{"type":"grid", "from":"2,6", "to":"3,8"}, "indicator":{"from":"2,7", "to":"3,7"}, "maplimit":["2,7", "3,7"], "buttonlimit":[], "hand":{"from":"2,7", "to":"3,7"}},
+            {"tut":"tut10-2", "tutinfo":"V100_TUT10_2", "mask1":{"type":"grid", "from":"2,5", "to":"4,6"}, "indicator":{"from":"3,5", "to":"3,6"}, "maplimit":["3,5", "3,6"], "buttonlimit":[], "stable":1, "hand":{"from":"3,6", "to":"3,5"}}
+        ]},
+
+        {"tid":11, "ui":"world", "world":1, "level":1, "quest":0, "phase": [
+            {"showui":"unlockbooster", "boosterid":2}
+        ]},
+        
+        {"tid":12, "ui":"game", "basetid":11, "seed":1193361451, "world":1, "level":2, "quest":0,  "repeat":1,"phase": [
+            {"tut":"tut12-1", "tutinfo":"V100_TUT12_1", "mask2":{"type":"booster", "boosterid":2, "size":"65,65"}, "buttonlimit":[3], "maplimit":["-1,-1"]}
+        ]},
+        
+        {"tid":13, "ui":"world", "world":1, "level":3, "quest":0, "phase": [
+            {"showui":"unlockbooster", "boosterid":3}
+        ]},
+
+        {"tid":14, "ui":"game", "basetid":13, "seed":320157704, "world":1, "level":4, "quest":0,  "repeat":1,"phase": [
+            {"tut":"tut14-1", "tutinfo":"V100_TUT14_1", "mask2":{"type":"booster", "boosterid":3, "size":"65,65"}, "buttonlimit":[4], "maplimit":["-1,-1"]},
+            {"tut":"tut14-2", "tutinfo":"V100_TUT14_2", "mask1":{"type":"grid", "from":"1,1", "to":"8,8"}, "maplimit":["4,2"], "buttonlimit":[], "indicator":{"from":"4,2", "to":"4,2"}, "shownow":1}
+        ]},
+        
+        {"tid":25, "ui":"world", "world":1, "level":6, "quest":0, "phase": [
+            {"showui":"unlockbooster", "boosterid":4}
+        ]},
+
+        {"tid":26, "ui":"game", "seed":524978387, "world":1, "level":7, "quest":0, "repeat":1, "phase": [
+            {"tut":"tut26-1", "tutinfo":"V100_TUT26_1", "mask2":{"type":"booster", "boosterid":4, "size":"65,65"}, "tap":1}
+        ]},
+
+        {"tid":15, "ui":"game", "world":2, "level":1, "quest":0, "seed":1313988067,  "repeat":1,"phase": [
+            {"tut":"tut15-1", "tutinfo":"V100_TUT15_1", "mask1":{"type":"grid", "from":"3,4", "to":"4,6"}, "indicator":{"from":"3,6", "to":"4,6"}, "maplimit":["3,6", "4,6"], "buttonlimit":[]},
+            {"tut":"tut15-2", "tutinfo":"V100_TUT15_2", "mask1":{"type":"grid", "from":"3,6", "to":"6,6"}, "indicator":{"from":"3,6", "to":"4,6"}, "maplimit":["3,6", "4,6"], "buttonlimit":[], "stable":1}
+        ]},
+        
+        {"tid":16, "ui":"game", "seed":555531387, "world":2, "level":6, "quest":0, "repeat":1, "phase": [
+            {"tut":"tut16-1", "tutinfo":"V100_TUT16_1", "mask1":{"type":"grid", "from":"2,6", "to":"5,6"}, "indicator":{"from":"2,6", "to":"3,6"}, "maplimit":["2,6", "3,6"], "buttonlimit":[]}
+	]}, 
+        
+
+        {"tid":27, "ui":"FMUIUnlockChapter", "phase": [
+            {"tut":"tut27-1", "tutinfo":"V100_TUT27_1", "mask1":{"type":"unlockworld"}, "tap":1}
+        ]},
+        
+        {"tid":18, "ui":"game", "seed":430950774, "world":3, "level":0, "quest":0, "repeat":1, "phase": [
+            {"tut":"tut18-1", "tutinfo":"V100_TUT18_1", "mask1":{"type":"grid", "from":"4,3", "to":"6,4"}, "indicator":{"from":"4,3", "to":"4,4"}, "maplimit":["4,3", "4,4"], "buttonlimit":[]}
+        ]},
+
+        {"tid":20, "ui":"game", "seed":2098507753, "world":5, "level":0, "quest":0,  "repeat":1,"phase": [
+            {"tut":"tut20-1", "tutinfo":"V100_TUT20_1", "mask1":{"type":"grid", "from":"2,6", "to":"3,7"}, "tap":1}
+        ]},
+
+        {"tid":21, "ui":"world", "world":5, "level":0, "quest":0, "phase": [
+            {"showui":"unlockbooster", "boosterid":5}
+        ]},
+
+        {"tid":22, "ui":"game", "basetid":21, "seed":591337488, "world":5, "level":1, "quest":0, "repeat":1, "phase": [
+            {"tut":"tut22-1", "tutinfo":"V100_TUT22_1", "mask2":{"type":"booster", "boosterid":5, "size":"65,65"}, "tap":1}
+        ]},
+
+        {"tid":24, "ui":"game", "world":8, "level":0, "quest":0, "repeat":1, "phase": [
+            {"tut":"tut24-1", "tutinfo":"V100_TUT24_1", "mask1":{"type":"grid", "from":"3,2", "to":"3,5"}, "mask2":{"type":"grid", "from":"4,3", "to":"4,3"}, "indicator":{"from":"3,4", "to":"3,5"}, "maplimit":["3,4", "3,5"], "buttonlimit":[]}
+        ]}
+    ]
+}

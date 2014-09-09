@@ -1,0 +1,138 @@
+<NEAFileData Version="0.5.2.0">
+ <StringCache>
+  <String String="load" SID="1001"/>
+  <String String="stop" SID="1003"/>
+  <String String="WorldMapButtons.plist|GiftonMapIcon.png" SID="1004"/>
+  <String String="WorldMapButtons.plist|GiftonMapIcon2.png" SID="1005"/>
+  <String String="WorldMapButtons.plist|GiftonMapIcon3.png" SID="1006"/>
+  <String String="WorldMapButtons.plist|Pan.png" SID="1007"/>
+  <String String="WorldMapButtons.plist|Spot.png" SID="1008"/>
+  <String String="WorldMapButtons.plist|arrow-25.png" SID="1009"/>
+  <String String="WorldMapButtons.plist|c1.png" SID="1010"/>
+  <String String="WorldMapButtons.plist|c2.png" SID="1011"/>
+  <String String="WorldMapButtons.plist|c3.png" SID="1012"/>
+  <String String="WorldMapButtons.plist|c5.png" SID="1013"/>
+  <String String="WorldMapButtons.plist|cage1.png" SID="1014"/>
+  <String String="WorldMapButtons.plist|cage2.png" SID="1015"/>
+  <String String="WorldMapButtons.plist|cage3.png" SID="1016"/>
+  <String String="WorldMapButtons.plist|cage4.png" SID="1017"/>
+  <String String="WorldMapButtons.plist|cage5.png" SID="1018"/>
+  <String String="WorldMapButtons.plist|dl2.png" SID="1019"/>
+  <String String="WorldMapButtons.plist|empty-15.png" SID="1020"/>
+  <String String="WorldMapButtons.plist|growingjelly-05.png" SID="1021"/>
+  <String String="WorldMapButtons.plist|growingjelly-06.png" SID="1022"/>
+  <String String="WorldMapButtons.plist|halo.png" SID="1023"/>
+  <String String="WorldMapButtons.plist|jelly.png" SID="1024"/>
+  <String String="WorldMapButtons.plist|lock.png" SID="1025"/>
+  <String String="WorldMapButtons.plist|map position-06.png" SID="1026"/>
+  <String String="WorldMapButtons.plist|map-26.png" SID="1027"/>
+  <String String="WorldMapButtons.plist|map-27.png" SID="1028"/>
+  <String String="WorldMapButtons.plist|map-28.png" SID="1029"/>
+  <String String="WorldMapButtons.plist|map-29.png" SID="1030"/>
+  <String String="WorldMapButtons.plist|map-30.png" SID="1031"/>
+  <String String="WorldMapButtons.plist|map-31.png" SID="1032"/>
+  <String String="WorldMapButtons.plist|map-32.png" SID="1033"/>
+  <String String="WorldMapButtons.plist|map-33.png" SID="1034"/>
+  <String String="WorldMapButtons.plist|map-34.png" SID="1035"/>
+  <String String="WorldMapButtons.plist|map-37.png" SID="1036"/>
+  <String String="WorldMapButtons.plist|map-53.png" SID="1037"/>
+  <String String="WorldMapButtons.plist|map-54.png" SID="1038"/>
+  <String String="WorldMapButtons.plist|map-55.png" SID="1039"/>
+  <String String="WorldMapButtons.plist|map-56.png" SID="1040"/>
+  <String String="WorldMapButtons.plist|map-57.png" SID="1041"/>
+  <String String="WorldMapButtons.plist|mapstar-34.png" SID="1042"/>
+  <String String="WorldMapButtons.plist|mapstar-35.png" SID="1043"/>
+  <String String="WorldMapButtons.plist|mapstar-36.png" SID="1044"/>
+  <String String="WorldMapButtons.plist|mapstar-37.png" SID="1045"/>
+  <String String="WorldMapButtons.plist|mapstar-38.png" SID="1046"/>
+  <String String="WorldMapButtons.plist|newquest.png" SID="1047"/>
+  <String String="WorldMapButtons.plist|outoffcage-02.png" SID="1048"/>
+  <String String="WorldMapButtons.plist|outoffcage-03.png" SID="1049"/>
+  <String String="WorldMapButtons.plist|outoffcage-04.png" SID="1050"/>
+  <String String="WorldMapButtons.plist|outoffcage-05.png" SID="1051"/>
+  <String String="WorldMapButtons.plist|outoffcage-06.png" SID="1052"/>
+  <String String="WorldMapButtons.plist|outoffcage-07.png" SID="1053"/>
+  <String String="WorldMapButtons.plist|outoffcage-08.png" SID="1054"/>
+  <String String="WorldMapButtons.plist|outoffcage-09.png" SID="1055"/>
+  <String String="WorldMapButtons.plist|outoffcage-10.png" SID="1056"/>
+  <String String="WorldMapButtons.plist|outoffcage-11.png" SID="1057"/>
+  <String String="WorldMapButtons.plist|outoffcage-12.png" SID="1058"/>
+  <String String="WorldMapButtons.plist|outoffcage-13.png" SID="1059"/>
+  <String String="WorldMapButtons.plist|outoffcage-14.png" SID="1060"/>
+  <String String="WorldMapButtons.plist|outoffcage-36.png" SID="1061"/>
+  <String String="WorldMapButtons.plist|r1.png" SID="1062"/>
+  <String String="WorldMapButtons.plist|r10.png" SID="1063"/>
+  <String String="WorldMapButtons.plist|r11.png" SID="1064"/>
+  <String String="WorldMapButtons.plist|r12.png" SID="1065"/>
+  <String String="WorldMapButtons.plist|r13.png" SID="1066"/>
+  <String String="WorldMapButtons.plist|r14.png" SID="1067"/>
+  <String String="WorldMapButtons.plist|r15.png" SID="1068"/>
+  <String String="WorldMapButtons.plist|r16.png" SID="1069"/>
+  <String String="WorldMapButtons.plist|r17.png" SID="1070"/>
+  <String String="WorldMapButtons.plist|r18.png" SID="1071"/>
+  <String String="WorldMapButtons.plist|r2.png" SID="1072"/>
+  <String String="WorldMapButtons.plist|r3.png" SID="1073"/>
+  <String String="WorldMapButtons.plist|r4.png" SID="1074"/>
+  <String String="WorldMapButtons.plist|r5.png" SID="1075"/>
+  <String String="WorldMapButtons.plist|r6.png" SID="1076"/>
+  <String String="WorldMapButtons.plist|r7.png" SID="1077"/>
+  <String String="WorldMapButtons.plist|r8.png" SID="1078"/>
+  <String String="WorldMapButtons.plist|r9.png" SID="1079"/>
+  <String String="WorldMapButtons.plist|sky.png" SID="1080"/>
+ </StringCache>
+ <xidLinks>
+  <Link SID="1019" XID="1"/>
+ </xidLinks>
+ <Variables/>
+ <Skins/>
+ <NodeStructure>
+  <Node From="-1" Type="1" To="0" Name="根节点"/>
+  <Node From="0" Type="2" To="1" Name="图层"/>
+ </NodeStructure>
+ <Animations>
+  <Animation>
+   <TextureFiles>
+    <TexFile FileName=""/>
+   </TextureFiles>
+   <Keyframes>
+    <Node NodeID="0">
+     <Property Type="16">
+      <Keyframe index="0" data="1003" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+    </Node>
+   </Keyframes>
+  </Animation>
+  <Animation>
+   <TextureFiles>
+    <TexFile FileName="WorldMapButtons.plist"/>
+   </TextureFiles>
+   <Keyframes>
+    <Node NodeID="0">
+     <Property Type="16">
+      <Keyframe index="0" data="1001" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="18">
+      <Keyframe index="0" data="5" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="19">
+      <Keyframe index="0" data="30" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="27">
+      <Keyframe index="0" data="1" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+    </Node>
+    <Node NodeID="1">
+     <Property Type="3">
+      <Keyframe index="29" data="1080|1080" ref="-1" changeType="1" changeClass="0"/>
+     </Property>
+     <Property Type="7">
+      <Keyframe index="0" data="1" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="8">
+      <Keyframe index="0" data="1" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+    </Node>
+   </Keyframes>
+  </Animation>
+ </Animations>
+</NEAFileData>

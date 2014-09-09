@@ -1,0 +1,98 @@
+<NEAFileData Version="0.5.2.0">
+ <StringCache>
+  <String String="" SID="-1"/>
+  <String String="" SID="0"/>
+  <String String="1" SID="1000"/>
+  <String String="Init" SID="1001"/>
+  <String String="Boosters.plist|boost1.png" SID="1002"/>
+  <String String="Boosters.plist|boost2.png" SID="1003"/>
+  <String String="Boosters.plist|boost3.png" SID="1004"/>
+  <String String="Boosters.plist|boost4.png" SID="1005"/>
+  <String String="Boosters.plist|boost5.png" SID="1006"/>
+  <String String="Boosters.plist|boost6.png" SID="1007"/>
+  <String String="Boosters.plist|boost7.png" SID="1008"/>
+  <String String="Boosters.plist|boost9.png" SID="1009"/>
+  <String String="Boosters.plist|boost_bg.png" SID="1010"/>
+  <String String="Boosters.plist|boost_plus.png" SID="1011"/>
+  <String String="Boosters.plist|boost_4.png" SID="1012"/>
+  <String String="Boosters.plist|boost_5.png" SID="1013"/>
+  <String String="Boosters.plist|boost_t.png" SID="1014"/>
+  <String String="Boosters.plist|boostcover.png" SID="1015"/>
+  <String String="font_5" SID="1016"/>
+  <String String="Boosters.plist|cellected-35.png" SID="1017"/>
+ </StringCache>
+ <xidLinks>
+  <Link SID="1010" XID="1"/>
+  <Link SID="1011" XID="2"/>
+ </xidLinks>
+ <Variables>
+  <Var VID="0" name="Label_Visible"/>
+  <Var VID="1" name="Icon_Visible"/>
+ </Variables>
+ <Skins>
+  <Skin name="None">
+   <Keyframe type="7" data="0" VID="0" changeType="0" changeClass="0"/>
+   <Keyframe type="7" data="1" VID="1" changeType="0" changeClass="0"/>
+  </Skin>
+  <Skin name="Have">
+   <Keyframe type="7" data="1" VID="0" changeType="0" changeClass="0"/>
+   <Keyframe type="7" data="0" VID="1" changeType="0" changeClass="0"/>
+  </Skin>
+ </Skins>
+ <NodeStructure>
+  <Node From="-1" Type="1" To="0" Name="根节点"/>
+  <Node From="0" Type="2" To="1" Name="图层"/>
+  <Node From="0" Type="2" To="2" Name="图层"/>
+  <Node From="0" Type="3" To="3" Name="Label"/>
+ </NodeStructure>
+ <Animations>
+  <Animation>
+   <TextureFiles>
+    <TexFile FileName="Boosters.plist"/>
+   </TextureFiles>
+   <Keyframes>
+    <Node NodeID="0">
+     <Property Type="16">
+      <Keyframe index="0" data="1001" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+    </Node>
+    <Node NodeID="1">
+     <Property Type="7">
+      <Keyframe index="0" data="1" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="8">
+      <Keyframe index="0" data="1" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+    </Node>
+    <Node NodeID="2">
+     <Property Type="0">
+      <Keyframe index="0" data="0|-0.125" ref="-1" changeType="1" changeClass="0"/>
+     </Property>
+     <Property Type="7">
+      <Keyframe index="0" data="0" ref="1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="8">
+      <Keyframe index="0" data="2" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+    </Node>
+    <Node NodeID="3">
+     <Property Type="0">
+      <Keyframe index="0" data="-1|0" ref="-1" changeType="1" changeClass="0"/>
+     </Property>
+     <Property Type="4">
+      <Keyframe index="0" data="43|203|255" ref="-1" changeType="1" changeClass="0"/>
+     </Property>
+     <Property Type="7">
+      <Keyframe index="0" data="1" ref="0" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="11">
+      <Keyframe index="0" data="1000" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="28">
+      <Keyframe index="0" data="1016" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+    </Node>
+   </Keyframes>
+  </Animation>
+ </Animations>
+</NEAFileData>

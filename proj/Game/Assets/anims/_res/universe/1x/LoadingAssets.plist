@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>loadinggrid.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1,1},{120,117}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{120,117}}</string>
+                <key>sourceSize</key>
+                <string>{120,117}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>2</integer>
+            <key>realTextureFileName</key>
+            <string>LoadingAssets.png</string>
+            <key>size</key>
+            <string>{122,119}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:5cf1f0c96d6bb5cafb8701329ebc169f:1/1$</string>
+            <key>textureFileName</key>
+            <string>LoadingAssets.png</string>
+        </dict>
+    </dict>
+</plist>

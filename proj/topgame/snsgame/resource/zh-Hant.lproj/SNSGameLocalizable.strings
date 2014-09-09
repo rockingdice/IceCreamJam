@@ -1,0 +1,238 @@
+/* 
+   Localizable.strings
+   TapCar
+
+   Created by LEON on 11-11-10.
+   Copyright 2011 topgame.com. All rights reserved.
+ */
+"Pick Friends" = "Pick Friends";
+
+"We detect the game session crashed. This bug is fixed in lastest version. Please download and update now." = "檢測到遊戲出現了異常，該問題已經在最新版本中修復，請立即更新到最新版本。";
+
+"View" = "查看";
+"What's New" = "最新功能";
+
+
+"Transaction Pending" = "交易進行中";
+"Another transaction is pending, please try again later." = "另一項交易正在進行，請稍後再試。";
+"OK" = "OK";
+"Network Required" = "要求聯網";
+"You must be connected to the Internet to make purchases." = "需要聯網才能進行購買。";
+"In App purchasing is disabled" = "購買功能被禁用";
+"Please check your device restrictions and settings." = "請檢查該設備的購買功能設置。";
+"Downloading Products" = "正在下載IAP信息";
+"The application is downloading IAP products in background, please try again later." = "正在下載IAP信息，請稍後再試。";
+
+"Chunk of %@" = "少量%@";
+"Wad of %@" = "一些%@";
+"Bundle of %@" = "一束%@";
+"Heap of %@" = "一堆%@";
+"Barrel of %@" = "一桶%@";
+"Crate of %@" = "一箱%@";
+"Lump of %@" = "少量%@";
+
+"You just bought %1$d %2$@ successfully!" = "恭喜恭喜，你剛剛成功購買了%1$d%2$@！";
+"Great, you just got %1$d %2$@ for watching advertizement!" = "恭喜恭喜，你剛剛通過看廣告獲得了%1$d%2$@！";
+
+"Congratulations! You've got %1$i %2$@ for free!" = "恭喜恭喜，你剛剛免費獲得了%1$i%2$@！";
+
+"Payment Success" = "購買成功";
+"Great, You just bought %@!" = "交易成功，你剛剛購買了%@！";
+
+"No Thanks" = "不用了";
+"Download Now!" = "立即下載";
+"New Version Available!" = "新版本上線了，請立即下載升級，獲得新的功能和玩法！";
+"Please update" = "有新版本了";
+
+
+"No Offer Now" = "沒有免費獎勵";
+"There's no free offer now, please try again later!" = "目前沒有免費獎勵，請稍後再試。";
+"No Video Available" = "暫時沒有視頻";
+"No video is available now, please try again later." = "暫時沒有視頻，請稍後再試。";
+"No Ad Available" = "暫時沒有廣告";
+"No ad is available now, please try again later." = "暫時沒有廣告，請稍後再試。";
+
+
+"Checking Network Status" = "正在檢查網絡";
+
+
+"Finish Watching Ad" = "成功看完廣告";
+"Download and run the following applications to get bonus %@." = "下載並運行以下應用可以獲得免費%@。";
+"Prize Offers" = "安裝有獎";
+"%@ Offers" = "免費%@";
+
+"Loading Tutorial File" = "下載新手教程";
+"Loading Remote Save File" = "下載遠程進度";
+"Checking Game Status" = "檢查進度狀態";
+"Can't Send Email" = "不能發郵件";
+"Send Email Failed" = "發送郵件失敗";
+
+"Please check your email setting." = "請檢查設備的郵件設置，確保可以正常收發郵件。";
+"Please connect to network and restart the game again." = "請開啟網絡後再啟動遊戲。";
+
+"Close" = "關閉";
+"Remote Item Required" = "包含遠程物品";
+"Remote items are required to load your save properly. Please connect to network and restart the game again." = "你的遊戲進度中包含遠程物品，請開啟網絡後重新進入遊戲。";
+"Config File Corrupt" = "配置文件無效";
+"Configuration file is corrupt, please reinstall this application." = "配置文件損壞，請重新安裝此遊戲。";
+"Reload Game Required" = "要求重新啟動";
+"Remote game is newer, you must restart the game to continue with new save file." = "檢測到服務器上有更新的進度，請重新啟動遊戲，將自動加載遠程進度。";
+"Abnormal Device Time Changement" = "設備時間異常";
+"We found that you just changed your device time to speed up the growth. If you do that again, you'll not be able to play the game in offline mode." = "我們發現你的設備時間異常，請不要再次修改時間來加快收穫速度，否則你將只能在聯網模式下進入遊戲。";
+"OK" = "確定";
+"Ok" = "確定";
+
+"Having Fun?" = "好玩嗎？";
+"Love the game? Pls rate the game if you enjoy it!" = "如果你喜歡這個遊戲，請給我們評5分吧！";
+"Rate It!" = "去評分";
+"Free" = "免費";
+
+"There's no video available, please try agian later." = "目前沒有視頻，請稍後再試。";
+
+"Loading Remote Notice" = "加載遠程通知";
+"Loading Language File" = "加載語言包";
+"Loading Item Images(%i/%i)" = "加載遠程物品(%i/%i)";
+"Loading Item Assets(%i/%i)" = "加載遠程物品(%i/%i)";
+"Sending Save File to Server" = "正在往服務器發送遊戲進度";
+"Achievement Earned!" = "獲得成就！";
+"%i Item Assets Loaded." = "成功加載%i個遠程物品";
+"Load Result: %i OK, %i failed." = "加載結果：成功%i個，失敗%i個。";
+
+"Loading Game Config" = "加載配置文件";
+"Loading Game Data" = "加載遊戲進度";
+"Loading Game Scene" = "進入遊戲場景";
+"Checking Loaded Resources" = "檢查已下載資源文件";
+
+"Crash Detected" = "遊戲發生意外";
+"No Now" = "取消";
+"We detect the game session crashed. Please write a email to describe how did it happen. Thanks." = "我們檢測到遊戲進程出現了意外退出，請給我寫信描述發生意外的詳細過程以幫助我們改進，謝謝。";
+
+"Failed to start transaction, please try again later. \nError Message: %@" = "無法創建訂單，請稍後再試。\n錯誤信息：%@";
+
+"SM_DAILY_BONUS_TITLE" = "每日登錄獎勵";
+
+// tinyimail
+
+"Mailing List Subscription" = "訂閱電子期刊";
+"Subscribe to %@ Mailing List" = "訂閱%@電子期刊";
+
+"Please enter your email" = "請輸入你的郵箱地址";
+"Send Verification Email" = "發送驗證郵件";
+
+"Email is empty or improperly formatted email!" = "無效的郵箱地址。";
+"Subscribe" = "訂閱";
+"Subscribe to the %@ mailing list for all the latest updates, news, bonuses and gifts!" = "訂閱%@電子期刊，掌握最新遊戲資訊，遊戲更新、節日活動第一時間知曉。";
+
+"Modify" = "返回修改";
+
+"Thanks for subscribing to %@ mail list, we'll send you the updates, news, bonus, festival gifts at the very fist time!" = "感謝您訂閱殭屍農場電子期刊，我們會將最新的遊戲資訊、遊戲更新、節日活動第一時間通知您哦。後會郵期：）";
+"Email Sent OK" = "成功發出郵件";
+"You've sent out the verification email. Once our mail system verifies your message, you'll get the bonus automatically. This may needs one day, please be patient!" = "你已經成功發出驗證郵件。一旦我們的郵件系統確認你的郵件，你將自動獲得獎勵。基於不穩定的網絡狀況，這有時需要一天時間，請耐心等候。";
+"Bonus: %@" = "獎勵：%@";
+"Great! You've got %@ for subscribing to our mail list." = "太好了！你成功訂閱我們的電子期刊，獲得了%@！";
+"Note: depending on the network condition, sometimes it needs a day to receive your verification email, please be patient. Once we get your email, you'll get %@ as bonus!" = "注意，由於網絡的不確定性，您的驗證郵件發出後有時需要一天之後才能驗證成功，請耐心等待。郵箱驗證完成後再次回到遊戲，即可獲得%@獎勵！";
+
+
+
+"I want to subscribe to the mail list. The verification message is below, please check:" = "我要訂閱官方郵件，謝謝。";
+"Dear Sir," = "你好，";
+"Debug info is attached, please don't touch any characters below." = "以下是調試信息，請參考。";
+"I need help in %@" = "我在%@中遇到問題，需要幫助";
+"Restart" = "退出遊戲";
+
+"Bonus: %@" = "獎勵：%@";
+"Great! You've got %@ for subscribing to our mail list." = "太好了！你成功訂閱我們的電子期刊，獲得了%@！";
+"Note: depending on the network condition, sometimes it needs a day to receive your verification email, please be patient. Once we get your email, you'll get %@ as bonus!" = "注意，由於網絡的不確定性，您的驗證郵件發出後有時需要一天之後才能驗證成功，請耐心等待。郵箱驗證完成後再次回到遊戲，即可獲得%@獎勵！";
+
+"Weekend sales time! Don't miss it!" = "週末大特價已經開始了哦，這次你可千萬別錯過了。";
+"Tap to verify your email" = "發送驗證郵件";
+
+
+"Update Required" = "要求更新";
+"Update Now" = "立即更新";
+"You have to update to the newest version for playing this game properly." = "你必須更新到最新版本才能正常玩此遊戲。";
+"Email Us" = "郵件申訴";
+"Cheating Behavior Detected" = "檢測到作弊行為";
+"Your account is frozen because of cheating behavior. You are forbidden to play this game. You can send us email if you have any question." = "因為存在作弊行為，此帳號已經被凍結。如果有疑問，你可以發郵件申訴。";
+
+"Payment Fail" = "購買失敗";
+"Failed to start transaction, please try again later. \nError Message: %@" = "無法購買，請稍後再試。 \n錯誤提示：%@";
+
+
+"Send Invitation Email" = "發送邀請郵件";
+"The invitation code from your friend" = "好友發來的邀請碼";
+"Verify" = "驗證";
+"No Code" = "沒有邀請碼";
+"Invite Friends" = "邀請好友得獎勵";
+"Type in the invitation code you received from your friend. You'll get %@ as bonus after verification." = "輸入好友發來的邀請碼，如果驗證有效的話你將獲得%@獎勵。";
+"Invite friends to join %@, you'll earn %@ for each successful invitation." = "邀請好友下載安裝%@，每邀請成功一個好友你就會獲得%@獎勵。";
+"This invitation code is invalid, please check." = "無效的邀請碼，請檢查後重新輸入。";
+"The verification service is not available temporarily because of bad network status. Please try again later." = "因為網絡原因暫時不能驗證，請稍後再試。";
+"Verification Failed" = "驗證失敗";
+"Great! The invitation code is valid, you just got %@ as bonus!" = "驗證成功！你獲得了%@獎勵！";
+"Verification Success" = "驗證成功";
+"Hi there,\n\nCome and check out %1$@! It's mind-blowingly awesome! If you accept my invite, we'll both get a bonus of %2$@.\n\nMy invitation code is: %3$@\n\nAnd here is the download link: %4$@\n\nDon't miss out!\n\n" = "你好，\n\n我發現%1$@非常有意思，你也一起來玩吧。如果你接受邀請，我們都會獲得%2$@獎勵哦。\n\n我的邀請碼： %3$@\n下載鏈接： \n%4$@\n\n千萬不要錯過啦！\n \n";
+"%@ is funny!" = "我正在玩一個有趣的iPhone/iPad遊戲：%@";
+"Hi, %1$@,\n\nI find %2$@ is really funny, download and play together. If you accept my invitation, we'll both get %3$@ as bonus.\n\nMy invitation code :%4$@\nDownload link:\n%5$@\n\nDon't miss it!\n\n" = "%1$@，\n\n我發現%2$@非常有意思，你也一起來玩吧。如果你接受邀請，我們都會獲得%3$@獎勵哦。\n\n我的邀請碼： %4$@\n下載鏈接： \n%5$@\n\n千萬不要錯過啦！\n\n";
+"Invitation Success" = "邀請成功";
+"Great! You just got %@ as bonus for inviting %@ successfully!" = "恭喜恭喜，你因為成功邀請%2$@，獲得了%1$@獎勵！";
+"friend" = "位朋友";
+"Invitation Code" = "邀請碼";
+"Send" = "發送";
+"Cancel" = "取消";
+"I'm Invited" = "輸入邀請碼";
+
+"Reset Game Data Confirm" = "刪除存檔確認";
+"Do you really want to reset the save data and start playing this game as a new player?" = "你確定要刪除現有存檔，重新開始玩這個遊戲嗎？";
+"Yes" = "是";
+"No" = "否";
+"Reset Game Data Finished" = "刪除存檔成功";
+"Game data is reset now, you must restart the game to play as a new user." = "現有存檔已經刪除，你需要退出遊戲並重新啟動，即可重新開始一個新存檔。";
+
+// yangjie add start
+"UI_COLLECTION_BUTTON_TITLE_CASH1"="免費";
+"UI_COLLECTION_BUTTON_TITLE_CASH2"="X10";
+"UI_COLLECTION_BUTTON_TITLE_COIN1"="免費";
+"UI_COLLECTION_BUTTON_TITLE_GIFTBOX1"="X100";
+"UI_COLLECTION_BUTTON_TITLE_GIFTBOX2"="X100";
+"UI_COLLECTION_TITLE"="免費糖果和金幣";
+"feedImageSuccess!" = "分享照片成功!";
+
+"Rateing takes less than a minute." = "評價只需不到一分鐘。";
+// yangjie add end
+
+
+"Verification email is sent. Waiting for response." = "驗證郵件已經發出，請等待驗證結果。";
+"Invalid Email" = "無效郵箱";
+
+// 帳號綁定相關
+"Account Detected" = "檢測到存檔";
+"You've connected to an existing account before(UID:%d), will you switch to that account now?" = "這個帳號已經連接到之前的一個遊戲存檔(UID:%d)，你要現在切換到那個存檔嗎？";
+"You've link this player with your Facebook account. You can retrieve your game data on other devices by login your Facebook acocunt." = "你的Facebook帳號已經綁定到當前存檔，在其它設備上你可以通過登錄Facebook找回該存檔。";
+"Account Linked" = "帳號已綁定";
+"You've link this player with your GameCenter account. You can retrieve your game data on other devices by login your GameCenter acocunt." = "你的GameCenter帳號已經綁定到當前存檔，在其它設備上你可以通過登錄GameCenter找回該存檔。";
+"Because you've cancelled GameCenter login more than twice, GameCenter is disable for this game on this device." = "由於你多次取消GameCenter登錄，此遊戲在該設備上已經被禁止登錄GameCenter。";
+
+//facebook
+"Thanks for connecting to Facebook, you've got %i %@ as a bonus!" = "謝謝連接Facebook帳號，你得到了%i%@的獎勵！";
+"Connect Bonus" = "Facebook獎勵";
+"Invite Bonus" = "邀請獎勵";
+"Thanks for inviting %i %@, you've got %i %@ as a bonus!" = "謝謝你邀請了%i%@，你得到了%i%@的獎勵！";
+"Feed Bonus" = "Feed獎勵";
+"Thanks for sharing to Facebook, you've got %i %@ as a bonus!" = "謝謝你分享到Facebook，你得到了%i%@的獎勵！";
+"Friend Gift" = "好友禮物";
+"You just received %d %@ from %@!" = "你獲得了%d%@的禮物，來自%@！";
+"Facebook Login Failed" = "Facebook登錄失敗";
+"Sorry, there's problem to access your Facebook account." = "對不起，無法連接到Facebook。";
+"Request Failed" = "Request Failed";
+"Failed to load friend list from facebook.\n%@" = "無法加載Facebook好友列表。\n%@";
+"No More Friends" = "沒有好友了";
+"You've sent gifts to all of you friends today. ​​You can send again tomorrow." = "你已經給所有好友發了禮物，請明天再發。";
+"Will you send daily gift to your friends? You'll get bonus too after sending gifts to friends." = "你要給好友發送今天的禮物嗎？發出禮​​物後你也會得到獎勵哦。";
+"Sending Gifts" = "發送禮物";
+"Great" = "好";
+"Your friends(%@) ask you for help. Will you help them?" = "你的朋友(%@)需要你的幫助。你要幫助他們嗎？";
+"%@ ask you for help. Will you help him/her?" = "%@需要你的幫助，你要幫助他/她嗎？";
+"Ticket Request" = "請求幫助";
+
+

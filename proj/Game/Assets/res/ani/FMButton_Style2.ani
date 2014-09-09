@@ -1,0 +1,385 @@
+<NEAFileData Version="0.5.3.2">
+ <StringCache>
+  <String String="" SID="-1"/>
+  <String String="" SID="0"/>
+  <String String="UIAnim.plist|G -03.png" SID="1000"/>
+  <String String="UIAnim.plist|G -04.png" SID="1001"/>
+  <String String="UIAnim.plist|G -05.png" SID="1002"/>
+  <String String="UIAnim.plist|G -06.png" SID="1003"/>
+  <String String="UIAnim.plist|G -07.png" SID="1004"/>
+  <String String="Push" SID="1005"/>
+  <String String="PushIdle" SID="1006"/>
+  <String String="UIAnim.plist|G -08.png" SID="1007"/>
+  <String String="Release" SID="1008"/>
+  <String String="UIAnim.plist|G -09.png" SID="1009"/>
+  <String String="ReleaseIdle" SID="1010"/>
+  <String String="UIAnim.plist|G -10.png" SID="1011"/>
+  <String String="UIAnim.plist|G -11.png" SID="1016"/>
+  <String String="UIAnim.plist|G -12.png" SID="1017"/>
+  <String String="UIAnim.plist|G -13.png" SID="1018"/>
+  <String String="UIAnim.plist|G -14.png" SID="1019"/>
+  <String String="UIAnim.plist|G -15.png" SID="1020"/>
+  <String String="UIAnim.plist|G -16.png" SID="1021"/>
+  <String String="UIAnim.plist|Coinbaby-09.png" SID="1022"/>
+  <String String="UIAnim.plist|GoBack.png" SID="1023"/>
+  <String String="UIAnim.plist|cage1.png" SID="1024"/>
+  <String String="UIAnim.plist|cage2.png" SID="1025"/>
+  <String String="UIAnim.plist|cage3.png" SID="1026"/>
+  <String String="9000" SID="1027"/>
+  <String String="font_5" SID="1028"/>
+  <String String="UIAnim.plist|cage4.png" SID="1029"/>
+  <String String="UIAnim.plist|cage5.png" SID="1030"/>
+  <String String="UIAnim.plist|Coinbaby-10.png" SID="1031"/>
+  <String String="UIAnim.plist|check-11.png" SID="1032"/>
+  <String String="UIAnim.plist|check-12.png" SID="1033"/>
+  <String String="UIAnim.plist|check-13.png" SID="1034"/>
+  <String String="UIAnim.plist|check-14.png" SID="1035"/>
+  <String String="UIAnim.plist|check-15.png" SID="1036"/>
+  <String String="UIAnim.plist|check-16.png" SID="1037"/>
+  <String String="UIAnim.plist|check-17.png" SID="1038"/>
+  <String String="UIAnim.plist|clock-40.png" SID="1039"/>
+  <String String="UIAnim.plist|clock-41.png" SID="1040"/>
+  <String String="UIAnim.plist|clock-42.png" SID="1041"/>
+  <String String="UIAnim.plist|clock-43.png" SID="1042"/>
+  <String String="UIAnim.plist|clock-44.png" SID="1043"/>
+  <String String="UIAnim.plist|clock-45.png" SID="1044"/>
+  <String String="UIAnim.plist|clock-46.png" SID="1045"/>
+  <String String="UIAnim.plist|clock-47.png" SID="1046"/>
+  <String String="UIAnim.plist|clock-48.png" SID="1047"/>
+  <String String="UIAnim.plist|clock-49.png" SID="1048"/>
+  <String String="" SID="1049"/>
+  <String String="UIAnim.plist|clock-50.png" SID="1050"/>
+  <String String="UIAnim.plist|clock-51.png" SID="1051"/>
+  <String String="UIAnim.plist|crown-33.png" SID="1052"/>
+  <String String="UIAnim.plist|crown-34.png" SID="1053"/>
+  <String String="UIAnim.plist|crown-35.png" SID="1054"/>
+  <String String="UIAnim.plist|empty-15.png" SID="1055"/>
+  <String String="UIAnim.plist|growingjelly-03.png" SID="1056"/>
+  <String String="UIAnim.plist|growingjelly-04.png" SID="1057"/>
+  <String String="UIAnim.plist|growingjelly-05.png" SID="1058"/>
+  <String String="UIAnim.plist|growingjelly-06.png" SID="1059"/>
+  <String String="UIAnim.plist|growingjelly-09.png" SID="1060"/>
+  <String String="UIAnim.plist|growingjelly-10.png" SID="1061"/>
+  <String String="UIAnim.plist|growingjelly-12.png" SID="1062"/>
+  <String String="UIAnim.plist|growingjelly-13.png" SID="1063"/>
+  <String String="UIAnim.plist|growingjelly-14.png" SID="1064"/>
+  <String String="UIAnim.plist|growingjelly-15.png" SID="1065"/>
+  <String String="UIAnim.plist|gstar-29.png" SID="1066"/>
+  <String String="UIAnim.plist|gstar-30.png" SID="1067"/>
+  <String String="UIAnim.plist|heart-09.png" SID="1068"/>
+  <String String="UIAnim.plist|map-37.png" SID="1069"/>
+  <String String="UIAnim.plist|o4g.png" SID="1075"/>
+  <String String="UIAnim.plist|onoff-02.png" SID="1076"/>
+  <String String="UIAnim.plist|onoff-03.png" SID="1077"/>
+  <String String="UIAnim.plist|onoff-04.png" SID="1078"/>
+  <String String="UIAnim.plist|onoff-05.png" SID="1079"/>
+  <String String="UIAnim.plist|onoff-06.png" SID="1080"/>
+  <String String="UIAnim.plist|onoff-07.png" SID="1081"/>
+  <String String="UIAnim.plist|onoff-08.png" SID="1082"/>
+  <String String="V140_BRANCH_PLAY" SID="1084"/>
+  <String String="UIAnim.plist|sence effct-02.png" SID="1085"/>
+  <String String="UIAnim.plist|sence effct-03.png" SID="1086"/>
+  <String String="UIAnim.plist|sence effct-04.png" SID="1087"/>
+  <String String="UIAnim.plist|starlight2-62.png" SID="1088"/>
+  <String String="UIAnim.plist|stars-18.png" SID="1089"/>
+  <String String="UIAnim.plist|stars-19.png" SID="1090"/>
+  <String String="UIAnim.plist|stars-20.png" SID="1091"/>
+  <String String="UIAnim.plist|stars-21.png" SID="1092"/>
+  <String String="UIAnim.plist|stars-22.png" SID="1093"/>
+  <String String="UIAnim.plist|stars-23.png" SID="1094"/>
+  <String String="UIAnim.plist|stars-24.png" SID="1095"/>
+  <String String="UIAnim.plist|stars-25.png" SID="1096"/>
+  <String String="UIAnim.plist|stars-26.png" SID="1097"/>
+  <String String="UIAnim.plist|stars-27.png" SID="1098"/>
+  <String String="UIAnim.plist|stars-28.png" SID="1099"/>
+  <String String="UIAnim.plist|tut_guidehand.png" SID="1100"/>
+  <String String="UIAnim.plist|ui_add.png" SID="1101"/>
+  <String String="UIAnim.plist|ui_addcoin.png" SID="1102"/>
+  <String String="UIAnim.plist|ui_close1.png" SID="1104"/>
+  <String String="UIAnim.plist|ui_fb0.png" SID="1105"/>
+  <String String="UIAnim.plist|ui_fb_connected.png" SID="1106"/>
+  <String String="UIAnim.plist|ui_gold0.png" SID="1107"/>
+  <String String="UIAnim.plist|ui_help1.png" SID="1108"/>
+  <String String="UIAnim.plist|ui_icon_new.png" SID="1110"/>
+  <String String="UIAnim.plist|ui_life1.png" SID="1112"/>
+  <String String="UIAnim.plist|ui_menu0.png" SID="1113"/>
+  <String String="UIAnim.plist|ui_next0.png" SID="1114"/>
+  <String String="UIAnim.plist|ui_pause.png" SID="1115"/>
+  <String String="UIAnim.plist|ui_redlabel.png" SID="1116"/>
+  <String String="UIAnim.plist|ui_retry0.png" SID="1117"/>
+  <String String="UIAnim.plist|ui_setting0.png" SID="1118"/>
+  <String String="V140_SKIP" SID="1120"/>
+  <String String="UIAnim.plist|Coinbaby-05.png" SID="1121"/>
+  <String String="UIAnim.plist|Coinbaby-06.png" SID="1122"/>
+  <String String="UIAnim.plist|Coinbaby-07.png" SID="1123"/>
+  <String String="UIAnim.plist|Coinbaby-08.png" SID="1124"/>
+  <String String="UIAnim.plist|G -02.png" SID="1125"/>
+  <String String="UIAnim.plist|G -17.png" SID="1126"/>
+  <String String="UIAnim.plist|G -18.png" SID="1127"/>
+  <String String="UIAnim.plist|GetCoin.png" SID="1128"/>
+  <String String="UIAnim.plist|exit_4X.png" SID="1129"/>
+  <String String="UIAnim.plist|guidenpc-14.png" SID="1130"/>
+  <String String="UIAnim.plist|guidenpc-16.png" SID="1131"/>
+  <String String="UIAnim.plist|ui_icon_rate.png" SID="1132"/>
+  <String String="UIAnim.plist|50offcover.png" SID="1133"/>
+  <String String="UIAnim.plist|LeverBG.png" SID="1134"/>
+  <String String="UIAnim.plist|LeverBall.png" SID="1135"/>
+  <String String="UIAnim.plist|LeverBar.png" SID="1136"/>
+  <String String="UIAnim.plist|SpinArrow.png" SID="1137"/>
+  <String String="UIAnim.plist|infinity.png" SID="1138"/>
+  <String String="UIAnim.plist|ui_book0.png" SID="1139"/>
+  <String String="UIAnim.plist|ui_invite0.png" SID="1140"/>
+  <String String="UIAnim.plist|ui_message0.png" SID="1141"/>
+  <String String="UIAnim.plist|ui_sendlife0.png" SID="1142"/>
+  <String String="UIAnim.plist|ui_sendlife1.png" SID="1143"/>
+  <String String="MainUI.plist|LogoutButton.png" SID="1144"/>
+  <String String="MainUI.plist|PrizeListButton.png" SID="1145"/>
+  <String String="MainUI.plist|Tbg.png" SID="1146"/>
+  <String String="MainUI.plist|ui-blueB2.png" SID="1147"/>
+  <String String="MainUI.plist|ui-greenB2.png" SID="1148"/>
+  <String String="MainUI.plist|ui_blueA1.png" SID="1149"/>
+  <String String="MainUI.plist|ui_blueB1.png" SID="1150"/>
+  <String String="MainUI.plist|ui_blueC1.png" SID="1151"/>
+  <String String="MainUI.plist|ui_gray_btn.png" SID="1152"/>
+  <String String="MainUI.plist|ui_greenA1.png" SID="1153"/>
+  <String String="MainUI.plist|ui_redA1.png" SID="1154"/>
+  <String String="MainUI.plist|ui_window2.png" SID="1155"/>
+  <String String="MainUI.plist|ui_window3.png" SID="1156"/>
+  <String String="MainUI.plist|ui_window4.png" SID="1157"/>
+  <String String="MainUI.plist|ui_yellowC1.png" SID="1158"/>
+ </StringCache>
+ <xidLinks>
+  <Link SID="1149" XID="1"/>
+  <Link SID="1150" XID="2"/>
+  <Link SID="1153" XID="3"/>
+  <Link SID="1154" XID="4"/>
+ </xidLinks>
+ <Variables>
+  <Var VID="0" name="Label_Text"/>
+  <Var VID="1" name="Button"/>
+ </Variables>
+ <Skins>
+  <Skin name="InAppStore">
+   <Keyframe type="11" data="1027" VID="0" changeType="0" changeClass="0"/>
+   <Keyframe type="8" data="1" VID="1" changeType="0" changeClass="0"/>
+  </Skin>
+  <Skin name="Play">
+   <Keyframe type="11" data="1084" VID="0" changeType="0" changeClass="0"/>
+  </Skin>
+  <Skin name="Skip">
+   <Keyframe type="11" data="1120" VID="0" changeType="0" changeClass="0"/>
+  </Skin>
+ </Skins>
+ <NodeStructure>
+  <Node From="-1" Type="1" To="0" Name="根节点"/>
+  <Node From="0" Type="6" To="3" Name="Layer9"/>
+  <Node From="0" Type="3" To="2" Name="Label"/>
+ </NodeStructure>
+ <Animations>
+  <Animation>
+   <TextureFiles>
+    <TexFile FileName="MainUI.plist"/>
+   </TextureFiles>
+   <Keyframes>
+    <Node NodeID="0">
+     <Property Type="16">
+      <Keyframe index="0" data="1005" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="18">
+      <Keyframe index="0" data="50" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="19">
+      <Keyframe index="0" data="15" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+    </Node>
+    <Node NodeID="2">
+     <Property Type="1">
+      <Keyframe index="4" data="0.8|0.8" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="7" data="1|1" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="11" data="0.863984|0.863984" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="14" data="0.9|0.9" ref="-1" changeType="1" changeClass="0"/>
+     </Property>
+     <Property Type="7">
+      <Keyframe index="0" data="1" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="11">
+      <Keyframe index="0" data="1049" ref="0" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="28">
+      <Keyframe index="0" data="1028" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+    </Node>
+    <Node NodeID="3">
+     <Property Type="1">
+      <Keyframe index="4" data="0.8|0.8" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="7" data="1|1" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="11" data="0.864|0.864" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="14" data="0.9|0.9" ref="-1" changeType="1" changeClass="0"/>
+     </Property>
+     <Property Type="7">
+      <Keyframe index="0" data="1" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="8">
+      <Keyframe index="0" data="2" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="29">
+      <Keyframe index="0" data="109.25|48" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="30">
+      <Keyframe index="0" data="0.2|0|0.7|0" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+    </Node>
+   </Keyframes>
+  </Animation>
+  <Animation>
+   <TextureFiles>
+    <TexFile FileName="MainUI.plist"/>
+   </TextureFiles>
+   <Keyframes>
+    <Node NodeID="0">
+     <Property Type="16">
+      <Keyframe index="0" data="1006" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="19">
+      <Keyframe index="0" data="1" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+    </Node>
+    <Node NodeID="2">
+     <Property Type="1">
+      <Keyframe index="0" data="0.9|0.9" ref="-1" changeType="1" changeClass="0"/>
+     </Property>
+     <Property Type="7">
+      <Keyframe index="0" data="1" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="11">
+      <Keyframe index="0" data="1049" ref="0" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="28">
+      <Keyframe index="0" data="1028" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+    </Node>
+    <Node NodeID="3">
+     <Property Type="1">
+      <Keyframe index="0" data="0.9|0.9" ref="-1" changeType="1" changeClass="0"/>
+     </Property>
+     <Property Type="7">
+      <Keyframe index="0" data="1" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="8">
+      <Keyframe index="0" data="2" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="29">
+      <Keyframe index="0" data="109.25|48" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="30">
+      <Keyframe index="0" data="0.2|0|0.7|0" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+    </Node>
+   </Keyframes>
+  </Animation>
+  <Animation>
+   <TextureFiles>
+    <TexFile FileName="MainUI.plist"/>
+   </TextureFiles>
+   <Keyframes>
+    <Node NodeID="0">
+     <Property Type="16">
+      <Keyframe index="0" data="1008" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="18">
+      <Keyframe index="0" data="50" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="19">
+      <Keyframe index="0" data="20" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+    </Node>
+    <Node NodeID="2">
+     <Property Type="1">
+      <Keyframe index="0" data="0.9|0.9" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="3" data="1.15|1.15" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="6" data="0.95|0.95" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="10" data="1.1|1.1" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="13" data="0.98|0.98" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="16" data="1.05|1.05" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="19" data="1|1" ref="-1" changeType="1" changeClass="0"/>
+     </Property>
+     <Property Type="7">
+      <Keyframe index="0" data="1" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="11">
+      <Keyframe index="0" data="1049" ref="0" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="28">
+      <Keyframe index="0" data="1028" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+    </Node>
+    <Node NodeID="3">
+     <Property Type="1">
+      <Keyframe index="0" data="0.9|0.9" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="3" data="1.15|1.15" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="6" data="0.95|0.95" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="10" data="1.1|1.1" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="13" data="0.98|0.98" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="16" data="1.05|1.05" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="19" data="1|1" ref="-1" changeType="1" changeClass="0"/>
+     </Property>
+     <Property Type="7">
+      <Keyframe index="0" data="1" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="8">
+      <Keyframe index="0" data="2" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="29">
+      <Keyframe index="0" data="109.25|48" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="30">
+      <Keyframe index="0" data="0.2|0|0.7|0" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+    </Node>
+   </Keyframes>
+  </Animation>
+  <Animation>
+   <TextureFiles>
+    <TexFile FileName="MainUI.plist"/>
+   </TextureFiles>
+   <Keyframes>
+    <Node NodeID="0">
+     <Property Type="16">
+      <Keyframe index="0" data="1010" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="18">
+      <Keyframe index="0" data="5" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="19">
+      <Keyframe index="0" data="7" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+    </Node>
+    <Node NodeID="2">
+     <Property Type="7">
+      <Keyframe index="0" data="1" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="11">
+      <Keyframe index="0" data="1049" ref="0" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="28">
+      <Keyframe index="0" data="1028" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+    </Node>
+    <Node NodeID="3">
+     <Property Type="7">
+      <Keyframe index="0" data="1" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="8">
+      <Keyframe index="0" data="2" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="29">
+      <Keyframe index="0" data="109.25|48" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="30">
+      <Keyframe index="0" data="0.2|0|0.7|0" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+    </Node>
+   </Keyframes>
+  </Animation>
+ </Animations>
+</NEAFileData>

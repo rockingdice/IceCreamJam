@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SystemConfig.plist</key>
+	<string>64d092007981f7bc82eb68e81e07ea98</string>
+	<key>IapItemList.csv</key>
+	<string>b5b543e100469bb813750aaf1af2b0eb</string>
+	<key>data/initSave.dat</key>
+	<string>aaebaa26561cd01e09b6f38a6310708b</string>
+	<key>data/initLevel.dat</key>
+	<string>b1b29daa2a4cd6558a5eabf5194780ac</string>
+	<key>data/initConfig.dat</key>
+	<string>7549c308163a288cf20db1a05433a884</string>
+</dict>
+</plist>

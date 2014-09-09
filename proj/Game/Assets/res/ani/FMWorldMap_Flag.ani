@@ -1,0 +1,49 @@
+<NEAFileData Version="0.5.2.0">
+ <StringCache>
+  <String String="" SID="-1"/>
+  <String String="Animation0" SID="1000"/>
+  <String String="WorldBG1.plist|WorldBG0.png" SID="1002"/>
+  <String String="WorldBG1.plist|WorldBG1.png" SID="1003"/>
+  <String String="WorldNPC1.plist|00.png" SID="1004"/>
+  <String String="WorldNPC1.plist|01B.png" SID="1005"/>
+  <String String="WorldNPC1.plist|01C.png" SID="1006"/>
+  <String String="WorldNPC1.plist|01D.png" SID="1007"/>
+  <String String="WorldNPC1.plist|01E.png" SID="1008"/>
+  <String String="WorldNPC1.plist|01F.png" SID="1009"/>
+  <String String="WorldNPC1.plist|01G.png" SID="1010"/>
+  <String String="WorldNPC1.plist|F.png" SID="1011"/>
+  <String String="WorldNPC1.plist|empty-15.png" SID="1012"/>
+  <String String="WorldNPC1.plist|roleunlock.png" SID="1013"/>
+ </StringCache>
+ <xidLinks>
+  <Link SID="1011" XID="2"/>
+ </xidLinks>
+ <Variables/>
+ <Skins/>
+ <NodeStructure>
+  <Node From="-1" Type="1" To="0" Name="根节点"/>
+  <Node From="0" Type="2" To="1" Name="图层"/>
+ </NodeStructure>
+ <Animations>
+  <Animation>
+   <TextureFiles>
+    <TexFile FileName="WorldNPC1.plist"/>
+   </TextureFiles>
+   <Keyframes>
+    <Node NodeID="0">
+     <Property Type="16">
+      <Keyframe index="0" data="1000" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+    </Node>
+    <Node NodeID="1">
+     <Property Type="7">
+      <Keyframe index="0" data="1" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="8">
+      <Keyframe index="0" data="2" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+    </Node>
+   </Keyframes>
+  </Animation>
+ </Animations>
+</NEAFileData>

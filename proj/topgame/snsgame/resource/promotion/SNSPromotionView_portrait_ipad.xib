@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="5053" systemVersion="13C64" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none">
+    <dependencies>
+        <deployment defaultVersion="1072" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SNSPromotionViewController">
+            <connections>
+                <outlet property="btnClose" destination="lq3-Ee-a4U" id="cen-c0-zz2"/>
+                <outlet property="btnNext" destination="9zD-Xt-KHH" id="Vt4-3i-HAd"/>
+                <outlet property="btnOK" destination="VOJ-M9-zut" id="UwW-wF-8MY"/>
+                <outlet property="btnPrev" destination="eZZ-6G-Dxz" id="mf1-9G-NJf"/>
+                <outlet property="imgBG" destination="H4x-Cj-WFz" id="fK5-hl-F3i"/>
+                <outlet property="imgInfo" destination="tSs-En-KKP" id="Gu4-Ze-y1V"/>
+                <outlet property="imgNew" destination="Y30-UM-96s" id="2OT-wR-noC"/>
+                <outlet property="labelInfo" destination="Nub-PO-OGF" id="VPc-A6-oLI"/>
+                <outlet property="view" destination="iN0-l3-epB" id="kcT-VS-bge"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sns_promo_bg.png" id="H4x-Cj-WFz">
+                    <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                </imageView>
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="tSs-En-KKP">
+                    <rect key="frame" x="76" y="69" width="614" height="744"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="100" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Nub-PO-OGF">
+                    <rect key="frame" x="76" y="69" width="614" height="744"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                    <color key="textColor" red="0.60000002379999995" green="0.40000000600000002" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sns_promo_new.png" id="Y30-UM-96s">
+                    <rect key="frame" x="36" y="33" width="168" height="135"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="lq3-Ee-a4U">
+                    <rect key="frame" x="642" y="-14" width="140" height="140"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="sns_promo_close.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="onClick:" destination="-1" eventType="touchUpInside" id="rVs-xH-QYh"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="VOJ-M9-zut">
+                    <rect key="frame" x="216" y="827" width="337" height="152"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <state key="normal" image="sns_promo_ok.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="onClick:" destination="-1" eventType="touchUpInside" id="y7R-1I-R0x"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="9zD-Xt-KHH">
+                    <rect key="frame" x="531" y="827" width="188" height="152"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <state key="normal" image="sns_promo_next.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="onClick:" destination="-1" eventType="touchUpInside" id="fo9-gg-YIE"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="eZZ-6G-Dxz">
+                    <rect key="frame" x="60" y="827" width="188" height="152"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <state key="normal" image="sns_promo_next.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="onClick:" destination="-1" eventType="touchUpInside" id="yjJ-yB-DFH"/>
+                    </connections>
+                </button>
+            </subviews>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="sns_promo_bg.png" width="681" height="965"/>
+        <image name="sns_promo_close.png" width="140" height="140"/>
+        <image name="sns_promo_new.png" width="168" height="135"/>
+        <image name="sns_promo_next.png" width="188" height="151"/>
+        <image name="sns_promo_ok.png" width="337" height="152"/>
+    </resources>
+</document>

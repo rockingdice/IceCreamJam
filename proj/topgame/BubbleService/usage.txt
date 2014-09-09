@@ -1,0 +1,90 @@
+1, 将本目录下的所有代码加入项目；
+2，添加需要的framework：libz, MobileCoreServices, CFNetwork, SystemConfiguration
+3，用法
+3.1，同步远程进度
+#import "BubbleServiceHelper.h"
+// 通知回调方法
+-(void) onSyncFinished:(NSNotification *)note
+{
+	[[NSNotificationCenter defaultCenter] removeObserver:self];
+    
+    int success = [[note.userInfo objectForKey:@"success"] intValue];
+    NSString *mesg = [note.userInfo objectForKey:@"mesg"];
+    NSString *title = @"Sync Failed";
+    if(success==1) title = @"Sync Success";
+    UIAlertView *alertView = [[[UIAlertView alloc] initWithTitle:title message:mesg delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil] autorelease];
+    [alertView show];
+}
+
+-(IBAction)startSync:(id)sender
+{
+    // register notification info
+	[[NSNotificationCenter defaultCenter] addObserver:self
+											 selector:@selector(onSyncFinished:)
+												 name:kBubbleServiceNotificationSyncLevelFinished
+											   object:nil];
+    
+    
+    [[BubbleServiceHelper helper] startSyncWithServer];
+}
+
+3.2, 获得关卡信息
+3.2.1，关卡数量：
+	int count = [[BubbleServiceHelper helper] getLevelCount];
+3.2.2, 获得第idx个关卡：
+	// idx必须小于关卡数量,取第一个关卡时:idx=0，最后一个关卡：idx=count-1
+	// 返回dictionary的格式见下面说明
+	// 如果数据异常丢失，会返回nil
+    NSDictionary *levelInfo = [[BubbleServiceHelper helper] getLevelAtIndex:idx];
+3.2.3, 关卡信息dictionary格式
+ {
+ "id":"123", // 注意这个ID和获取该关卡时的idx不同，这是内部id，后面修改子关卡时要用到这个id
+ "name":"first level", // 名字
+ "introduction":"detail info", // 简介
+ "subLevel1":"sdfsfsfsf",  // 第一个子关卡数据
+ "subID1":"123",  "subTime1":"1234234", // 第一个子关卡的内部ID和修改时间，内部使用
+ "subLevel2":"sdfsfsfsfsf", "subID2":"124", "subTime2":"1234234",
+ "subLevel3":"sdfsfsfsfsf", "subID3":"125", "subTime3":"1234234",
+ "subLevel4":"sdfsfsfsfsf", "subID4":"126", "subTime4":"1234234",
+ "subLevel5":"sdfsfsfsfsf", "subID5":"127", "subTime5":"1234234",
+ "subLevel6":"sdfsfsfsfsf", "subID6":"128", "subTime6":"1234234",
+ // 下面这些数据都是内部使用的，不用管
+ "etime":"12348343", "iPhone":"123-2-iPhone.zip", "iPad":"123-3-iPad.zip", "linkPath":"33/"
+ }
+
+3.2.4，上传某个子关卡到服务器
+注意：要上传关卡信息，必须提前在服务器上加入此设备的hmac才可以。
+-(void) onUploadFinished:(NSNotification *)note
+{
+	[[NSNotificationCenter defaultCenter] removeObserver:self];
+    int success = [[note.userInfo objectForKey:@"success"] intValue];
+    NSString *mesg = [note.userInfo objectForKey:@"mesg"];
+    NSString *title = @"Upload Failed";
+    if(success==1) title = @"Upload Success";
+    UIAlertView *alertView = [[[UIAlertView alloc] initWithTitle:title message:mesg delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil] autorelease];
+    [alertView show];
+}
+
+-(IBAction)startUpload:(id)sender
+{
+    // register notification info
+	[[NSNotificationCenter defaultCenter] addObserver:self
+											 selector:@selector(onUploadFinished:)
+												 name:kBubbleServiceNotificationUploadSubLevelFinished
+											   object:nil];
+    
+    int idx = 0;
+    NSDictionary *info = [[BubbleServiceHelper helper] getLevelAtIndex:idx];
+    NSString *levelID = [info objectForKey:@"id"]; // 关卡内部id
+    NSString *subLevelID = @"1"; // 子关卡序号，1-6，第一小关是1，第6小关是6
+    NSString *subLevelData = @"new level data"; // 子关卡的新内容
+    [[BubbleServiceHelper helper] uploadSubLevel:subLevelID ofLevel:levelID withContent:subLevelData];
+}
+
+
+3.2.5, 获取关卡的图片文件目录
+每个关卡的zip资源包会自动下载并解压缩到一个目录，这个目录的路径通过下面这个方法获取：
+// 获得某个关卡的图片所在目录，这个levelID是关卡的内部id，就是返回dictionary中的id
+NSString *path =[[BubbleServiceHelper helper] getLevelImagePath:levelID];
+
+

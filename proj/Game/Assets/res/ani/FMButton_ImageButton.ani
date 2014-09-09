@@ -1,0 +1,571 @@
+<NEAFileData Version="0.5.3.2">
+ <StringCache>
+  <String String="" SID="-1"/>
+  <String String="UIAnim.plist|Coinbaby-05.png" SID="1000"/>
+  <String String="UIAnim.plist|Coinbaby-06.png" SID="1001"/>
+  <String String="UIAnim.plist|Coinbaby-07.png" SID="1002"/>
+  <String String="UIAnim.plist|Coinbaby-08.png" SID="1003"/>
+  <String String="UIAnim.plist|Coinbaby-09.png" SID="1004"/>
+  <String String="Push" SID="1005"/>
+  <String String="PushIdle" SID="1006"/>
+  <String String="UIAnim.plist|Coinbaby-10.png" SID="1007"/>
+  <String String="Release" SID="1008"/>
+  <String String="UIAnim.plist|G -02.png" SID="1009"/>
+  <String String="ReleaseIdle" SID="1010"/>
+  <String String="UIAnim.plist|G -03.png" SID="1011"/>
+  <String String="UIAnim.plist|G -04.png" SID="1012"/>
+  <String String="UIAnim.plist|G -05.png" SID="1013"/>
+  <String String="UIAnim.plist|G -06.png" SID="1014"/>
+  <String String="UIAnim.plist|G -07.png" SID="1015"/>
+  <String String="UIAnim.plist|G -08.png" SID="1016"/>
+  <String String="UIAnim.plist|G -09.png" SID="1017"/>
+  <String String="UIAnim.plist|G -10.png" SID="1018"/>
+  <String String="UIAnim.plist|G -11.png" SID="1019"/>
+  <String String="UIAnim.plist|G -12.png" SID="1020"/>
+  <String String="UIAnim.plist|G -13.png" SID="1021"/>
+  <String String="UIAnim.plist|G -14.png" SID="1022"/>
+  <String String="UIAnim.plist|G -15.png" SID="1023"/>
+  <String String="UIAnim.plist|G -16.png" SID="1024"/>
+  <String String="UIAnim.plist|G -17.png" SID="1025"/>
+  <String String="UIAnim.plist|G -18.png" SID="1026"/>
+  <String String="UIAnim.plist|GetCoin.png" SID="1027"/>
+  <String String="UIAnim.plist|GoBack.png" SID="1028"/>
+  <String String="UIAnim.plist|LeverBG.png" SID="1029"/>
+  <String String="UIAnim.plist|LeverBall.png" SID="1030"/>
+  <String String="UIAnim.plist|LeverBar.png" SID="1031"/>
+  <String String="UIAnim.plist|cage1.png" SID="1032"/>
+  <String String="UIAnim.plist|cage2.png" SID="1033"/>
+  <String String="UIAnim.plist|cage3.png" SID="1034"/>
+  <String String="UIAnim.plist|cage4.png" SID="1035"/>
+  <String String="UIAnim.plist|cage5.png" SID="1036"/>
+  <String String="UIAnim.plist|check-11.png" SID="1037"/>
+  <String String="UIAnim.plist|check-12.png" SID="1038"/>
+  <String String="UIAnim.plist|check-13.png" SID="1039"/>
+  <String String="UIAnim.plist|check-14.png" SID="1040"/>
+  <String String="CCBUI.plist|FriendPrefile.png" SID="1041"/>
+  <String String="CCBUI.plist|FriendPrefile2.png" SID="1042"/>
+  <String String="UIAnim.plist|check-15.png" SID="1043"/>
+  <String String="UIAnim.plist|check-16.png" SID="1044"/>
+  <String String="UIAnim.plist|check-17.png" SID="1045"/>
+  <String String="UIAnim.plist|clock-40.png" SID="1046"/>
+  <String String="UIAnim.plist|clock-41.png" SID="1047"/>
+  <String String="UIAnim.plist|clock-42.png" SID="1048"/>
+  <String String="UIAnim.plist|clock-43.png" SID="1049"/>
+  <String String="UIAnim.plist|clock-44.png" SID="1050"/>
+  <String String="UIAnim.plist|clock-45.png" SID="1051"/>
+  <String String="UIAnim.plist|clock-46.png" SID="1052"/>
+  <String String="UIAnim.plist|clock-47.png" SID="1053"/>
+  <String String="UIAnim.plist|clock-48.png" SID="1054"/>
+  <String String="UIAnim.plist|clock-49.png" SID="1055"/>
+  <String String="UIAnim.plist|clock-50.png" SID="1056"/>
+  <String String="UIAnim.plist|clock-51.png" SID="1057"/>
+  <String String="UIAnim.plist|crown-33.png" SID="1058"/>
+  <String String="UIAnim.plist|crown-34.png" SID="1059"/>
+  <String String="UIAnim.plist|crown-35.png" SID="1060"/>
+  <String String="UIAnim.plist|empty-15.png" SID="1061"/>
+  <String String="UIAnim.plist|exit_4X.png" SID="1062"/>
+  <String String="UIAnim.plist|growingjelly-03.png" SID="1063"/>
+  <String String="CCBUI.plist|LittleStar.png" SID="1064"/>
+  <String String="UIAnim.plist|ui_fb0.png" SID="1065"/>
+  <String String="UIAnim.plist|ui_menu0.png" SID="1066"/>
+  <String String="UIAnim.plist|ui_next0.png" SID="1067"/>
+  <String String="UIAnim.plist|ui_retry0.png" SID="1068"/>
+  <String String="UIAnim.plist|ui_setting0.png" SID="1069"/>
+  <String String="UIAnim.plist|growingjelly-04.png" SID="1070"/>
+  <String String="UIAnim.plist|growingjelly-05.png" SID="1071"/>
+  <String String="UIAnim.plist|growingjelly-06.png" SID="1072"/>
+  <String String="UIAnim.plist|growingjelly-09.png" SID="1073"/>
+  <String String="UIAnim.plist|growingjelly-10.png" SID="1074"/>
+  <String String="CCBUI.plist|SentHeartDecorate.png" SID="1075"/>
+  <String String="UIAnim.plist|growingjelly-12.png" SID="1076"/>
+  <String String="UIAnim.plist|growingjelly-13.png" SID="1077"/>
+  <String String="UIAnim.plist|growingjelly-14.png" SID="1078"/>
+  <String String="UIAnim.plist|growingjelly-15.png" SID="1079"/>
+  <String String="UIAnim.plist|gstar-29.png" SID="1080"/>
+  <String String="UIAnim.plist|gstar-30.png" SID="1081"/>
+  <String String="UIAnim.plist|guidenpc-14.png" SID="1082"/>
+  <String String="UIAnim.plist|guidenpc-16.png" SID="1083"/>
+  <String String="UIAnim.plist|heart-09.png" SID="1084"/>
+  <String String="UIAnim.plist|map-37.png" SID="1085"/>
+  <String String="CCBUI.plist|brownstar.png" SID="1086"/>
+  <String String="CCBUI.plist|button_sentheart.png" SID="1087"/>
+  <String String="CCBUI.plist|daily_1.png" SID="1088"/>
+  <String String="CCBUI.plist|daily_10.png" SID="1089"/>
+  <String String="CCBUI.plist|daily_11.png" SID="1090"/>
+  <String String="UIAnim.plist|o4g.png" SID="1091"/>
+  <String String="UIAnim.plist|onoff-02.png" SID="1092"/>
+  <String String="UIAnim.plist|onoff-03.png" SID="1093"/>
+  <String String="UIAnim.plist|onoff-04.png" SID="1094"/>
+  <String String="UIAnim.plist|onoff-05.png" SID="1095"/>
+  <String String="UIAnim.plist|onoff-06.png" SID="1096"/>
+  <String String="UIAnim.plist|onoff-07.png" SID="1097"/>
+  <String String="UIAnim.plist|onoff-08.png" SID="1098"/>
+  <String String="UIAnim.plist|sence effct-02.png" SID="1099"/>
+  <String String="UIAnim.plist|sence effct-03.png" SID="1100"/>
+  <String String="UIAnim.plist|sence effct-04.png" SID="1101"/>
+  <String String="UIAnim.plist|starlight2-62.png" SID="1102"/>
+  <String String="UIAnim.plist|stars-18.png" SID="1103"/>
+  <String String="UIAnim.plist|stars-19.png" SID="1104"/>
+  <String String="UIAnim.plist|stars-20.png" SID="1105"/>
+  <String String="UIAnim.plist|stars-21.png" SID="1106"/>
+  <String String="UIAnim.plist|stars-22.png" SID="1107"/>
+  <String String="UIAnim.plist|stars-23.png" SID="1108"/>
+  <String String="UIAnim.plist|stars-24.png" SID="1109"/>
+  <String String="UIAnim.plist|stars-25.png" SID="1110"/>
+  <String String="UIAnim.plist|stars-26.png" SID="1111"/>
+  <String String="UIAnim.plist|stars-27.png" SID="1112"/>
+  <String String="UIAnim.plist|stars-28.png" SID="1113"/>
+  <String String="UIAnim.plist|tut_guidehand.png" SID="1114"/>
+  <String String="CCBUI.plist|daily_12.png" SID="1115"/>
+  <String String="CCBUI.plist|daily_13.png" SID="1116"/>
+  <String String="UIAnim.plist|ui_add.png" SID="1117"/>
+  <String String="UIAnim.plist|ui_addcoin.png" SID="1118"/>
+  <String String="UIAnim.plist|ui_book0.png" SID="1119"/>
+  <String String="UIAnim.plist|ui_close1.png" SID="1120"/>
+  <String String="UIAnim.plist|ui_fb_connected.png" SID="1121"/>
+  <String String="UIAnim.plist|ui_gold0.png" SID="1122"/>
+  <String String="UIAnim.plist|50offcover.png" SID="1123"/>
+  <String String="CCBUI.plist|FriendsIcon.png" SID="1124"/>
+  <String String="CCBUI.plist|daily_2.png" SID="1125"/>
+  <String String="UIAnim.plist|ui_help1.png" SID="1126"/>
+  <String String="CCBUI.plist|InviteIcon.png" SID="1127"/>
+  <String String="UIAnim.plist|ui_icon_new.png" SID="1128"/>
+  <String String="UIAnim.plist|ui_icon_rate.png" SID="1129"/>
+  <String String="CCBUI.plist|daily_3.png" SID="1130"/>
+  <String String="UIAnim.plist|ui_life1.png" SID="1131"/>
+  <String String="UIAnim.plist|ui_message0.png" SID="1132"/>
+  <String String="UIAnim.plist|ui_pause.png" SID="1133"/>
+  <String String="CCBUI.plist|daily_4.png" SID="1134"/>
+  <String String="CCBUI.plist|GreenSmallButton.png" SID="1135"/>
+  <String String="UIAnim.plist|ui_redlabel.png" SID="1136"/>
+  <String String="UIAnim.plist|ui_sendlife0.png" SID="1137"/>
+  <String String="UIAnim.plist|ui_sendlife1.png" SID="1138"/>
+  <String String="CCBUI.plist|Arrow.png" SID="1139"/>
+  <String String="CCBUI.plist|ConnectDecorate.png" SID="1140"/>
+  <String String="CCBUI.plist|F.png" SID="1141"/>
+  <String String="CCBUI.plist|WeixinButton.png" SID="1142"/>
+  <String String="CCBUI.plist|WeixinIcon.png" SID="1143"/>
+  <String String="CCBUI.plist|FbInviteDecorate.png" SID="1144"/>
+  <String String="CCBUI.plist|FreeSpin.png" SID="1145"/>
+  <String String="CCBUI.plist|FriendTouxiang.png" SID="1146"/>
+  <String String="CCBUI.plist|FriendsAppears.png" SID="1147"/>
+  <String String="CCBUI.plist|GiftPop.png" SID="1148"/>
+  <String String="CCBUI.plist|GoldIcon.png" SID="1149"/>
+  <String String="CCBUI.plist|InviteDecorate.png" SID="1150"/>
+  <String String="CCBUI.plist|MessageCheck0.png" SID="1151"/>
+  <String String="CCBUI.plist|MessageCheck1.png" SID="1152"/>
+  <String String="CCBUI.plist|NpcNoMoves.png" SID="1153"/>
+  <String String="CCBUI.plist|NpcWin.png" SID="1154"/>
+  <String String="CCBUI.plist|Npcfailed.png" SID="1155"/>
+  <String String="CCBUI.plist|SpinBG.png" SID="1156"/>
+  <String String="CCBUI.plist|SpinCover.png" SID="1157"/>
+  <String String="CCBUI.plist|daily_5.png" SID="1158"/>
+  <String String="CCBUI.plist|Ttriangle.png" SID="1159"/>
+  <String String="CCBUI.plist|UnreadMessage.png" SID="1160"/>
+  <String String="CCBUI.plist|Weixintiao.png" SID="1161"/>
+  <String String="CCBUI.plist|WhiteTag.png" SID="1162"/>
+  <String String="CCBUI.plist|avatar_board.png" SID="1163"/>
+  <String String="CCBUI.plist|avatar_frame.png" SID="1164"/>
+  <String String="UIAnim.plist|SpinArrow.png" SID="1165"/>
+  <String String="CCBUI.plist|coin_bonus_icon.png" SID="1166"/>
+  <String String="UIAnim.plist|infinity.png" SID="1167"/>
+  <String String="CCBUI.plist|fbIcon.png" SID="1168"/>
+  <String String="CCBUI.plist|gift_box_enable.png" SID="1169"/>
+  <String String="CCBUI.plist|daily_6.png" SID="1170"/>
+  <String String="CCBUI.plist|FunToInvite.png" SID="1171"/>
+  <String String="CCBUI.plist|GoalGuideWindow1.png" SID="1172"/>
+  <String String="CCBUI.plist|GoalGuideWindow2.png" SID="1173"/>
+  <String String="CCBUI.plist|mark_redline.png" SID="1174"/>
+  <String String="CCBUI.plist|daily_7.png" SID="1175"/>
+  <String String="CCBUI.plist|spin_reward_bg.png" SID="1176"/>
+  <String String="CCBUI.plist|daily_8.png" SID="1177"/>
+  <String String="CCBUI.plist|star_enable.png" SID="1178"/>
+  <String String="CCBUI.plist|touxiang-00.png" SID="1179"/>
+  <String String="CCBUI.plist|touxiang-01.png" SID="1180"/>
+  <String String="CCBUI.plist|touxiang-02.png" SID="1181"/>
+  <String String="CCBUI.plist|touxiang-03.png" SID="1182"/>
+  <String String="CCBUI.plist|touxiang-04.png" SID="1183"/>
+  <String String="CCBUI.plist|touxiang-05.png" SID="1184"/>
+  <String String="CCBUI.plist|tut_arrow.png" SID="1185"/>
+  <String String="CCBUI.plist|tut_mask.png" SID="1186"/>
+  <String String="CCBUI.plist|tut_maskcircle.png" SID="1187"/>
+  <String String="CCBUI.plist|ui_addfrd_icon.png" SID="1188"/>
+  <String String="CCBUI.plist|daily_9.png" SID="1189"/>
+  <String String="CCBUI.plist|dailybox.png" SID="1190"/>
+  <String String="CCBUI.plist|google_play.png" SID="1191"/>
+  <String String="CCBUI.plist|ui_a_gold1.png" SID="1192"/>
+  <String String="CCBUI.plist|ui_a_gold2.png" SID="1193"/>
+  <String String="CCBUI.plist|ui_a_gold3.png" SID="1194"/>
+  <String String="CCBUI.plist|ui_a_salelable.png" SID="1195"/>
+  <String String="CCBUI.plist|ui_collectbar.png" SID="1196"/>
+  <String String="CCBUI.plist|ui_collectbar_cover.png" SID="1197"/>
+  <String String="CCBUI.plist|ui_collectbarbg.png" SID="1198"/>
+  <String String="CCBUI.plist|ui_decostar.png" SID="1199"/>
+  <String String="CCBUI.plist|ui_earnbg.png" SID="1200"/>
+  <String String="CCBUI.plist|ui_gold0.png" SID="1201"/>
+  <String String="CCBUI.plist|ui_gold1.png" SID="1202"/>
+  <String String="CCBUI.plist|ui_gold2.png" SID="1203"/>
+  <String String="CCBUI.plist|ui_gold3.png" SID="1204"/>
+  <String String="CCBUI.plist|ui_gold4.png" SID="1205"/>
+  <String String="CCBUI.plist|ui_gold5.png" SID="1206"/>
+  <String String="UIAnim.plist|ui_invite0.png" SID="1207"/>
+  <String String="CCBUI.plist|ui_icon_b_1.png" SID="1208"/>
+  <String String="CCBUI.plist|ui_icon_b_2.png" SID="1209"/>
+  <String String="CCBUI.plist|ui_icon_b_3.png" SID="1210"/>
+  <String String="CCBUI.plist|ui_icon_b_4.png" SID="1211"/>
+  <String String="CCBUI.plist|ui_icon_namebg.png" SID="1212"/>
+  <String String="CCBUI.plist|ui_icon_rank_1.png" SID="1213"/>
+  <String String="CCBUI.plist|ui_icon_rank_2.png" SID="1214"/>
+  <String String="CCBUI.plist|ui_icon_rank_3.png" SID="1215"/>
+  <String String="CCBUI.plist|ui_icon_u_1.png" SID="1216"/>
+  <String String="CCBUI.plist|ui_icon_u_2.png" SID="1217"/>
+  <String String="CCBUI.plist|ui_icon_u_3.png" SID="1218"/>
+  <String String="CCBUI.plist|ui_icon_u_4.png" SID="1219"/>
+  <String String="CCBUI.plist|ui_itembg.png" SID="1220"/>
+  <String String="CCBUI.plist|ui_life0.png" SID="1221"/>
+  <String String="CCBUI.plist|ui_plus.png" SID="1222"/>
+  <String String="CCBUI.plist|booster_bonus_bg.png" SID="1223"/>
+  <String String="CCBUI.plist|ui_restore.png" SID="1224"/>
+  <String String="CCBUI.plist|ui_spin0.png" SID="1225"/>
+  <String String="CCBUI.plist|ui_salelabel.png" SID="1226"/>
+  <String String="CCBUI.plist|ui_statusbg.png" SID="1227"/>
+  <String String="CCBUI.plist|ui_targetbg.png" SID="1228"/>
+  <String String="CCBUI.plist|ui_titlebg.png" SID="1229"/>
+  <String String="CCBUI.plist|ui_whitebar.png" SID="1230"/>
+  <String String="CCBUI.plist|ui_window1.png" SID="1231"/>
+  <String String="CCBUI.plist|decorate_daily_ip4.png" SID="1232"/>
+  <String String="CCBUI.plist|decorate_dailybox.png" SID="1233"/>
+  <String String="CCBUI.plist|decorate_dailymissed.png" SID="1234"/>
+  <String String="CCBUI.plist|decorate_today.png" SID="1235"/>
+  <String String="MainUI.plist|LogoutButton.png" SID="1236"/>
+  <String String="CCBUI.plist|discount_bg.png" SID="1237"/>
+  <String String="CCBUI.plist|unlimit_life_icon.png" SID="1238"/>
+  <String String="CCBUI.plist|unlimited.png" SID="1239"/>
+  <String String="CCBUI.plist|usericon0.png" SID="1240"/>
+  <String String="CCBUI.plist|usericon1.png" SID="1241"/>
+  <String String="CCBUI.plist|usericon2.png" SID="1242"/>
+  <String String="CCBUI.plist|usericon3.png" SID="1243"/>
+  <String String="CCBUI.plist|usericon4.png" SID="1244"/>
+  <String String="CCBUI.plist|usericon5.png" SID="1245"/>
+  <String String="CCBUI.plist|gold_bonus_bg.png" SID="1246"/>
+  <String String="CCBUI.plist|gold_bonus_cover.png" SID="1247"/>
+  <String String="CCBUI.plist|green_check.png" SID="1248"/>
+  <String String="CCBUI.plist|heart_enable.png" SID="1249"/>
+  <String String="CCBUI.plist|reward_bg_light.png" SID="1250"/>
+  <String String="CCBUI.plist|star_coin.png" SID="1251"/>
+  <String String="CCBUI.plist|ui_liferainbow.png" SID="1252"/>
+  <String String="CCBUI.plist|ui_pop_1star.png" SID="1253"/>
+  <String String="CCBUI.plist|unlimitLife_upgrade_icon.png" SID="1254"/>
+  <String String="CCBUI.plist|unlimit_heart.png" SID="1255"/>
+  <String String="MainUI.plist|PrizeListButton.png" SID="1256"/>
+  <String String="MainUI.plist|Tbg.png" SID="1257"/>
+  <String String="MainUI.plist|ui-blueB2.png" SID="1258"/>
+  <String String="MainUI.plist|ui-greenB2.png" SID="1259"/>
+  <String String="MainUI.plist|ui_blueA1.png" SID="1260"/>
+  <String String="MainUI.plist|ui_blueB1.png" SID="1261"/>
+  <String String="MainUI.plist|ui_blueC1.png" SID="1262"/>
+  <String String="MainUI.plist|ui_gray_btn.png" SID="1263"/>
+  <String String="MainUI.plist|ui_greenA1.png" SID="1264"/>
+  <String String="MainUI.plist|ui_redA1.png" SID="1265"/>
+  <String String="MainUI.plist|ui_window2.png" SID="1266"/>
+  <String String="MainUI.plist|ui_window3.png" SID="1267"/>
+  <String String="MainUI.plist|ui_window4.png" SID="1268"/>
+  <String String="MainUI.plist|ui_yellowC1.png" SID="1269"/>
+  <String String="CCBUI.plist|decorate_yesterday.png" SID="1270"/>
+  <String String="CCBUI.plist|stamp.png" SID="1271"/>
+  <String String="MainUI.plist|sky.png" SID="1272"/>
+ </StringCache>
+ <xidLinks>
+  <Link SID="1262" XID="1"/>
+  <Link SID="1260" XID="2"/>
+  <Link SID="1261" XID="3"/>
+  <Link SID="1269" XID="4"/>
+  <Link SID="1135" XID="5"/>
+  <Link SID="1191" XID="6"/>
+  <Link SID="1143" XID="7"/>
+  <Link SID="1188" XID="8"/>
+  <Link SID="1127" XID="9"/>
+  <Link SID="1065" XID="10"/>
+  <Link SID="1066" XID="11"/>
+  <Link SID="1067" XID="12"/>
+  <Link SID="1068" XID="13"/>
+  <Link SID="1069" XID="14"/>
+  <Link SID="1142" XID="15"/>
+  <Link SID="1207" XID="16"/>
+  <Link SID="1225" XID="17"/>
+  <Link SID="1238" XID="18"/>
+  <Link SID="1178" XID="19"/>
+  <Link SID="1166" XID="20"/>
+  <Link SID="1169" XID="21"/>
+  <Link SID="1124" XID="22"/>
+ </xidLinks>
+ <Variables>
+  <Var VID="0" name="Button_Texture"/>
+  <Var VID="1" name="Button_Image_Texture"/>
+ </Variables>
+ <Skins>
+  <Skin name="SettingYellow">
+   <Keyframe type="8" data="4" VID="0" changeType="0" changeClass="0"/>
+   <Keyframe type="8" data="14" VID="1" changeType="0" changeClass="0"/>
+  </Skin>
+  <Skin name="Setting">
+   <Keyframe type="8" data="1" VID="0" changeType="0" changeClass="0"/>
+   <Keyframe type="8" data="14" VID="1" changeType="0" changeClass="0"/>
+  </Skin>
+  <Skin name="UnlimitLife">
+   <Keyframe type="8" data="18" VID="0" changeType="0" changeClass="0"/>
+   <Keyframe type="8" data="-1" VID="1" changeType="0" changeClass="0"/>
+  </Skin>
+  <Skin name="GoldBonus">
+   <Keyframe type="8" data="20" VID="0" changeType="0" changeClass="0"/>
+   <Keyframe type="8" data="-1" VID="1" changeType="0" changeClass="0"/>
+  </Skin>
+  <Skin name="StarReward">
+   <Keyframe type="8" data="19" VID="0" changeType="0" changeClass="0"/>
+   <Keyframe type="8" data="-1" VID="1" changeType="0" changeClass="0"/>
+  </Skin>
+  <Skin name="BonusGift">
+   <Keyframe type="8" data="21" VID="0" changeType="0" changeClass="0"/>
+   <Keyframe type="8" data="-1" VID="1" changeType="0" changeClass="0"/>
+  </Skin>
+  <Skin name="Retry">
+   <Keyframe type="8" data="1" VID="0" changeType="0" changeClass="0"/>
+   <Keyframe type="8" data="13" VID="1" changeType="0" changeClass="0"/>
+  </Skin>
+  <Skin name="Menu">
+   <Keyframe type="8" data="1" VID="0" changeType="0" changeClass="0"/>
+   <Keyframe type="8" data="11" VID="1" changeType="0" changeClass="0"/>
+  </Skin>
+  <Skin name="Facebook">
+   <Keyframe type="8" data="10" VID="1" changeType="0" changeClass="0"/>
+  </Skin>
+  <Skin name="Weixin">
+   <Keyframe type="8" data="5" VID="0" changeType="0" changeClass="0"/>
+   <Keyframe type="8" data="15" VID="1" changeType="0" changeClass="0"/>
+  </Skin>
+  <Skin name="Friends">
+   <Keyframe type="8" data="22" VID="0" changeType="0" changeClass="0"/>
+   <Keyframe type="8" data="-1" VID="1" changeType="0" changeClass="0"/>
+  </Skin>
+  <Skin name="WXReward">
+   <Keyframe type="8" data="7" VID="0" changeType="0" changeClass="0"/>
+   <Keyframe type="8" data="-1" VID="1" changeType="0" changeClass="0"/>
+  </Skin>
+  <Skin name="WXInvite">
+   <Keyframe type="8" data="9" VID="0" changeType="0" changeClass="0"/>
+   <Keyframe type="8" data="-1" VID="1" changeType="0" changeClass="0"/>
+  </Skin>
+  <Skin name="AddFrd">
+   <Keyframe type="8" data="8" VID="0" changeType="0" changeClass="0"/>
+   <Keyframe type="8" data="-1" VID="1" changeType="0" changeClass="0"/>
+  </Skin>
+  <Skin name="FBInvite">
+   <Keyframe type="8" data="16" VID="1" changeType="0" changeClass="0"/>
+  </Skin>
+  <Skin name="Spin">
+   <Keyframe type="8" data="4" VID="0" changeType="0" changeClass="0"/>
+   <Keyframe type="8" data="17" VID="1" changeType="0" changeClass="0"/>
+  </Skin>
+  <Skin name="Achievements">
+   <Keyframe type="8" data="-1" VID="0" changeType="0" changeClass="0"/>
+   <Keyframe type="8" data="6" VID="1" changeType="0" changeClass="0"/>
+  </Skin>
+ </Skins>
+ <NodeStructure>
+  <Node From="-1" Type="1" To="0" Name="根节点"/>
+  <Node From="0" Type="2" To="1" Name="图层"/>
+  <Node From="0" Type="2" To="2" Name="图层"/>
+ </NodeStructure>
+ <Animations>
+  <Animation>
+   <TextureFiles>
+    <TexFile FileName="MainUI.plist"/>
+    <TexFile FileName="CCBUI.plist"/>
+    <TexFile FileName=""/>
+    <TexFile FileName="UIAnim.plist"/>
+   </TextureFiles>
+   <Keyframes>
+    <Node NodeID="0">
+     <Property Type="16">
+      <Keyframe index="0" data="1005" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="18">
+      <Keyframe index="0" data="50" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="19">
+      <Keyframe index="0" data="10" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+    </Node>
+    <Node NodeID="1">
+     <Property Type="1">
+      <Keyframe index="3" data="0.9|0.9" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="5" data="0.929476|0.929476" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="7" data="0.837843|0.837843" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="9" data="0.9|0.9" ref="-1" changeType="1" changeClass="0"/>
+     </Property>
+     <Property Type="7">
+      <Keyframe index="0" data="1" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="8">
+      <Keyframe index="0" data="1" ref="0" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="25">
+      <Keyframe index="0" data="770" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+    </Node>
+    <Node NodeID="2">
+     <Property Type="1">
+      <Keyframe index="3" data="0.9|0.9" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="5" data="1|1" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="7" data="0.8|0.8" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="9" data="0.9|0.9" ref="-1" changeType="1" changeClass="0"/>
+     </Property>
+     <Property Type="7">
+      <Keyframe index="0" data="1" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="8">
+      <Keyframe index="0" data="10" ref="1" changeType="0" changeClass="0"/>
+     </Property>
+    </Node>
+   </Keyframes>
+  </Animation>
+  <Animation>
+   <TextureFiles>
+    <TexFile FileName="MainUI.plist"/>
+    <TexFile FileName="CCBUI.plist"/>
+    <TexFile FileName=""/>
+    <TexFile FileName="UIAnim.plist"/>
+   </TextureFiles>
+   <Keyframes>
+    <Node NodeID="0">
+     <Property Type="16">
+      <Keyframe index="0" data="1006" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="19">
+      <Keyframe index="0" data="1" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+    </Node>
+    <Node NodeID="1">
+     <Property Type="1">
+      <Keyframe index="0" data="0.9|0.9" ref="-1" changeType="1" changeClass="0"/>
+     </Property>
+     <Property Type="7">
+      <Keyframe index="0" data="1" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="8">
+      <Keyframe index="0" data="1" ref="0" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="25">
+      <Keyframe index="0" data="770" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+    </Node>
+    <Node NodeID="2">
+     <Property Type="1">
+      <Keyframe index="0" data="0.9|0.9" ref="-1" changeType="1" changeClass="0"/>
+     </Property>
+     <Property Type="7">
+      <Keyframe index="0" data="1" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="8">
+      <Keyframe index="0" data="-1" ref="1" changeType="0" changeClass="0"/>
+     </Property>
+    </Node>
+   </Keyframes>
+  </Animation>
+  <Animation>
+   <TextureFiles>
+    <TexFile FileName="MainUI.plist"/>
+    <TexFile FileName="CCBUI.plist"/>
+    <TexFile FileName=""/>
+    <TexFile FileName="UIAnim.plist"/>
+   </TextureFiles>
+   <Keyframes>
+    <Node NodeID="0">
+     <Property Type="16">
+      <Keyframe index="0" data="1008" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="18">
+      <Keyframe index="0" data="50" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="19">
+      <Keyframe index="0" data="20" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+    </Node>
+    <Node NodeID="1">
+     <Property Type="1">
+      <Keyframe index="0" data="0.9|0.9" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="3" data="1.15|1.15" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="6" data="0.95|0.95" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="10" data="1.1|1.1" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="13" data="0.98|0.98" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="16" data="1.05|1.05" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="19" data="1|1" ref="-1" changeType="1" changeClass="0"/>
+     </Property>
+     <Property Type="7">
+      <Keyframe index="0" data="1" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="8">
+      <Keyframe index="0" data="1" ref="0" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="25">
+      <Keyframe index="0" data="770" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+    </Node>
+    <Node NodeID="2">
+     <Property Type="1">
+      <Keyframe index="0" data="0.9|0.9" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="3" data="1.15|1.15" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="6" data="0.95|0.95" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="10" data="1.1|1.1" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="13" data="0.98|0.98" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="16" data="1.05|1.05" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="19" data="1|1" ref="-1" changeType="1" changeClass="0"/>
+     </Property>
+     <Property Type="7">
+      <Keyframe index="0" data="1" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="8">
+      <Keyframe index="0" data="-1" ref="1" changeType="0" changeClass="0"/>
+     </Property>
+    </Node>
+   </Keyframes>
+  </Animation>
+  <Animation>
+   <TextureFiles>
+    <TexFile FileName="MainUI.plist"/>
+    <TexFile FileName="CCBUI.plist"/>
+    <TexFile FileName=""/>
+    <TexFile FileName="UIAnim.plist"/>
+   </TextureFiles>
+   <Keyframes>
+    <Node NodeID="0">
+     <Property Type="16">
+      <Keyframe index="0" data="1010" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="18">
+      <Keyframe index="0" data="5" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="19">
+      <Keyframe index="0" data="1" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+    </Node>
+    <Node NodeID="1">
+     <Property Type="7">
+      <Keyframe index="0" data="1" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="8">
+      <Keyframe index="0" data="1" ref="0" changeType="0" changeClass="0"/>
+     </Property>
+    </Node>
+    <Node NodeID="2">
+     <Property Type="7">
+      <Keyframe index="0" data="1" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="8">
+      <Keyframe index="0" data="-1" ref="1" changeType="0" changeClass="0"/>
+     </Property>
+    </Node>
+   </Keyframes>
+  </Animation>
+ </Animations>
+</NEAFileData>

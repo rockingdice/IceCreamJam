@@ -1,0 +1,146 @@
+<NEAFileData>
+ <StringCache>
+  <String String="" SID="-1"/>
+  <String String="" SID="0"/>
+  <String String="SpecialElements.plist|Canon-77.png" SID="1001"/>
+  <String String="SpecialElements.plist|Wall-78.png" SID="1002"/>
+  <String String="SpecialElements.plist|Wall-79.png" SID="1004"/>
+  <String String="SpecialElements.plist|Wall-80.png" SID="1005"/>
+  <String String="SpecialElements.plist|Wall-81.png" SID="1006"/>
+  <String String="SpecialElements.plist|Wall-82.png" SID="1007"/>
+  <String String="SpecialElements.plist|Wall-83.png" SID="1008"/>
+  <String String="SpecialElements.plist|Wall-84.png" SID="1009"/>
+  <String String="SpecialElements.plist|bear-40.png" SID="1010"/>
+  <String String="SpecialElements.plist|bear-41.png" SID="1011"/>
+  <String String="SpecialElements.plist|bear-42.png" SID="1012"/>
+  <String String="SpecialElements.plist|bear-43.png" SID="1013"/>
+  <String String="SpecialElements.plist|bear-44.png" SID="1014"/>
+  <String String="SpecialElements.plist|bear-45.png" SID="1015"/>
+  <String String="SpecialElements.plist|bear-46.png" SID="1016"/>
+  <String String="SpecialElements.plist|bear-47.png" SID="1017"/>
+  <String String="SpecialElements.plist|bear-48.png" SID="1018"/>
+  <String String="SpecialElements.plist|bear3.png" SID="1019"/>
+  <String String="SpecialElements.plist|cannon_ray.png" SID="1020"/>
+  <String String="SpecialElements.plist|canon-73.png" SID="1021"/>
+  <String String="SpecialElements.plist|canon-74.png" SID="1022"/>
+  <String String="SpecialElements.plist|canon-75.png" SID="1023"/>
+  <String String="SpecialElements.plist|cotton3.png" SID="1024"/>
+  <String String="SpecialElements.plist|cottonpics-02.png" SID="1025"/>
+  <String String="SpecialElements.plist|cottonpics-05.png" SID="1026"/>
+  <String String="SpecialElements.plist|cottonpics-06.png" SID="1027"/>
+  <String String="SpecialElements.plist|cottonpics-07.png" SID="1028"/>
+  <String String="SpecialElements.plist|cottonpics-08.png" SID="1029"/>
+  <String String="SpecialElements.plist|cottonpics-09.png" SID="1030"/>
+  <String String="SpecialElements.plist|cottonpics-10.png" SID="1031"/>
+  <String String="SpecialElements.plist|cottonpics-11.png" SID="1032"/>
+  <String String="SpecialElements.plist|cottonpics-12.png" SID="1033"/>
+  <String String="SpecialElements.plist|cottonpics-13.png" SID="1034"/>
+  <String String="SpecialElements.plist|sence effct-04.png" SID="1035"/>
+  <String String="SpecialElements.plist|special4-53.png" SID="1036"/>
+  <String String="SpecialElements.plist|special4-54.png" SID="1037"/>
+  <String String="SpecialElements.plist|special4-55.png" SID="1038"/>
+  <String String="SpecialElements.plist|special4-56.png" SID="1039"/>
+  <String String="SpecialElements.plist|special4-57.png" SID="1040"/>
+  <String String="SpecialElements.plist|special4-58.png" SID="1041"/>
+  <String String="SpecialElements.plist|special4-59.png" SID="1042"/>
+  <String String="SpecialElements.plist|special4-60.png" SID="1043"/>
+  <String String="SpecialElements.plist|spot-85.png" SID="1044"/>
+  <String String="SpecialElements.plist|water-16.png" SID="1045"/>
+  <String String="SpecialElements.plist|water-17.png" SID="1046"/>
+  <String String="SpecialElements.plist|water-18.png" SID="1047"/>
+  <String String="SpecialElements.plist|water-19.png" SID="1048"/>
+  <String String="SpecialElements.plist|water-20.png" SID="1049"/>
+  <String String="SpecialElements.plist|water-21.png" SID="1050"/>
+  <String String="SpecialElements.plist|water-22.png" SID="1051"/>
+  <String String="SpecialElements.plist|water-23.png" SID="1052"/>
+  <String String="SpecialElements.plist|water-24.png" SID="1053"/>
+  <String String="SpecialElements.plist|water-25.png" SID="1054"/>
+  <String String="SpecialElements.plist|water-26.png" SID="1055"/>
+  <String String="SpecialElements.plist|water-27.png" SID="1056"/>
+  <String String="SpecialElements.plist|water-28.png" SID="1057"/>
+  <String String="SpecialElements.plist|water-29.png" SID="1058"/>
+  <String String="SpecialElements.plist|water-30.png" SID="1059"/>
+  <String String="SpecialElements.plist|water-31.png" SID="1060"/>
+  <String String="SpecialElements.plist|water-32.png" SID="1061"/>
+  <String String="SpecialElements.plist|water-33.png" SID="1062"/>
+  <String String="SpecialElements.plist|water-34.png" SID="1063"/>
+  <String String="SpecialElements.plist|water-36.png" SID="1064"/>
+  <String String="SpecialElements.plist|water-64.png" SID="1065"/>
+  <String String="Init" SID="1066"/>
+ </StringCache>
+ <xidLinks>
+  <Link SID="1020" XID="3"/>
+ </xidLinks>
+ <Variables/>
+ <Skins/>
+ <NodeStructure>
+  <Node From="-1" Type="1" To="0" Name="根节点"/>
+  <Node From="0" Type="2" To="3" Name="图层"/>
+ </NodeStructure>
+ <Animations>
+  <Animation>
+   <TextureFiles>
+    <TexFile FileName="SpecialElements.plist"/>
+   </TextureFiles>
+   <Keyframes>
+    <Node NodeID="0">
+     <Property Type="16">
+      <Keyframe index="0" data="1066" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="18">
+      <Keyframe index="0" data="45" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="19">
+      <Keyframe index="0" data="20" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+    </Node>
+    <Node NodeID="3">
+     <Property Type="0">
+      <Keyframe index="5" data="0|0" ref="-1" changeType="1" changeClass="0"/>
+     </Property>
+     <Property Type="1">
+      <Keyframe index="5" data="1|1" ref="-1" changeType="1" changeClass="0"/>
+     </Property>
+     <Property Type="3">
+      <Keyframe index="5" data="0|0" ref="-1" changeType="1" changeClass="0"/>
+     </Property>
+     <Property Type="4">
+      <Keyframe index="5" data="255|255|255" ref="-1" changeType="1" changeClass="0"/>
+     </Property>
+     <Property Type="5">
+      <Keyframe index="0" data="0" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="5" data="0" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="7" data="255" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="14" data="225" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="19" data="0" ref="-1" changeType="1" changeClass="0"/>
+     </Property>
+     <Property Type="6">
+      <Keyframe index="5" data="0.5|0" ref="-1" changeType="1" changeClass="0"/>
+     </Property>
+     <Property Type="7">
+      <Keyframe index="0" data="1" ref="-1" changeType="0" changeClass="0"/>
+      <Keyframe index="5" data="1" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="8">
+      <Keyframe index="0" data="3" ref="-1" changeType="0" changeClass="0"/>
+      <Keyframe index="5" data="3" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="22">
+      <Keyframe index="5" data="1" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="25">
+      <Keyframe index="0" data="771" ref="-1" changeType="0" changeClass="0"/>
+      <Keyframe index="5" data="771" ref="-1" changeType="0" changeClass="0"/>
+      <Keyframe index="7" data="1" ref="-1" changeType="0" changeClass="0"/>
+      <Keyframe index="14" data="1" ref="-1" changeType="0" changeClass="0"/>
+      <Keyframe index="19" data="771" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="26">
+      <Keyframe index="0" data="1" ref="-1" changeType="0" changeClass="0"/>
+      <Keyframe index="5" data="1" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+    </Node>
+   </Keyframes>
+  </Animation>
+ </Animations>
+</NEAFileData>

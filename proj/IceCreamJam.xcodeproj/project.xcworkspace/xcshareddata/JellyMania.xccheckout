@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>253C63DA-00A2-420E-BC7C-9C2FADFD2F84</string>
+	<key>IDESourceControlProjectName</key>
+	<string>JellyMania</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>291B4AFF-2CF5-4424-9B1A-DE82FEB500EA</key>
+		<string>https://github.com/SNSGame/JellyMania.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>JellyMania.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>291B4AFF-2CF5-4424-9B1A-DE82FEB500EA</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/SNSGame/JellyMania.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>291B4AFF-2CF5-4424-9B1A-DE82FEB500EA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>291B4AFF-2CF5-4424-9B1A-DE82FEB500EA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>JellyMania</string>
+		</dict>
+	</array>
+</dict>
+</plist>

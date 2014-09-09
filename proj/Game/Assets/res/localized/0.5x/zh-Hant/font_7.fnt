@@ -1,0 +1,745 @@
+info face="FZCuYuan-M03T" size=6 bold=0 italic=0 charset="" unicode=0 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=2,2
+common lineHeight=9 base=5 scaleW=238 scaleH=239 pages=1 packed=0
+page id=0 file="font_7.png"
+chars count=564
+char id=25103 x=2 y=2 width=8 height=9 xoffset=0 yoffset=-0 xadvance=6 page=0 chnl=0 letter="戏"
+char id=20048 x=12 y=2 width=8 height=9 xoffset=0 yoffset=-0 xadvance=6 page=0 chnl=0 letter="乐"
+char id=102 x=22 y=2 width=5 height=9 xoffset=-0 yoffset=-0 xadvance=2 page=0 chnl=0 letter="f"
+char id=31614 x=29 y=2 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="签"
+char id=21040 x=39 y=2 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="到"
+char id=22870 x=49 y=2 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="奖"
+char id=21169 x=59 y=2 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="励"
+char id=23558 x=69 y=2 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="将"
+char id=35201 x=79 y=2 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="要"
+char id=20174 x=89 y=2 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="从"
+char id=31532 x=99 y=2 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="第"
+char id=22825 x=109 y=2 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="天"
+char id=37325 x=119 y=2 width=8 height=8 xoffset=0 yoffset=-0 xadvance=6 page=0 chnl=0 letter="重"
+char id=26032 x=129 y=2 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="新"
+char id=24320 x=139 y=2 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="开"
+char id=22987 x=149 y=2 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="始"
+char id=20294 x=159 y=2 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="但"
+char id=26159 x=169 y=2 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="是"
+char id=20320 x=179 y=2 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="你"
+char id=21487 x=189 y=2 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="可"
+char id=20197 x=199 y=2 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="以"
+char id=29992 x=209 y=2 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="用"
+char id=37329 x=219 y=2 width=8 height=8 xoffset=0 yoffset=-0 xadvance=6 page=0 chnl=0 letter="金"
+char id=24065 x=2 y=13 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="币"
+char id=26469 x=12 y=13 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="来"
+char id=24674 x=22 y=13 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="恢"
+char id=22797 x=32 y=13 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="复"
+char id=26368 x=42 y=13 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="最"
+char id=36817 x=52 y=13 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="近"
+char id=30340 x=62 y=13 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="的"
+char id=25226 x=72 y=13 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="把"
+char id=31070 x=82 y=13 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="神"
+char id=22855 x=92 y=13 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="奇"
+char id=21242 x=102 y=13 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="勺"
+char id=23376 x=112 y=13 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="子"
+char id=24110 x=122 y=13 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="帮"
+char id=21161 x=132 y=13 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="助"
+char id=35299 x=142 y=13 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="解"
+char id=25937 x=152 y=13 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="救"
+char id=26524 x=162 y=13 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="果"
+char id=20923 x=172 y=13 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="冻"
+char id=28857 x=182 y=13 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="点"
+char id=20987 x=192 y=13 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="击"
+char id=32487 x=202 y=13 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="继"
+char id=32493 x=212 y=13 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="续"
+char id=22909 x=222 y=13 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="好"
+char id=26679 x=2 y=23 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="样"
+char id=20877 x=12 y=23 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="再"
+char id=27425 x=22 y=23 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="次"
+char id=32452 x=32 y=23 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="组"
+char id=21512 x=42 y=23 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="合"
+char id=20010 x=52 y=23 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="个"
+char id=34013 x=62 y=23 width=8 height=8 xoffset=0 yoffset=-0 xadvance=6 page=0 chnl=0 letter="蓝"
+char id=33394 x=72 y=23 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="色"
+char id=35753 x=82 y=23 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="让"
+char id=20204 x=92 y=23 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="们"
+char id=26356 x=102 y=23 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="更"
+char id=29980 x=112 y=23 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="甜"
+char id=20351 x=122 y=23 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="使"
+char id=33719 x=132 y=23 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="获"
+char id=24471 x=142 y=23 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="得"
+char id=25968 x=152 y=23 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="数"
+char id=37327 x=162 y=23 width=8 height=8 xoffset=0 yoffset=-0 xadvance=6 page=0 chnl=0 letter="量"
+char id=22810 x=172 y=23 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="多"
+char id=19975 x=182 y=23 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="万"
+char id=33021 x=192 y=23 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="能"
+char id=31435 x=202 y=23 width=8 height=8 xoffset=0 yoffset=-0 xadvance=6 page=0 chnl=0 letter="立"
+char id=21363 x=212 y=23 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="即"
+char id=35831 x=222 y=23 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="请"
+char id=36867 x=2 y=33 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="逃"
+char id=20986 x=12 y=33 width=8 height=8 xoffset=0 yoffset=-0 xadvance=6 page=0 chnl=0 letter="出"
+char id=25240 x=22 y=33 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="折"
+char id=28216 x=32 y=33 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="游"
+char id=26102 x=42 y=33 width=8 height=8 xoffset=0 yoffset=-0 xadvance=6 page=0 chnl=0 letter="时"
+char id=21313 x=52 y=33 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="十"
+char id=23383 x=62 y=33 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="字"
+char id=28040 x=72 y=33 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="消"
+char id=26684 x=82 y=33 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="格"
+char id=29983 x=92 y=33 width=8 height=8 xoffset=0 yoffset=-0 xadvance=6 page=0 chnl=0 letter="生"
+char id=25928 x=102 y=33 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="效"
+char id=21518 x=112 y=33 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="后"
+char id=34892 x=122 y=33 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="行"
+char id=21644 x=132 y=33 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="和"
+char id=21015 x=142 y=33 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="列"
+char id=29616 x=152 y=33 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="现"
+char id=22312 x=162 y=33 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="在"
+char id=24050 x=172 y=33 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="已"
+char id=20805 x=182 y=33 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="充"
+char id=33457 x=192 y=33 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="花"
+char id=36153 x=202 y=33 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="费"
+char id=26143 x=212 y=33 width=8 height=8 xoffset=0 yoffset=-0 xadvance=6 page=0 chnl=0 letter="星"
+char id=22823 x=222 y=33 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="大"
+char id=20307 x=2 y=43 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="体"
+char id=27704 x=12 y=43 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="永"
+char id=20037 x=22 y=43 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="久"
+char id=25552 x=32 y=43 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="提"
+char id=21319 x=42 y=43 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="升"
+char id=27249 x=52 y=43 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="橱"
+char id=26588 x=62 y=43 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="柜"
+char id=37027 x=72 y=43 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="那"
+char id=22836 x=82 y=43 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="头"
+char id=26377 x=92 y=43 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="有"
+char id=21416 x=102 y=43 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="厨"
+char id=24072 x=112 y=43 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="师"
+char id=20182 x=122 y=43 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="他"
+char id=25351 x=132 y=43 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="指"
+char id=36335 x=142 y=43 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="路"
+char id=25105 x=152 y=43 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="我"
+char id=21435 x=162 y=43 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="去"
+char id=25214 x=172 y=43 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="找"
+char id=27493 x=182 y=43 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="步"
+char id=23436 x=192 y=43 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="完"
+char id=20043 x=202 y=43 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="之"
+char id=21069 x=212 y=43 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="前"
+char id=24744 x=222 y=43 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="您"
+char id=38656 x=2 y=53 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="需"
+char id=25104 x=12 y=53 width=8 height=8 xoffset=-0 yoffset=1 xadvance=6 page=0 chnl=0 letter="成"
+char id=36825 x=22 y=53 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="这"
+char id=20219 x=32 y=53 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="任"
+char id=21153 x=42 y=53 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="务"
+char id=21035 x=52 y=53 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="别"
+char id=25285 x=62 y=53 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="担"
+char id=24515 x=72 y=53 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="心"
+char id=36824 x=82 y=53 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="还"
+char id=24456 x=92 y=53 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="很"
+char id=20250 x=102 y=53 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="会"
+char id=20998 x=112 y=53 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="分"
+char id=38047 x=122 y=53 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="钟"
+char id=20869 x=132 y=53 width=8 height=8 xoffset=1 yoffset=1 xadvance=6 page=0 chnl=0 letter="内"
+char id=19981 x=142 y=53 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="不"
+char id=21507 x=152 y=53 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="吃"
+char id=24819 x=162 y=53 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="想"
+char id=34987 x=172 y=53 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="被"
+char id=25481 x=182 y=53 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="掉"
+char id=31958 x=192 y=53 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="糖"
+char id=31881 x=202 y=53 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="粉"
+char id=22320 x=212 y=53 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="地"
+char id=26041 x=222 y=53 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="方"
+char id=21464 x=2 y=63 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="变"
+char id=21734 x=12 y=63 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="哦"
+char id=24182 x=22 y=63 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="并"
+char id=27599 x=32 y=63 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="每"
+char id=22238 x=42 y=63 width=8 height=8 xoffset=0 yoffset=-0 xadvance=6 page=0 chnl=0 letter="回"
+char id=22686 x=52 y=63 width=8 height=8 xoffset=0 yoffset=-0 xadvance=6 page=0 chnl=0 letter="增"
+char id=21152 x=62 y=63 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="加"
+char id=20135 x=72 y=63 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="产"
+char id=23601 x=82 y=63 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="就"
+char id=25171 x=92 y=63 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="打"
+char id=30772 x=102 y=63 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="破"
+char id=20102 x=112 y=63 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="了"
+char id=22351 x=122 y=63 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="坏"
+char id=29483 x=132 y=63 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="猫"
+char id=21862 x=142 y=63 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="啦"
+char id=23567 x=152 y=63 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="小"
+char id=20249 x=162 y=63 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="伙"
+char id=20276 x=172 y=63 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="伴"
+char id=24555 x=182 y=63 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="快"
+char id=36305 x=192 y=63 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="跑"
+char id=21834 x=202 y=63 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="啊"
+char id=22914 x=212 y=63 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="如"
+char id=36215 x=222 y=63 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="起"
+char id=21543 x=2 y=73 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="吧"
+char id=22681 x=12 y=73 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="墙"
+char id=25377 x=22 y=73 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="挡"
+char id=20303 x=32 y=73 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="住"
+char id=22905 x=42 y=73 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="她"
+char id=31359 x=52 y=73 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="穿"
+char id=36807 x=62 y=73 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="过"
+char id=31227 x=72 y=73 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="移"
+char id=21160 x=82 y=73 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="动"
+char id=25327 x=92 y=73 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="拯"
+char id=20309 x=102 y=73 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="何"
+char id=36229 x=112 y=73 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="超"
+char id=32423 x=122 y=73 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="级"
+char id=19978 x=132 y=73 width=8 height=8 xoffset=0 yoffset=-0 xadvance=6 page=0 chnl=0 letter="上"
+char id=37117 x=142 y=73 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="都"
+char id=20256 x=152 y=73 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="传"
+char id=35828 x=162 y=73 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="说"
+char id=20013 x=172 y=73 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="中"
+char id=24378 x=182 y=73 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="强"
+char id=19996 x=192 y=73 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="东"
+char id=35199 x=202 y=73 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="西"
+char id=21548 x=212 y=73 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="听"
+char id=22478 x=222 y=73 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="城"
+char id=24066 x=2 y=83 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="市"
+char id=36793 x=12 y=83 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="边"
+char id=32418 x=22 y=83 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="红"
+char id=20912 x=32 y=83 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="冰"
+char id=28103 x=42 y=83 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="淇"
+char id=28107 x=52 y=83 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="淋"
+char id=24125 x=62 y=83 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="帽"
+char id=34701 x=72 y=83 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="融"
+char id=21270 x=82 y=83 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="化"
+char id=24895 x=92 y=83 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="愿"
+char id=24433 x=102 y=83 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="影"
+char id=21709 x=112 y=83 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="响"
+char id=20248 x=122 y=83 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="优"
+char id=38597 x=132 y=83 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="雅"
+char id=24418 x=142 y=83 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="形"
+char id=35937 x=152 y=83 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="象"
+char id=22359 x=162 y=83 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="块"
+char id=30452 x=172 y=83 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="直"
+char id=25509 x=182 y=83 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="接"
+char id=20914 x=192 y=83 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="冲"
+char id=28151 x=202 y=83 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="混"
+char id=21407 x=212 y=83 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="原"
+char id=26009 x=222 y=83 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="料"
+char id=21482 x=2 y=93 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="只"
+char id=29066 x=12 y=93 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="熊"
+char id=25361 x=22 y=93 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="挑"
+char id=25112 x=32 y=93 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="战"
+char id=20851 x=42 y=93 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="关"
+char id=21345 x=52 y=93 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="卡"
+char id=25110 x=62 y=93 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="或"
+char id=36141 x=72 y=93 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="购"
+char id=20080 x=82 y=93 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="买"
+char id=38053 x=92 y=93 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="钥"
+char id=21273 x=102 y=93 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="匙"
+char id=38145 x=112 y=93 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="锁"
+char id=24425 x=122 y=93 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="彩"
+char id=34425 x=132 y=93 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="虹"
+char id=38500 x=142 y=93 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="除"
+char id=36947 x=152 y=93 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="道"
+char id=20855 x=162 y=93 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="具"
+char id=23427 x=172 y=93 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="它"
+char id=20004 x=182 y=93 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="两"
+char id=20132 x=192 y=93 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="交"
+char id=25442 x=202 y=93 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="换"
+char id=20301 x=212 y=93 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="位"
+char id=32622 x=222 y=93 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="置"
+char id=21560 x=2 y=103 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="吸"
+char id=31649 x=12 y=103 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="管"
+char id=31181 x=22 y=103 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="种"
+char id=39068 x=32 y=103 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="颜"
+char id=20809 x=42 y=103 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="光"
+char id=24847 x=52 y=103 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="意"
+char id=20840 x=62 y=103 width=8 height=8 xoffset=0 yoffset=-0 xadvance=6 page=0 chnl=0 letter="全"
+char id=23616 x=72 y=103 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="局"
+char id=36895 x=82 y=103 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="速"
+char id=22826 x=92 y=103 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="太"
+char id=24046 x=102 y=103 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="差"
+char id=30001 x=112 y=103 width=8 height=8 xoffset=0 yoffset=-0 xadvance=6 page=0 chnl=0 letter="由"
+char id=35797 x=122 y=103 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="试"
+char id=30528 x=132 y=103 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="着"
+char id=27225 x=142 y=103 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="橙"
+char id=32511 x=152 y=103 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="绿"
+char id=25903 x=162 y=103 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="支"
+char id=32447 x=172 y=103 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="线"
+char id=29609 x=182 y=103 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="玩"
+char id=19979 x=192 y=103 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="下"
+char id=20505 x=202 y=103 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="候"
+char id=25152 x=212 y=103 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="所"
+char id=20540 x=222 y=103 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="值"
+char id=28982 x=2 y=113 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="然"
+char id=30475 x=12 y=113 width=8 height=8 xoffset=0 yoffset=-0 xadvance=6 page=0 chnl=0 letter="看"
+char id=36719 x=22 y=113 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="软"
+char id=26049 x=32 y=113 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="旁"
+char id=31456 x=42 y=113 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="章"
+char id=36992 x=52 y=113 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="邀"
+char id=36192 x=62 y=113 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="赠"
+char id=36865 x=72 y=113 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="送"
+char id=21629 x=82 y=113 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="命"
+char id=26080 x=92 y=113 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="无"
+char id=38480 x=102 y=113 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="限"
+char id=24403 x=112 y=113 width=8 height=8 xoffset=0 yoffset=-0 xadvance=6 page=0 chnl=0 letter="当"
+char id=28846 x=122 y=113 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="炮"
+char id=24452 x=132 y=113 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="径"
+char id=31163 x=142 y=113 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="离"
+char id=21097 x=152 y=113 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="剩"
+char id=30418 x=162 y=113 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="盒"
+char id=21608 x=172 y=113 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="周"
+char id=22260 x=182 y=113 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="围"
+char id=21046 x=192 y=113 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="制"
+char id=20316 x=202 y=113 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="作"
+char id=24102 x=212 y=113 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="带"
+char id=30693 x=222 y=113 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="知"
+char id=38376 x=2 y=123 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="门"
+char id=36890 x=12 y=123 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="通"
+char id=36208 x=22 y=123 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="走"
+char id=24266 x=32 y=123 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="廊"
+char id=25151 x=42 y=123 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="房"
+char id=23613 x=52 y=123 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="尽"
+char id=32463 x=62 y=123 width=8 height=8 xoffset=-0 yoffset=1 xadvance=6 page=0 chnl=0 letter="经"
+char id=24930 x=72 y=123 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="慢"
+char id=21727 x=82 y=123 width=8 height=8 xoffset=1 yoffset=1 xadvance=6 page=0 chnl=0 letter="哟"
+char id=31561 x=92 y=123 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="等"
+char id=21450 x=102 y=123 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="及"
+char id=35805 x=112 y=123 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="话"
+char id=34411 x=122 y=123 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="虫"
+char id=26197 x=132 y=123 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="晕"
+char id=20570 x=142 y=123 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="做"
+char id=33756 x=152 y=123 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="菜"
+char id=21619 x=162 y=123 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="味"
+char id=27604 x=172 y=123 width=8 height=8 xoffset=0 yoffset=-0 xadvance=6 page=0 chnl=0 letter="比"
+char id=20026 x=182 y=123 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="为"
+char id=20160 x=192 y=123 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="什"
+char id=20040 x=202 y=123 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="么"
+char id=24076 x=212 y=123 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="希"
+char id=26395 x=222 y=123 width=8 height=8 xoffset=0 yoffset=-0 xadvance=6 page=0 chnl=0 letter="望"
+char id=20139 x=2 y=133 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="享"
+char id=21463 x=12 y=133 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="受"
+char id=30021 x=22 y=133 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="畅"
+char id=39564 x=32 y=133 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="验"
+char id=24754 x=42 y=133 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="悲"
+char id=20260 x=52 y=133 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="伤"
+char id=39640 x=62 y=133 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="高"
+char id=20852 x=72 y=133 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="兴"
+char id=36873 x=82 y=133 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="选"
+char id=25321 x=92 y=133 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="择"
+char id=35302 x=102 y=133 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="触"
+char id=21457 x=112 y=133 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="发"
+char id=24863 x=122 y=133 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="感"
+char id=35874 x=132 y=133 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="谢"
+char id=23545 x=142 y=133 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="对"
+char id=25345 x=152 y=133 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="持"
+char id=38459 x=162 y=133 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="阻"
+char id=27490 x=172 y=133 width=8 height=8 xoffset=0 yoffset=-0 xadvance=6 page=0 chnl=0 letter="止"
+char id=20808 x=182 y=133 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="先"
+char id=21382 x=192 y=133 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="历"
+char id=35768 x=202 y=133 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="许"
+char id=25387 x=212 y=133 width=8 height=8 xoffset=0 yoffset=-0 xadvance=6 page=0 chnl=0 letter="挫"
+char id=22362 x=222 y=133 width=8 height=8 xoffset=0 yoffset=-0 xadvance=6 page=0 chnl=0 letter="坚"
+char id=24535 x=2 y=143 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="志"
+char id=20449 x=12 y=143 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="信"
+char id=24179 x=22 y=143 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="平"
+char id=20961 x=32 y=143 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="凡"
+char id=21171 x=42 y=143 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="劳"
+char id=27809 x=52 y=143 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="没"
+char id=37324 x=62 y=143 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="里"
+char id=25910 x=72 y=143 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="收"
+char id=38598 x=82 y=143 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="集"
+char id=26379 x=92 y=143 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="朋"
+char id=21451 x=102 y=143 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="友"
+char id=21490 x=112 y=143 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="史"
+char id=20813 x=122 y=143 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="免"
+char id=39046 x=132 y=143 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="领"
+char id=21462 x=142 y=143 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="取"
+char id=25235 x=152 y=143 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="抓"
+char id=39532 x=162 y=143 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="马"
+char id=21830 x=172 y=143 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="商"
+char id=21697 x=182 y=143 width=8 height=8 xoffset=0 yoffset=-0 xadvance=6 page=0 chnl=0 letter="品"
+char id=21527 x=192 y=143 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="吗"
+char id=33529 x=202 y=143 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="苹"
+char id=24215 x=212 y=143 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="店"
+char id=38388 x=222 y=143 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="间"
+char id=38169 x=2 y=153 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="错"
+char id=24494 x=12 y=153 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="微"
+char id=20844 x=22 y=153 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="公"
+char id=20247 x=32 y=153 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="众"
+char id=21495 x=42 y=153 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="号"
+char id=22937 x=52 y=153 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="妙"
+char id=30424 x=62 y=153 width=8 height=8 xoffset=0 yoffset=-0 xadvance=6 page=0 chnl=0 letter="盘"
+char id=39184 x=72 y=153 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="餐"
+char id=35265 x=82 y=153 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="见"
+char id=34915 x=92 y=153 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="衣"
+char id=26550 x=102 y=153 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="架"
+char id=38754 x=112 y=153 width=8 height=8 xoffset=0 yoffset=-0 xadvance=6 page=0 chnl=0 letter="面"
+char id=22635 x=122 y=153 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="填"
+char id=28385 x=132 y=153 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="满"
+char id=21596 x=142 y=153 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="呜"
+char id=32654 x=152 y=153 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="美"
+char id=20029 x=162 y=153 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="丽"
+char id=20154 x=172 y=153 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="人"
+char id=31867 x=182 y=153 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="类"
+char id=29702 x=192 y=153 width=8 height=8 xoffset=0 yoffset=-0 xadvance=6 page=0 chnl=0 letter="理"
+char id=22114 x=202 y=153 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="噢"
+char id=21738 x=212 y=153 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="哪"
+char id=28023 x=222 y=153 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="海"
+char id=28393 x=2 y=163 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="滩"
+char id=32456 x=12 y=163 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="终"
+char id=20110 x=22 y=163 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="于"
+char id=20241 x=32 y=163 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="休"
+char id=24687 x=42 y=163 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="息"
+char id=24681 x=52 y=163 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="恩"
+char id=38450 x=62 y=163 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="防"
+char id=26194 x=72 y=163 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="晒"
+char id=20063 x=82 y=163 width=8 height=8 xoffset=0 yoffset=-0 xadvance=6 page=0 chnl=0 letter="也"
+char id=24604 x=92 y=163 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="怜"
+char id=22256 x=102 y=163 width=8 height=8 xoffset=0 yoffset=-0 xadvance=6 page=0 chnl=0 letter="困"
+char id=26029 x=112 y=163 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="断"
+char id=36830 x=122 y=163 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="连"
+char id=30423 x=132 y=163 width=8 height=8 xoffset=0 yoffset=-0 xadvance=6 page=0 chnl=0 letter="盗"
+char id=33322 x=142 y=163 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="航"
+char id=23547 x=152 y=163 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="寻"
+char id=27492 x=162 y=163 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="此"
+char id=34920 x=172 y=163 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="表"
+char id=26479 x=182 y=163 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="杯"
+char id=23450 x=192 y=163 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="定"
+char id=20445 x=202 y=163 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="保"
+char id=35266 x=212 y=163 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="观"
+char id=24577 x=222 y=163 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="态"
+char id=24230 x=2 y=173 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="度"
+char id=23481 x=12 y=173 width=8 height=8 xoffset=0 yoffset=-0 xadvance=6 page=0 chnl=0 letter="容"
+char id=26131 x=22 y=173 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="易"
+char id=36827 x=32 y=173 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="进"
+char id=20837 x=42 y=173 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="入"
+char id=39069 x=52 y=173 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="额"
+char id=22806 x=62 y=173 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="外"
+char id=34429 x=72 y=173 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="虽"
+char id=31548 x=82 y=173 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="笼"
+char id=21917 x=92 y=173 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="喝"
+char id=27713 x=102 y=173 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="汁"
+char id=24773 x=112 y=173 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="情"
+char id=21670 x=122 y=173 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="咦"
+char id=21516 x=132 y=173 width=8 height=8 xoffset=1 yoffset=1 xadvance=6 page=0 chnl=0 letter="同"
+char id=25353 x=142 y=173 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="按"
+char id=38062 x=152 y=173 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="钮"
+char id=32473 x=162 y=173 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="给"
+char id=36317 x=172 y=173 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="距"
+char id=27963 x=182 y=173 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="活"
+char id=32467 x=192 y=173 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="结"
+char id=26463 x=202 y=173 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="束"
+char id=23041 x=212 y=173 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="威"
+char id=22270 x=222 y=173 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="图"
+char id=26631 x=2 y=183 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="标"
+char id=31995 x=12 y=183 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="系"
+char id=26412 x=22 y=183 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="本"
+char id=21448 x=32 y=183 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="又"
+char id=29233 x=42 y=183 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="爱"
+char id=26465 x=52 y=183 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="条"
+char id=24231 x=62 y=183 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="座"
+char id=26700 x=72 y=183 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="桌"
+char id=25463 x=82 y=183 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="捷"
+char id=40644 x=92 y=183 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="黄"
+char id=32988 x=102 y=183 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="胜"
+char id=21033 x=112 y=183 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="利"
+char id=21703 x=122 y=183 width=8 height=8 xoffset=0 yoffset=-0 xadvance=6 page=0 chnl=0 letter="哇"
+char id=20462 x=132 y=183 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="修"
+char id=28781 x=142 y=183 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="灭"
+char id=24517 x=152 y=183 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="必"
+char id=39035 x=162 y=183 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="须"
+char id=31934 x=172 y=183 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="精"
+char id=19982 x=182 y=183 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="与"
+char id=36965 x=192 y=183 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="遥"
+char id=36828 x=202 y=183 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="远"
+char id=22269 x=212 y=183 width=8 height=8 xoffset=0 yoffset=-0 xadvance=6 page=0 chnl=0 letter="国"
+char id=25588 x=222 y=183 width=8 height=8 xoffset=-0 yoffset=1 xadvance=6 page=0 chnl=0 letter="援"
+char id=32773 x=2 y=193 width=8 height=8 xoffset=0 yoffset=-0 xadvance=6 page=0 chnl=0 letter="者"
+char id=29366 x=12 y=193 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="状"
+char id=26790 x=22 y=193 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="梦"
+char id=26053 x=32 y=193 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="旅"
+char id=25163 x=42 y=193 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="手"
+char id=36319 x=52 y=193 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="跟"
+char id=20123 x=62 y=193 width=8 height=8 xoffset=0 yoffset=-0 xadvance=6 page=0 chnl=0 letter="些"
+char id=20581 x=72 y=193 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="健"
+char id=24247 x=82 y=193 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="康"
+char id=20415 x=92 y=193 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="便"
+char id=20379 x=102 y=193 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="供"
+char id=20882 x=112 y=193 width=8 height=8 xoffset=0 yoffset=-0 xadvance=6 page=0 chnl=0 letter="冒"
+char id=38505 x=122 y=193 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="险"
+char id=36186 x=132 y=193 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="赚"
+char id=38065 x=142 y=193 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="钱"
+char id=36149 x=152 y=193 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="贵"
+char id=20493 x=162 y=193 width=8 height=8 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="倍"
+char id=21147 x=172 y=193 width=7 height=8 xoffset=1 yoffset=1 xadvance=6 page=0 chnl=0 letter="力"
+char id=33258 x=181 y=193 width=7 height=8 xoffset=1 yoffset=-0 xadvance=6 page=0 chnl=0 letter="自"
+char id=21521 x=190 y=193 width=7 height=8 xoffset=1 yoffset=1 xadvance=6 page=0 chnl=0 letter="向"
+char id=26085 x=199 y=193 width=7 height=8 xoffset=1 yoffset=-0 xadvance=6 page=0 chnl=0 letter="日"
+char id=36 x=208 y=193 width=6 height=8 xoffset=0 yoffset=-0 xadvance=3 page=0 chnl=0 letter="$"
+char id=65311 x=216 y=193 width=5 height=8 xoffset=0 yoffset=-0 xadvance=6 page=0 chnl=0 letter="？"
+char id=40 x=223 y=193 width=4 height=8 xoffset=0 yoffset=-0 xadvance=2 page=0 chnl=0 letter="("
+char id=41 x=229 y=193 width=4 height=8 xoffset=0 yoffset=-0 xadvance=2 page=0 chnl=0 letter=")"
+char id=73 x=2 y=203 width=4 height=8 xoffset=0 yoffset=-0 xadvance=2 page=0 chnl=0 letter="I"
+char id=91 x=8 y=203 width=4 height=8 xoffset=0 yoffset=-0 xadvance=2 page=0 chnl=0 letter="["
+char id=93 x=14 y=203 width=4 height=8 xoffset=0 yoffset=-0 xadvance=2 page=0 chnl=0 letter="]"
+char id=123 x=20 y=203 width=4 height=8 xoffset=0 yoffset=1 xadvance=2 page=0 chnl=0 letter="{"
+char id=125 x=26 y=203 width=4 height=8 xoffset=0 yoffset=1 xadvance=2 page=0 chnl=0 letter="}"
+char id=106 x=32 y=203 width=3 height=8 xoffset=0 yoffset=1 xadvance=2 page=0 chnl=0 letter="j"
+char id=77 x=37 y=203 width=8 height=7 xoffset=0 yoffset=1 xadvance=5 page=0 chnl=0 letter="M"
+char id=87 x=47 y=203 width=8 height=7 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="W"
+char id=19988 x=57 y=203 width=8 height=7 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="且"
+char id=24049 x=67 y=203 width=8 height=7 xoffset=1 yoffset=1 xadvance=6 page=0 chnl=0 letter="己"
+char id=19977 x=77 y=203 width=8 height=7 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="三"
+char id=29579 x=87 y=203 width=8 height=7 xoffset=0 yoffset=1 xadvance=6 page=0 chnl=0 letter="王"
+char id=64 x=97 y=203 width=7 height=7 xoffset=1 yoffset=2 xadvance=5 page=0 chnl=0 letter="@"
+char id=65 x=106 y=203 width=7 height=7 xoffset=-0 yoffset=1 xadvance=4 page=0 chnl=0 letter="A"
+char id=71 x=115 y=203 width=7 height=7 xoffset=-0 yoffset=1 xadvance=4 page=0 chnl=0 letter="G"
+char id=79 x=124 y=203 width=7 height=7 xoffset=-0 yoffset=1 xadvance=4 page=0 chnl=0 letter="O"
+char id=81 x=133 y=203 width=7 height=7 xoffset=-0 yoffset=1 xadvance=4 page=0 chnl=0 letter="Q"
+char id=35 x=142 y=203 width=6 height=7 xoffset=0 yoffset=1 xadvance=3 page=0 chnl=0 letter="#"
+char id=37 x=150 y=203 width=6 height=7 xoffset=0 yoffset=1 xadvance=4 page=0 chnl=0 letter="%"
+char id=38 x=158 y=203 width=6 height=7 xoffset=-0 yoffset=1 xadvance=4 page=0 chnl=0 letter="&"
+char id=48 x=166 y=203 width=6 height=7 xoffset=0 yoffset=1 xadvance=3 page=0 chnl=0 letter="0"
+char id=52 x=174 y=203 width=6 height=7 xoffset=-0 yoffset=1 xadvance=3 page=0 chnl=0 letter="4"
+char id=54 x=182 y=203 width=6 height=7 xoffset=0 yoffset=1 xadvance=3 page=0 chnl=0 letter="6"
+char id=55 x=190 y=203 width=6 height=7 xoffset=0 yoffset=1 xadvance=3 page=0 chnl=0 letter="7"
+char id=56 x=198 y=203 width=6 height=7 xoffset=0 yoffset=1 xadvance=3 page=0 chnl=0 letter="8"
+char id=57 x=206 y=203 width=6 height=7 xoffset=0 yoffset=1 xadvance=3 page=0 chnl=0 letter="9"
+char id=66 x=214 y=203 width=6 height=7 xoffset=0 yoffset=1 xadvance=3 page=0 chnl=0 letter="B"
+char id=67 x=222 y=203 width=6 height=7 xoffset=0 yoffset=1 xadvance=4 page=0 chnl=0 letter="C"
+char id=68 x=230 y=203 width=6 height=7 xoffset=0 yoffset=1 xadvance=4 page=0 chnl=0 letter="D"
+char id=72 x=2 y=213 width=6 height=7 xoffset=0 yoffset=1 xadvance=4 page=0 chnl=0 letter="H"
+char id=75 x=10 y=213 width=6 height=7 xoffset=-0 yoffset=1 xadvance=4 page=0 chnl=0 letter="K"
+char id=78 x=18 y=213 width=6 height=7 xoffset=0 yoffset=1 xadvance=4 page=0 chnl=0 letter="N"
+char id=80 x=26 y=213 width=6 height=7 xoffset=0 yoffset=1 xadvance=3 page=0 chnl=0 letter="P"
+char id=82 x=34 y=213 width=6 height=7 xoffset=0 yoffset=1 xadvance=3 page=0 chnl=0 letter="R"
+char id=83 x=42 y=213 width=6 height=7 xoffset=-0 yoffset=1 xadvance=3 page=0 chnl=0 letter="S"
+char id=85 x=50 y=213 width=6 height=7 xoffset=0 yoffset=1 xadvance=4 page=0 chnl=0 letter="U"
+char id=86 x=58 y=213 width=6 height=7 xoffset=-0 yoffset=1 xadvance=4 page=0 chnl=0 letter="V"
+char id=88 x=66 y=213 width=6 height=7 xoffset=-0 yoffset=1 xadvance=4 page=0 chnl=0 letter="X"
+char id=89 x=74 y=213 width=6 height=7 xoffset=-0 yoffset=1 xadvance=3 page=0 chnl=0 letter="Y"
+char id=90 x=82 y=213 width=6 height=7 xoffset=-0 yoffset=1 xadvance=4 page=0 chnl=0 letter="Z"
+char id=98 x=90 y=213 width=6 height=7 xoffset=0 yoffset=1 xadvance=3 page=0 chnl=0 letter="b"
+char id=100 x=98 y=213 width=6 height=7 xoffset=0 yoffset=1 xadvance=3 page=0 chnl=0 letter="d"
+char id=103 x=106 y=213 width=6 height=7 xoffset=0 yoffset=2 xadvance=3 page=0 chnl=0 letter="g"
+char id=112 x=114 y=213 width=6 height=7 xoffset=0 yoffset=2 xadvance=3 page=0 chnl=0 letter="p"
+char id=113 x=122 y=213 width=6 height=7 xoffset=0 yoffset=2 xadvance=3 page=0 chnl=0 letter="q"
+char id=47 x=130 y=213 width=5 height=7 xoffset=0 yoffset=1 xadvance=3 page=0 chnl=0 letter="/"
+char id=50 x=137 y=213 width=5 height=7 xoffset=0 yoffset=1 xadvance=3 page=0 chnl=0 letter="2"
+char id=51 x=144 y=213 width=5 height=7 xoffset=0 yoffset=1 xadvance=3 page=0 chnl=0 letter="3"
+char id=53 x=151 y=213 width=5 height=7 xoffset=0 yoffset=1 xadvance=3 page=0 chnl=0 letter="5"
+char id=63 x=158 y=213 width=5 height=7 xoffset=0 yoffset=1 xadvance=3 page=0 chnl=0 letter="?"
+char id=69 x=165 y=213 width=5 height=7 xoffset=0 yoffset=1 xadvance=3 page=0 chnl=0 letter="E"
+char id=70 x=172 y=213 width=5 height=7 xoffset=0 yoffset=1 xadvance=3 page=0 chnl=0 letter="F"
+char id=74 x=179 y=213 width=5 height=7 xoffset=0 yoffset=1 xadvance=3 page=0 chnl=0 letter="J"
+char id=76 x=186 y=213 width=5 height=7 xoffset=0 yoffset=1 xadvance=3 page=0 chnl=0 letter="L"
+char id=84 x=193 y=213 width=5 height=7 xoffset=-0 yoffset=1 xadvance=3 page=0 chnl=0 letter="T"
+char id=104 x=200 y=213 width=5 height=7 xoffset=0 yoffset=1 xadvance=3 page=0 chnl=0 letter="h"
+char id=107 x=207 y=213 width=5 height=7 xoffset=0 yoffset=1 xadvance=3 page=0 chnl=0 letter="k"
+char id=116 x=214 y=213 width=5 height=7 xoffset=0 yoffset=1 xadvance=2 page=0 chnl=0 letter="t"
+char id=121 x=221 y=213 width=5 height=7 xoffset=-0 yoffset=2 xadvance=3 page=0 chnl=0 letter="y"
+char id=33 x=228 y=213 width=4 height=7 xoffset=0 yoffset=1 xadvance=2 page=0 chnl=0 letter="!"
+char id=49 x=2 y=222 width=4 height=7 xoffset=1 yoffset=1 xadvance=3 page=0 chnl=0 letter="1"
+char id=92 x=8 y=222 width=4 height=7 xoffset=0 yoffset=1 xadvance=2 page=0 chnl=0 letter="\"
+char id=105 x=14 y=222 width=4 height=7 xoffset=0 yoffset=1 xadvance=2 page=0 chnl=0 letter="i"
+char id=108 x=20 y=222 width=4 height=7 xoffset=0 yoffset=1 xadvance=2 page=0 chnl=0 letter="l"
+char id=124 x=26 y=222 width=3 height=7 xoffset=0 yoffset=1 xadvance=1 page=0 chnl=0 letter="|"
+char id=65281 x=31 y=222 width=3 height=7 xoffset=1 yoffset=1 xadvance=6 page=0 chnl=0 letter="！"
+char id=109 x=36 y=222 width=7 height=6 xoffset=0 yoffset=2 xadvance=5 page=0 chnl=0 letter="m"
+char id=119 x=45 y=222 width=7 height=6 xoffset=0 yoffset=2 xadvance=5 page=0 chnl=0 letter="w"
+char id=97 x=54 y=222 width=6 height=6 xoffset=0 yoffset=2 xadvance=3 page=0 chnl=0 letter="a"
+char id=101 x=62 y=222 width=6 height=6 xoffset=0 yoffset=2 xadvance=3 page=0 chnl=0 letter="e"
+char id=111 x=70 y=222 width=6 height=6 xoffset=0 yoffset=2 xadvance=3 page=0 chnl=0 letter="o"
+char id=120 x=78 y=222 width=6 height=6 xoffset=-0 yoffset=2 xadvance=3 page=0 chnl=0 letter="x"
+char id=43 x=86 y=222 width=5 height=6 xoffset=0 yoffset=1 xadvance=3 page=0 chnl=0 letter="+"
+char id=99 x=93 y=222 width=5 height=6 xoffset=0 yoffset=2 xadvance=3 page=0 chnl=0 letter="c"
+char id=110 x=100 y=222 width=5 height=6 xoffset=0 yoffset=2 xadvance=3 page=0 chnl=0 letter="n"
+char id=115 x=107 y=222 width=5 height=6 xoffset=0 yoffset=2 xadvance=3 page=0 chnl=0 letter="s"
+char id=117 x=114 y=222 width=5 height=6 xoffset=0 yoffset=2 xadvance=3 page=0 chnl=0 letter="u"
+char id=118 x=121 y=222 width=5 height=6 xoffset=-0 yoffset=2 xadvance=3 page=0 chnl=0 letter="v"
+char id=122 x=128 y=222 width=5 height=6 xoffset=0 yoffset=2 xadvance=3 page=0 chnl=0 letter="z"
+char id=58 x=135 y=222 width=4 height=6 xoffset=0 yoffset=2 xadvance=2 page=0 chnl=0 letter=":"
+char id=59 x=141 y=222 width=4 height=6 xoffset=0 yoffset=3 xadvance=2 page=0 chnl=0 letter=";"
+char id=114 x=147 y=222 width=4 height=6 xoffset=0 yoffset=2 xadvance=2 page=0 chnl=0 letter="r"
+char id=42 x=153 y=222 width=5 height=5 xoffset=0 yoffset=1 xadvance=2 page=0 chnl=0 letter="*"
+char id=60 x=160 y=222 width=5 height=5 xoffset=0 yoffset=2 xadvance=3 page=0 chnl=0 letter="<"
+char id=62 x=167 y=222 width=5 height=5 xoffset=0 yoffset=2 xadvance=3 page=0 chnl=0 letter=">"
+char id=94 x=174 y=222 width=5 height=5 xoffset=0 yoffset=1 xadvance=3 page=0 chnl=0 letter="^"
+char id=8220 x=181 y=222 width=5 height=5 xoffset=-0 yoffset=1 xadvance=3 page=0 chnl=0 letter="“"
+char id=8221 x=188 y=222 width=5 height=5 xoffset=-0 yoffset=1 xadvance=3 page=0 chnl=0 letter="”"
+char id=65306 x=195 y=222 width=3 height=5 xoffset=1 yoffset=3 xadvance=6 page=0 chnl=0 letter="："
+char id=61 x=200 y=222 width=6 height=4 xoffset=0 yoffset=3 xadvance=3 page=0 chnl=0 letter="="
+char id=65374 x=208 y=222 width=6 height=4 xoffset=1 yoffset=3 xadvance=6 page=0 chnl=0 letter="～"
+char id=34 x=216 y=222 width=4 height=4 xoffset=0 yoffset=2 xadvance=2 page=0 chnl=0 letter="""
+char id=44 x=222 y=222 width=4 height=4 xoffset=0 yoffset=5 xadvance=2 page=0 chnl=0 letter=","
+char id=46 x=228 y=222 width=4 height=4 xoffset=0 yoffset=4 xadvance=2 page=0 chnl=0 letter="."
+char id=12290 x=2 y=231 width=4 height=4 xoffset=1 yoffset=5 xadvance=6 page=0 chnl=0 letter="。"
+char id=65292 x=8 y=231 width=4 height=4 xoffset=1 yoffset=5 xadvance=6 page=0 chnl=0 letter="，"
+char id=39 x=14 y=231 width=3 height=4 xoffset=0 yoffset=2 xadvance=2 page=0 chnl=0 letter="'"
+char id=19968 x=19 y=231 width=8 height=3 xoffset=0 yoffset=3 xadvance=6 page=0 chnl=0 letter="一"
+char id=45 x=29 y=231 width=5 height=3 xoffset=0 yoffset=3 xadvance=3 page=0 chnl=0 letter="-"
+char id=95 x=36 y=231 width=5 height=3 xoffset=0 yoffset=6 xadvance=2 page=0 chnl=0 letter="_"
+char id=126 x=43 y=231 width=5 height=3 xoffset=0 yoffset=4 xadvance=3 page=0 chnl=0 letter="~"
+char id=32 x=50 y=231 width=0 height=0 xoffset=0 yoffset=8 xadvance=2 page=0 chnl=0 letter="space"
+kernings count=176
+kerning first=102 second=86 amount=1
+kerning first=73 second=49 amount=-1
+kerning first=106 second=49 amount=-1
+kerning first=77 second=65 amount=1
+kerning first=77 second=49 amount=-1
+kerning first=87 second=74 amount=-1
+kerning first=65 second=65 amount=1
+kerning first=65 second=66 amount=1
+kerning first=65 second=68 amount=1
+kerning first=65 second=75 amount=1
+kerning first=65 second=78 amount=1
+kerning first=65 second=80 amount=1
+kerning first=65 second=82 amount=1
+kerning first=65 second=83 amount=1
+kerning first=65 second=88 amount=1
+kerning first=65 second=112 amount=1
+kerning first=65 second=107 amount=1
+kerning first=65 second=49 amount=-1
+kerning first=65 second=120 amount=1
+kerning first=65 second=122 amount=1
+kerning first=65 second=114 amount=1
+kerning first=71 second=81 amount=1
+kerning first=71 second=49 amount=-1
+kerning first=79 second=81 amount=1
+kerning first=79 second=49 amount=-1
+kerning first=81 second=77 amount=1
+kerning first=81 second=65 amount=1
+kerning first=81 second=66 amount=1
+kerning first=81 second=68 amount=1
+kerning first=81 second=72 amount=1
+kerning first=81 second=75 amount=1
+kerning first=81 second=78 amount=1
+kerning first=81 second=80 amount=1
+kerning first=81 second=82 amount=1
+kerning first=81 second=83 amount=1
+kerning first=81 second=88 amount=1
+kerning first=81 second=90 amount=1
+kerning first=81 second=98 amount=1
+kerning first=81 second=112 amount=1
+kerning first=81 second=107 amount=1
+kerning first=81 second=49 amount=-1
+kerning first=81 second=120 amount=1
+kerning first=81 second=122 amount=1
+kerning first=81 second=114 amount=1
+kerning first=48 second=81 amount=1
+kerning first=48 second=49 amount=-1
+kerning first=52 second=81 amount=1
+kerning first=52 second=49 amount=-1
+kerning first=54 second=49 amount=-1
+kerning first=55 second=65 amount=-1
+kerning first=55 second=52 amount=-1
+kerning first=55 second=54 amount=-1
+kerning first=55 second=100 amount=-1
+kerning first=55 second=103 amount=-1
+kerning first=55 second=113 amount=-1
+kerning first=55 second=74 amount=-1
+kerning first=55 second=49 amount=-1
+kerning first=55 second=97 amount=-1
+kerning first=55 second=101 amount=-1
+kerning first=55 second=111 amount=-1
+kerning first=55 second=99 amount=-1
+kerning first=56 second=49 amount=-1
+kerning first=57 second=74 amount=-1
+kerning first=57 second=49 amount=-1
+kerning first=66 second=49 amount=-1
+kerning first=67 second=49 amount=-1
+kerning first=68 second=81 amount=1
+kerning first=68 second=49 amount=-1
+kerning first=72 second=65 amount=1
+kerning first=72 second=81 amount=1
+kerning first=75 second=65 amount=1
+kerning first=78 second=65 amount=1
+kerning first=78 second=81 amount=1
+kerning first=80 second=74 amount=-1
+kerning first=80 second=49 amount=-1
+kerning first=82 second=65 amount=1
+kerning first=82 second=49 amount=-1
+kerning first=83 second=81 amount=1
+kerning first=85 second=81 amount=1
+kerning first=86 second=66 amount=1
+kerning first=86 second=68 amount=1
+kerning first=86 second=75 amount=1
+kerning first=86 second=80 amount=1
+kerning first=86 second=82 amount=1
+kerning first=86 second=86 amount=1
+kerning first=86 second=89 amount=1
+kerning first=86 second=74 amount=-1
+kerning first=86 second=107 amount=1
+kerning first=88 second=65 amount=1
+kerning first=88 second=75 amount=1
+kerning first=88 second=82 amount=1
+kerning first=88 second=88 amount=1
+kerning first=88 second=120 amount=1
+kerning first=89 second=52 amount=-1
+kerning first=89 second=75 amount=1
+kerning first=89 second=86 amount=1
+kerning first=89 second=74 amount=-1
+kerning first=90 second=65 amount=1
+kerning first=98 second=49 amount=-1
+kerning first=100 second=65 amount=1
+kerning first=100 second=81 amount=1
+kerning first=103 second=65 amount=1
+kerning first=103 second=49 amount=-1
+kerning first=112 second=49 amount=-1
+kerning first=113 second=65 amount=1
+kerning first=113 second=49 amount=-1
+kerning first=50 second=49 amount=-1
+kerning first=51 second=49 amount=-1
+kerning first=53 second=49 amount=-1
+kerning first=69 second=49 amount=-1
+kerning first=70 second=74 amount=-1
+kerning first=70 second=49 amount=-1
+kerning first=76 second=86 amount=-1
+kerning first=76 second=89 amount=-1
+kerning first=76 second=84 amount=-1
+kerning first=76 second=49 amount=-1
+kerning first=84 second=54 amount=-1
+kerning first=84 second=100 amount=-1
+kerning first=84 second=103 amount=-1
+kerning first=84 second=113 amount=-1
+kerning first=84 second=74 amount=-1
+kerning first=84 second=109 amount=-1
+kerning first=84 second=119 amount=-1
+kerning first=84 second=97 amount=-1
+kerning first=84 second=101 amount=-1
+kerning first=84 second=111 amount=-1
+kerning first=84 second=99 amount=-1
+kerning first=84 second=115 amount=-1
+kerning first=84 second=117 amount=-1
+kerning first=84 second=114 amount=-1
+kerning first=104 second=49 amount=-1
+kerning first=107 second=49 amount=-1
+kerning first=116 second=81 amount=1
+kerning first=116 second=49 amount=-1
+kerning first=121 second=81 amount=1
+kerning first=121 second=49 amount=-1
+kerning first=49 second=73 amount=-1
+kerning first=49 second=106 amount=-1
+kerning first=49 second=49 amount=-1
+kerning first=49 second=105 amount=-1
+kerning first=105 second=49 amount=-1
+kerning first=108 second=49 amount=-1
+kerning first=109 second=65 amount=1
+kerning first=109 second=81 amount=1
+kerning first=109 second=49 amount=-1
+kerning first=119 second=74 amount=-1
+kerning first=119 second=49 amount=-1
+kerning first=119 second=46 amount=-1
+kerning first=97 second=65 amount=1
+kerning first=97 second=81 amount=1
+kerning first=97 second=49 amount=-1
+kerning first=101 second=81 amount=1
+kerning first=101 second=55 amount=-1
+kerning first=101 second=49 amount=-1
+kerning first=111 second=81 amount=1
+kerning first=111 second=49 amount=-1
+kerning first=120 second=65 amount=1
+kerning first=120 second=81 amount=1
+kerning first=120 second=75 amount=1
+kerning first=120 second=82 amount=1
+kerning first=120 second=49 amount=-1
+kerning first=120 second=120 amount=1
+kerning first=99 second=49 amount=-1
+kerning first=110 second=49 amount=-1
+kerning first=115 second=49 amount=-1
+kerning first=117 second=49 amount=-1
+kerning first=118 second=81 amount=1
+kerning first=118 second=55 amount=-1
+kerning first=118 second=75 amount=1
+kerning first=118 second=49 amount=-1
+kerning first=122 second=65 amount=1
+kerning first=122 second=49 amount=-1
+kerning first=114 second=55 amount=-1
+kerning first=114 second=74 amount=-1
+kerning first=114 second=84 amount=-1
+kerning first=114 second=49 amount=-1

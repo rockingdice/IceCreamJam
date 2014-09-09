@@ -1,0 +1,77 @@
+<NEAFileData Version="0.5.1.0">
+ <StringCache>
+  <String String="" SID="-1"/>
+  <String String="UIAnim.plist|tut_guidehand.png" SID="1066"/>
+  <String String="Init" SID="1088"/>
+ </StringCache>
+ <xidLinks>
+  <Link SID="1066" XID="1"/>
+ </xidLinks>
+ <Variables>
+  <Var VID="0" name="TargetPos"/>
+  <Var VID="1" name="SourcePos"/>
+ </Variables>
+ <Skins>
+  <Skin name="Move">
+   <Keyframe type="0" data="50.9338|0" VID="0" changeType="1" changeClass="0"/>
+   <Keyframe type="0" data="0|0" VID="1" changeType="1" changeClass="6"/>
+  </Skin>
+ </Skins>
+ <NodeStructure>
+  <Node From="-1" Type="1" To="0" Name="根节点"/>
+  <Node From="0" Type="2" To="1" Name="图层"/>
+ </NodeStructure>
+ <Animations>
+  <Animation>
+   <TextureFiles>
+    <TexFile FileName="UIAnim.plist"/>
+   </TextureFiles>
+   <Keyframes>
+    <Node NodeID="0">
+     <Property Type="16">
+      <Keyframe index="0" data="1088" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="18">
+      <Keyframe index="0" data="15" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="19">
+      <Keyframe index="0" data="30" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="27">
+      <Keyframe index="0" data="1" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+    </Node>
+    <Node NodeID="1">
+     <Property Type="0">
+      <Keyframe index="0" data="0|0" ref="1" changeType="1" changeClass="0"/>
+      <Keyframe index="4" data="0|0" ref="1" changeType="1" changeClass="0"/>
+      <Keyframe index="9" data="0|0" ref="1" changeType="1" changeClass="0"/>
+      <Keyframe index="14" data="0|0" ref="0" changeType="1" changeClass="0"/>
+      <Keyframe index="19" data="50.9338|0" ref="0" changeType="1" changeClass="0"/>
+     </Property>
+     <Property Type="1">
+      <Keyframe index="0" data="2|2" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="4" data="1|1" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="19" data="1|1" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="24" data="2|2" ref="-1" changeType="1" changeClass="0"/>
+     </Property>
+     <Property Type="5">
+      <Keyframe index="0" data="0" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="4" data="255" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="19" data="255" ref="-1" changeType="1" changeClass="0"/>
+      <Keyframe index="24" data="0" ref="-1" changeType="1" changeClass="0"/>
+     </Property>
+     <Property Type="6">
+      <Keyframe index="0" data="0.167283|0.81477" ref="-1" changeType="1" changeClass="0"/>
+     </Property>
+     <Property Type="7">
+      <Keyframe index="0" data="1" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="8">
+      <Keyframe index="0" data="1" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+    </Node>
+   </Keyframes>
+  </Animation>
+ </Animations>
+</NEAFileData>
