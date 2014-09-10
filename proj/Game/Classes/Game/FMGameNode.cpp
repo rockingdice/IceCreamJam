@@ -504,13 +504,12 @@ void FMGameNode::makeInit()
     }
     m_animChecker->cleanCheckingAnims();
     m_matchedGroups.clear();
-    m_matchedGroupsIndex = 0;
 
     //reset elements
     for (int i=0; i<kGridNum; i++) {
         for (int j=0; j<kGridNum; j++) {
             FMGameGrid * grid = getNeighbor(i, j, kDirection_C);
-            if (grid->hasGridStatus(kStatus_Spawner)) {
+            if (grid->hasGridStatus(kGridStatus_Spawner)) {
                 grid->cleanSpawnQueue();
             }
             FMGameElement * e = grid->getElement();
@@ -653,7 +652,7 @@ void FMGameNode::makeInit()
             CCArray * gridData = (CCArray *)rowData->objectAtIndex(j);
             int dataCount = gridData->count();
             kGridType gridType = kGridNormal;
-            kGridStatus status = kStatus_NoStatus;
+            kGridStatus status = kGridStatus_NoStatus;
             kElementType elementType = kElement_Random;
             int param1 = -1;
             grid->cleanGridStatus();
@@ -676,7 +675,7 @@ void FMGameNode::makeInit()
                     {
                         for (int i=2; i<dataCount; i++) {
                             status = (kGridStatus)((CCNumber *)gridData->objectAtIndex(i))->getIntValue();
-                            if (status != kStatus_NoStatus) {
+                            if (status != kGridStatus_NoStatus) {
                                 initStatus.push_back(status);
                             }
                         }
@@ -705,7 +704,9 @@ void FMGameNode::makeInit()
             {
                 if (!grid->isNone() && elementType != kElement_None) {
                     FMGameElement * e = createNewElement(kElement_None);
-                    e->m_initRandom = elementType == kElement_Random;
+                    if (elementType == kElement_Random) {
+                        e->m_elementFlag |= kFlag_InitRandom;
+                    }
                     grid->setOccupyElement(e);
                     e->getAnimNode()->setPosition(grid->getPosition());
                 }
@@ -715,42 +716,26 @@ void FMGameNode::makeInit()
             for (std::vector<int>::iterator it = initStatus.begin(); it != initStatus.end(); it++) {
                 kGridStatus status = (kGridStatus)*it;
                 switch (status) {
-                    case kStatus_Spawner:
+                    case kGridStatus_Spawner:
                     {
                         if (!grid->isNone()) {
-                            grid->addGridStatus(kStatus_Spawner);
+                            grid->addGridStatus(kGridStatus_Spawner);
                             m_spawner.push_back(grid);
                         }
                     }
                         break;
-                    case kStatus_Ice:
-                    {
-                        FMGameElement * e = grid->getElement();
-                        grid->addGridStatus(kStatus_Ice);
-                        if (e) {
-                            e->setFrozen(grid->hasGridStatus(kStatus_Ice));
-                        }
-
-                    }
-                        break;
-////                    case kStatus_Snail:
-////                    {
-//////                        FMGameElement * e = grid->getElement();
-//////                        if (!grid->isNone()) {
-//////                            m_snailGrids.insert(grid);
-//////                        }
-//////                        grid->addGridStatus(kStatus_Snail);
-//////                        if (e) {
-//////                            e->setDisabled(true);
-//////                            e->generateSnailAnim();
-//////                        }
-////                    }
-////                        break;
-//                    case kStatus_JumpSeat:
+//                    case kStatus_Ice:
 //                    {
-//                        grid->addGridStatus(status);
+//                        FMGameElement * e = grid->getElement();
+//                        grid->addGridStatus(kStatus_Ice);
+//                        if (e) {
+//                            e->addStatus(kStatus_Ice);
+//                            (grid->hasGridStatus(kStatus_Ice));
+//                        }
+//
 //                    }
 //                        break;
+
                     default:
                         break;
                 }
@@ -927,7 +912,7 @@ void FMGameNode::playIdleAnim()
         for (int j=0; j<kGridNum; j++) {
             FMGameGrid * g = getNeighbor(i, j, kDirection_C);
             FMGameElement * e = g->getElement();
-            if (e &&!e->isFrozen()) {
+            if (e &&!e->hasStatus(kStatus_Frozen)) {
                 eles.push_back(e);
             }
         }
@@ -1050,7 +1035,7 @@ void FMGameNode::mapDataRemake()
             CCArray * gridData = (CCArray *)rowData->objectAtIndex(j);
             int dataCount = gridData->count();
             kGridType gridType = kGridNormal;
-            kGridStatus status = kStatus_NoStatus;
+            kGridStatus status = kGridStatus_NoStatus;
             kElementType elementType = kElement_Random;
             grid->cleanGridStatus();
             switch (dataCount) {
@@ -1076,7 +1061,7 @@ void FMGameNode::mapDataRemake()
                     elementType = (kElementType)((CCNumber *)gridData->objectAtIndex(1))->getIntValue();
                     for (int i=2; i<dataCount; i++) {
                         status = (kGridStatus)((CCNumber *)gridData->objectAtIndex(i))->getIntValue();
-                        if (status != kStatus_NoStatus) {
+                        if (status != kGridStatus_NoStatus) {
                             grid->addGridStatus(status);
                         }
                     }
@@ -1084,7 +1069,7 @@ void FMGameNode::mapDataRemake()
                     break;
             }
             grid->setGridType(gridType);
-            if (grid->hasGridStatus(kStatus_Spawner) && !grid->isNone()) {
+            if (grid->hasGridStatus(kGridStatus_Spawner) && !grid->isNone()) {
                 m_spawner.push_back(grid);
             }
 //            if (grid->hasGridStatus(kStatus_JumpSeat)) {
@@ -1093,8 +1078,8 @@ void FMGameNode::mapDataRemake()
 #ifdef DEBUG
             if (m_isEditorMode) {
                 FMGameElement * e = grid->getElement();
+                e->cleanStatus();
                 e->setElementType(elementType);
-                e->setDisabled(false);
                 e->getAnimNode()->setVisible(elementType != kElement_None);
                 e->getAnimNode()->setPosition(grid->getPosition());
                 if (grid->isNone()) {
@@ -1107,14 +1092,16 @@ void FMGameNode::mapDataRemake()
                 if (!grid->isNone() && grid->getElement()) {
                     if (elementType != kElement_Random) {
                         FMGameElement * e = grid->getElement();
-                        
-
+                        e->cleanStatus();
                         kElementType type = elementType;
-                        e->setDisabled(false);
                         e->setElementType(type);
-                        e->m_initRandom = elementType == kElement_Random;
+                        if (elementType == kElement_Random) {
+                            e->m_elementFlag |= kFlag_InitRandom;
+                        }
                         e->getAnimNode()->setPosition(grid->getPosition());
-                        e->setFrozen(grid->hasGridStatus(kStatus_Ice));
+                        if (grid->hasGridStatus(kGridStatus_Ice)) {
+                            e->addStatus(kStatus_Frozen);
+                        }
                         
                         kElementType ttype = elementType;
                         if (m_levelLimits.find(ttype) != m_levelLimits.end()) {
@@ -1133,12 +1120,14 @@ void FMGameNode::mapDataRemake()
     for (int i = 0; i < emptyGrids.size(); i++) {
         FMGameGrid * g = emptyGrids.at(i);
         FMGameElement * e = g->getElement();
+        e->cleanStatus();
         int type = getNewElementType();
-        e->setDisabled(false);
         e->setElementType((kElementType)type);
-        e->m_initRandom = true;
+        e->m_elementFlag |= kFlag_InitRandom;
         e->getAnimNode()->setPosition(g->getPosition());
-        e->setFrozen(g->hasGridStatus(kStatus_Ice));
+        if(g->hasGridStatus(kGridStatus_Ice)) {
+            e->addStatus(kStatus_Frozen);
+        }
     }
     
     //check if snails is not enough
@@ -1232,7 +1221,7 @@ void FMGameNode::mapDataRemake()
             for (int j=0; j<kGridNum; j++) {
                 FMGameGrid * grid = getNeighbor(i, j, kDirection_C);
                 if (grid->getElement()) {
-                    grid->getElement()->m_initRandom = true;
+                    grid->getElement()->m_elementFlag |= kFlag_InitRandom;
                 }
             }
         }
@@ -1355,7 +1344,7 @@ void FMGameNode::removeElement(FMGameElement *element)
 bool FMGameNode::checkGridMatch(FMGameGrid *grid)
 {
     FMGameElement * element = grid->getElement();
-    if (element && element->isMatchable()) {
+    if (element && element->m_elementFlag & kFlag_Matchable) {
         int basecolor = element->getMatchColor();
         //check x axis
         {
@@ -1364,7 +1353,7 @@ bool FMGameNode::checkGridMatch(FMGameGrid *grid)
             while (xgrid) {
                 FMGameElement * e = xgrid->getElement();
                 bool matched = false;
-                if (e && e->isMatchable()) {
+                if (e && e->m_elementFlag & kFlag_Matchable) {
                     int color = e->getMatchColor();
                     if (color == basecolor) {
                         matched = true;
@@ -1392,7 +1381,7 @@ bool FMGameNode::checkGridMatch(FMGameGrid *grid)
             while (xgrid) {
                 FMGameElement * e = xgrid->getElement();
                 bool matched = false;
-                if (e && e->isMatchable()) {
+                if (e && e->m_elementFlag & kFlag_Matchable) {
                     int color = e->getMatchColor();
                     if (color == basecolor) {
                         matched = true;
@@ -1451,15 +1440,14 @@ bool FMGameNode::checkMatch()
     bool needStableCheck = false;
     CCAssert(m_matchedGroups.size() == 0, "match group is not cleared!");
     m_matchedGroups.clear();
-    m_matchedGroupsIndex = 0;
     for (int i=0; i<kGridNum; i++) {
         for (int j=0; j<kGridNum; j++) {
             FMGameGrid * grid = getNeighbor(i, j, kDirection_C);
             FMGameElement * element = grid->getElement();
-            if (element && element->isMatchable()) {
+            if (element && element->m_elementFlag & kFlag_Matchable) {
                 int basecolor = element->getMatchColor();
                 //check x axis
-                if (!element->m_matchX) {
+                if (!element->m_elementFlag & kFlag_MatchX) {
                     int count = 0;
                     FMGameGrid * xgrid = grid;
                     FMMatchGroup * mg = new FMMatchGroup();
@@ -1468,7 +1456,7 @@ bool FMGameNode::checkMatch()
                     while (xgrid) {
                         FMGameElement * e = xgrid->getElement();
                         bool matched = false;
-                        if (e && e->isMatchable()) {
+                        if (e && e->m_elementFlag & kFlag_Matchable) {
                             int color = e->getMatchColor();
                             if (color == basecolor && color != -1) {
                                 matched = true;
@@ -1494,24 +1482,22 @@ bool FMGameNode::checkMatch()
                             FMGameGrid * grid = *it;
                             CCAssert(grid, "grid cannot be NULL");
                             FMGameElement * e = grid->getElement();
-                            e->m_matchCount ++;
                             int matchGroup = e->m_matchGroup;
                             if (matchGroup != -1 && matchGroup != gid && matchGroup != 100) {
                                 //combine groupe
-                                e->m_matchCount ++;
                                 std::set<FMGameGrid *> * eles = m_matchedGroups[matchGroup]->m_grids;
                                 for (std::set<FMGameGrid*>::iterator it = eles->begin(); it!= eles->end(); it++) {
                                     FMGameGrid * g = *it;
                                     FMGameElement * gEle = g->getElement();
                                     gEle->m_matchGroup = gid;
-                                    gEle->m_matchX = true;
+                                    gEle->m_elementFlag |= kFlag_Matchable;
                                     willAddedToGroup.push_back(g);
                                 }
                                 delete m_matchedGroups[matchGroup];
                                 m_matchedGroups.erase(matchGroup);
                             }
                             e->m_matchGroup = gid; 
-                            e->m_matchX = true;
+                            e->m_elementFlag |= kFlag_MatchX;
                         }
                         for (int i=0; i<willAddedToGroup.size(); i++) {
                             FMGameGrid * g = willAddedToGroup[i];
@@ -1526,7 +1512,7 @@ bool FMGameNode::checkMatch()
                 }
                                 
                 //check y axis
-                if (!element->m_matchY) {
+                if (!(element->m_elementFlag & kFlag_MatchY)) {
                     int count = 0;
                     FMGameGrid * xgrid = grid;
                     FMMatchGroup * mg = new FMMatchGroup;
@@ -1535,7 +1521,7 @@ bool FMGameNode::checkMatch()
                     while (xgrid) {
                         FMGameElement * e = xgrid->getElement();
                         bool matched = false;
-                        if (e && e->isMatchable()) {
+                        if (e && e->m_elementFlag & kFlag_Matchable) {
                             int color = e->getMatchColor();
                             if (color == basecolor && color != -1) {
                                 matched = true;
@@ -1560,24 +1546,22 @@ bool FMGameNode::checkMatch()
                         for (std::set<FMGameGrid*>::iterator it = elements->begin(); it!= elements->end(); it++) {
                             FMGameGrid * grid = *it;
                             FMGameElement * e = grid->getElement();
-                            e->m_matchCount ++;
                             int matchGroup = e->m_matchGroup;
                             if (matchGroup != -1 && matchGroup != gid && matchGroup != 100) {
                                 //combine group
-                                e->m_matchCount ++;
                                 std::set<FMGameGrid *> * eles = m_matchedGroups[matchGroup]->m_grids;
                                 for (std::set<FMGameGrid*>::iterator it = eles->begin(); it!= eles->end(); it++) {
                                     FMGameGrid * g = *it;
                                     FMGameElement * gEle = g->getElement();
                                     gEle->m_matchGroup = gid;
-                                    gEle->m_matchY = true;
+                                    gEle->m_elementFlag |= kFlag_MatchY;
                                     willAddedToGroup.push_back(g);
                                 }
                                 delete m_matchedGroups[matchGroup];
                                 m_matchedGroups.erase(matchGroup);
                             }
                             e->m_matchGroup = gid;
-                            e->m_matchY = true;
+                            e->m_elementFlag |= kFlag_MatchY;
                         }
                         for (int i=0; i<willAddedToGroup.size(); i++) {
                             FMGameGrid * g = willAddedToGroup[i];
@@ -1903,7 +1887,7 @@ void FMGameNode::shuffle()
         for (int j=0; j<kGridNum; j++) {
             FMGameGrid * grid = getNeighbor(i, j, kDirection_C);
             FMGameElement * e = grid->getElement();
-            if (e && e->isShuffleAble()) {
+            if (e && e->m_elementFlag & kFlag_ShuffleAble) {
                 freeGrids.push_back(grid);
                 freeElements.push_back(e);
                 e->cleanMoveQueue();
@@ -2140,8 +2124,9 @@ void FMGameNode::gridNextPhase(FMMatchGroup *mg, FMGameGrid *grid, float harvest
                     seq2 = CCSequence::create(del, makenormal, spa, remove, NULL);
                 }
 //                e->getAnimNode()->runAction(seq2);
-                mg->addSyncCCNode(e->getAnimNode(), seq2, "sync cc flag 1");
-                CCDelayTime * delay = CCDelayTime::create(0.3f);
+//                mg->addSyncCCNode(e->getAnimNode(), seq2, "sync cc flag 1");
+                e->getAnimNode()->runAction(seq2);
+                CCDelayTime * delay = CCDelayTime::create(0.15f);
                 mg->addCCNode(e->getAnimNode(), delay, "cc flag 4");
 //                    e->getAnimNode()->runAction(seq2);
                 e->getAnimNode()->getParent()->reorderChild(e->getAnimNode(), 100);
@@ -2161,7 +2146,7 @@ void FMGameNode::gridNextPhase(FMMatchGroup *mg, FMGameGrid *grid, float harvest
                     CCSequence * seq = CCSequence::create(del, anim, disappeartime, remove, NULL);
                     e->getAnimNode()->runAction(seq);
 //                    mg->addSyncCCNode(e->getAnimNode(), seq, "sync cc flag 2");
-                    CCDelayTime * delay = CCDelayTime::create(0.3f);
+                    CCDelayTime * delay = CCDelayTime::create(0.15f);
                     mg->addCCNode(e->getAnimNode(), delay, "cc flag 5");
                     grid->setOccupyElement(NULL);
 //                }
@@ -2181,10 +2166,10 @@ void FMGameNode::gridNextPhase(FMMatchGroup *mg, FMGameGrid *grid, float harvest
 
 void FMGameNode::checkTriggers()
 {
-//    for (std::map<int, FMMatchGroup *>::iterator it = m_matchedGroups.begin(); it != m_matchedGroups.end(); it++) {
-    if (m_matchedGroups.size() > m_matchedGroupsIndex) {
-        std::map<int, FMMatchGroup *>::iterator it = m_matchedGroups.begin();
-        std::advance(it, m_matchedGroupsIndex);
+    for (std::map<int, FMMatchGroup *>::iterator it = m_matchedGroups.begin(); it != m_matchedGroups.end(); it++) {
+//    if (m_matchedGroups.size() > m_matchedGroupsIndex) {
+//        std::map<int, FMMatchGroup *>::iterator it = m_matchedGroups.begin();
+//        std::advance(it, m_matchedGroupsIndex);
         FMMatchGroup * mg = it->second;
         std::set<FMGameGrid *>* eles = mg->m_grids;
         for (std::set<FMGameGrid*>::iterator it = eles->begin(); it!= eles->end(); it++) {
@@ -2211,10 +2196,10 @@ void FMGameNode::checkTriggers()
         for (std::set<FMGameGrid*>::iterator it = mg->m_grids->begin(); it != mg->m_grids->end(); it++) {
             FMGameGrid * grid = *it;
             FMGameElement * e = grid->getElement();
-            if (e && e->isFrozen()) {
+            if (e && e->hasStatus(kStatus_Frozen)) {
                 CCAssert(e, "matching element cannot be NULL!");
                 deleted.insert(grid);
-                e->breakIce();
+                e->removeStatus(kStatus_Frozen);
 //                triggerAddValueToSpecailTarget(kElement_TargetIce);
                 CCDelayTime * delay = CCDelayTime::create(0.4f);
                 mg->addCCNode(e->getAnimNode(), delay, "cc flag 10");
@@ -2224,9 +2209,8 @@ void FMGameNode::checkTriggers()
         for (std::set<FMGameGrid*>::iterator it = deleted.begin(); it!=deleted.end(); it++) {
             FMGameGrid * grid = *it;
             grid->getElement()->m_matchGroup = -1;
-            grid->getElement()->m_matchX = false;
-            grid->getElement()->m_matchY = false;
-            grid->getElement()->m_matchCount = 0;
+            grid->getElement()->m_elementFlag &= ~kFlag_MatchX;
+            grid->getElement()->m_elementFlag &= ~kFlag_MatchY;
             mg->m_grids->erase(*it);
         }
 
@@ -2249,40 +2233,32 @@ void FMGameNode::beginHarvest()
     setGamePhase(kPhase_Harvest);
     
     //trigger grid bonus
-//    for (std::map<int, FMMatchGroup *>::iterator it = m_matchedGroups.begin(); it != m_matchedGroups.end(); it++) {
-    if (m_matchedGroups.size() > m_matchedGroupsIndex) {
-        std::map<int, FMMatchGroup *>::iterator it = m_matchedGroups.begin();
-        std::advance(it, m_matchedGroupsIndex);
+    for (std::map<int, FMMatchGroup *>::iterator it = m_matchedGroups.begin(); it != m_matchedGroups.end(); it++) {
+//    if (m_matchedGroups.size() > m_matchedGroupsIndex) {
+//        std::map<int, FMMatchGroup *>::iterator it = m_matchedGroups.begin();
+//        std::advance(it, m_matchedGroupsIndex);
         FMMatchGroup * mg = it->second;
-        if (mg->getMatchType() == kMatch_4 || mg->getMatchType() == kMatch_5Cross || mg->getMatchType() == kMatch_5Line) {
-            //set the trigger grid
-            if (mg->isGridInGroup(m_swapGrid1)) {
-                mg->m_grid = m_swapGrid1;
-            }
-            else if (mg->isGridInGroup(m_swapGrid2)) {
-                mg->m_grid = m_swapGrid2;
-            }else{
-                int tcount = 1;
-                for (std::set<FMGameGrid *>::iterator it = mg->m_grids->begin(); it != mg->m_grids->end(); it++) {
-                    FMGameGrid * grid = *it;
-                    FMGameElement * e = grid->getElement();
-                    if (e&&e->m_matchCount > tcount) {
-                        tcount = e->m_matchCount;
-                        mg->m_grid = grid;
-                    }
-                }
-            }
-        }
+//        if (mg->getMatchType() == kMatch_4 || mg->getMatchType() == kMatch_5Cross || mg->getMatchType() == kMatch_5Line) {
+//            //set the trigger grid
+//            if (mg->isGridInGroup(m_swapGrid1)) {
+//                mg->m_grid = m_swapGrid1;
+//            }
+//            else if (mg->isGridInGroup(m_swapGrid2)) {
+//                mg->m_grid = m_swapGrid2;
+//            }else{
+//                
+//            }
+//        }
         
     }
     m_swapGrid1 = NULL;
     m_swapGrid2 = NULL;
     
     //play harvest animation
-//    for (std::map<int, FMMatchGroup *>::iterator it = m_matchedGroups.begin(); it!= m_matchedGroups.end(); it++) {
-    if (m_matchedGroups.size() > m_matchedGroupsIndex) {
-        std::map<int, FMMatchGroup *>::iterator it = m_matchedGroups.begin();
-        std::advance(it, m_matchedGroupsIndex);
+    for (std::map<int, FMMatchGroup *>::iterator it = m_matchedGroups.begin(); it!= m_matchedGroups.end(); it++) {
+        //    if (m_matchedGroups.size() > m_matchedGroupsIndex) {
+        //        std::map<int, FMMatchGroup *>::iterator it = m_matchedGroups.begin();
+        //        std::advance(it, m_matchedGroupsIndex);
         FMMatchGroup * mg = it->second;
         if (mg->m_grids->size() > 0) {
             m_soundEffectCombo++;
@@ -2292,73 +2268,71 @@ void FMGameNode::beginHarvest()
             }
             CCString * str = CCString::createWithFormat("combo_%02d.mp3", v);
             FMSound::playEffect(str->getCString());
-
+            
             FMGameGrid * firstGrid = *(mg->m_grids->begin());
             mg->setMatchEnd(false);
             mg->resetPhase();
             
-
-                int color = -1;
-                if (mg->m_grids->size() > 0) {
-                    FMGameGrid * grid = *mg->m_grids->begin();
-                    if (grid->getElement()) {
-                        color = grid->getElement()->getMatchColor();
+            
+            int color = -1;
+            if (mg->m_grids->size() > 0) {
+                FMGameGrid * grid = *mg->m_grids->begin();
+                if (grid->getElement()) {
+                    color = grid->getElement()->getMatchColor();
+                }
+            }
+            
+            int addValueTotal = 0;
+            for (std::set<FMGameGrid*>::iterator it = mg->m_grids->begin(); it != mg->m_grids->end(); it++) {
+                FMGameGrid * grid = *it;
+                FMGameElement * e = grid->getElement();
+                if (e) {
+                    kElementType type = e->getElementType();
+                    if (m_targets.find(type) != m_targets.end()) {
+                        int v = 0;
+                        addValueTotal += v + 1;
                     }
                 }
-                
-                int addValueTotal = 0;
-                for (std::set<FMGameGrid*>::iterator it = mg->m_grids->begin(); it != mg->m_grids->end(); it++) {
-                    FMGameGrid * grid = *it;
-                    FMGameElement * e = grid->getElement();
-                    if (e) {
-                        kElementType type = e->getElementType();
-                        if (m_targets.find(type) != m_targets.end()) {
-                            int v = 0;
-                            addValueTotal += v + 1;
-                        }
-                    }
+            }
+            
+            if (addValueTotal > 0) {
+                //show add value
+                CCString* str = CCString::createWithFormat("+%d", addValueTotal);
+                //CCLabelAtlas * valueLabel = CCLabelAtlas::create(str->getCString(), "+0123456789", 21, 21, '+');
+                CCLabelBMFont * valueLabel = CCLabelBMFont::create(str->getCString(), "font_add_value.fnt");
+                FMGameGrid * shooter = mg->m_grid;
+                if (!shooter) {
+                    int r = mg->m_grids->size() * 0.5f;
+                    std::set<FMGameGrid*>::iterator it = mg->m_grids->begin();
+                    std::advance(it, r);
+                    shooter = *it;
                 }
+                valueLabel->setPosition(shooter->getPosition());
+                m_gameUI->addChild(valueLabel, 201);
+                CCPoint posInUi = shooter->getElement()->getAnimNode()->convertToWorldSpace(CCPointZero);
+                posInUi = m_gameUI->convertToNodeSpace(posInUi);
+                valueLabel->setPosition(posInUi);
                 
-                if (addValueTotal > 0) {
-                    //show add value
-                    CCString* str = CCString::createWithFormat("+%d", addValueTotal);
-                    //CCLabelAtlas * valueLabel = CCLabelAtlas::create(str->getCString(), "+0123456789", 21, 21, '+');
-                    CCLabelBMFont * valueLabel = CCLabelBMFont::create(str->getCString(), "font_add_value.fnt");
-                    FMGameGrid * shooter = mg->m_grid;
-                    if (!shooter) {
-                        int r = mg->m_grids->size() * 0.5f;
-                        std::set<FMGameGrid*>::iterator it = mg->m_grids->begin();
-                        std::advance(it, r);
-                        shooter = *it;
-                    }
-                    valueLabel->setPosition(shooter->getPosition());
-                    m_gameUI->addChild(valueLabel, 201);
-                    CCPoint posInUi = shooter->getElement()->getAnimNode()->convertToWorldSpace(CCPointZero);
-                    posInUi = m_gameUI->convertToNodeSpace(posInUi);
-                    valueLabel->setPosition(posInUi);
-                    
-                    CCFadeOut * f = CCFadeOut::create(0.6f);
-                    CCEaseIn * ef = CCEaseIn::create(f, 5.f);
-                    CCScaleTo * s = CCScaleTo::create(0.6f, 1.5f);
-                    CCSpawn * spawn = CCSpawn::create(ef, s, NULL);
-                    CCEaseOut * ease = CCEaseOut::create(spawn, 2.f);
-                    CCCallFunc * remove = CCCallFunc::create(valueLabel, callfunc_selector(CCNode::removeFromParent));
-                    CCSequence * seq = CCSequence::create(ease, remove, NULL);
-                    valueLabel->runAction(seq);
-                }
+                CCFadeOut * f = CCFadeOut::create(0.6f);
+                CCEaseIn * ef = CCEaseIn::create(f, 5.f);
+                CCScaleTo * s = CCScaleTo::create(0.6f, 1.5f);
+                CCSpawn * spawn = CCSpawn::create(ef, s, NULL);
+                CCEaseOut * ease = CCEaseOut::create(spawn, 2.f);
+                CCCallFunc * remove = CCCallFunc::create(valueLabel, callfunc_selector(CCNode::removeFromParent));
+                CCSequence * seq = CCSequence::create(ease, remove, NULL);
+                valueLabel->runAction(seq);
+            }
+            
+            
+            float delay = 0.f;
+            for (std::set<FMGameGrid*>::iterator it = mg->m_grids->begin(); it != mg->m_grids->end(); it++) {
                 
-                
-                float delay = 0.f;
-                for (std::set<FMGameGrid*>::iterator it = mg->m_grids->begin(); it != mg->m_grids->end(); it++) {
-                    
-                    FMGameGrid * grid = *it;
-                    delay = grid->getCoord().y * 0.05f;
-                    gridNextPhase(mg, grid, delay);
-                }
-           
+                FMGameGrid * grid = *it;
+                delay = grid->getCoord().y * 0.05f;
+                gridNextPhase(mg, grid, delay);
+            }
         }
     }
-
     
     
     //trigger bonus generate
@@ -2404,14 +2378,12 @@ void FMGameNode::cleanMatchFlag()
             FMGameGrid * g = *it;
             FMGameElement * e = g->getElement();
             e->m_matchGroup = -1;
-            e->m_matchX = false;
-            e->m_matchY = false;
-            e->m_matchCount = 0;
+            e->m_elementFlag &= ~kFlag_MatchX;
+            e->m_elementFlag &= ~kFlag_MatchY;
         }
         delete mg;
     }
     m_matchedGroups.clear();
-    m_matchedGroupsIndex = 0;
 }
 
 
@@ -2447,7 +2419,7 @@ void FMGameNode::beginSpawn()
         hasEmpty = false;
         for (int i=0; i<m_spawner.size(); i++) {
             FMGameGrid * grid = m_spawner[i];
-            if (grid->hasGridStatus(kStatus_Spawner) && grid->isEmpty()) {
+            if (grid->hasGridStatus(kGridStatus_Spawner) && grid->isEmpty()) {
                 //generate an element
 
                 FMGameElement * e = createNewElement(kElement_Random);
@@ -2654,7 +2626,7 @@ void FMGameNode::makeGridStable(FMGameGrid *grid)
                     }
                     else {
                         if (upGrid->isEmpty()) {
-                            if (upGrid->hasGridStatus(kStatus_Spawner)) {
+                            if (upGrid->hasGridStatus(kGridStatus_Spawner)) {
                                 canSlide = false;
                             }
                             else {
@@ -2682,7 +2654,7 @@ void FMGameNode::makeGridStable(FMGameGrid *grid)
                                     }
                                     else {
                                         if (u2 && u2->isMovable() && !isDirectionBlocked(u2, kDirection_B)) {
-                                            if (u2->hasGridStatus(kStatus_Spawner)) {
+                                            if (u2->hasGridStatus(kGridStatus_Spawner)) {
                                                 canSlide = false;
                                                 break;
                                             }
@@ -2736,7 +2708,7 @@ void FMGameNode::makeGridStable(FMGameGrid *grid)
                     }
                     else {
                         if (upGrid->isEmpty()) {
-                            if (upGrid->hasGridStatus(kStatus_Spawner)) {
+                            if (upGrid->hasGridStatus(kGridStatus_Spawner)) {
                                 canSlide = false; 
                             }
                             else {
@@ -2764,7 +2736,7 @@ void FMGameNode::makeGridStable(FMGameGrid *grid)
                                     }
                                     else {
                                         if (u2 && u2->isMovable() && !isDirectionBlocked(u2, kDirection_B)) {
-                                            if (u2->hasGridStatus(kStatus_Spawner)) {
+                                            if (u2->hasGridStatus(kGridStatus_Spawner)) {
                                                 canSlide = false;
                                                 break;
                                             }
@@ -3030,7 +3002,7 @@ void FMGameNode::markMatchable()
     for (int i=0; i<m_matchableGrids.size(); i++) {
         FMGameGrid * grid = m_matchableGrids.at(i);
         FMGameElement* e = grid->getElement();
-        if (e->isFrozen()) {
+        if (e->hasStatus(kStatus_Frozen)) {
             e->playAnimation("FrozenShake");
         }
         else {
@@ -3053,7 +3025,7 @@ int FMGameNode::getHarvestTypeInMap(int elementType)
             FMGameGrid * g = getNeighbor(i, j, kDirection_C);
             if (g && !g->isNone()) {
                 FMGameElement * e = g->getElement();
-                if (e && e->isMovable() && !e->isMatched()) {
+                if (e && (e->m_elementFlag & kFlag_Movable) && !e->isMatched()) {
                     kElementType type = e->getElementType();
                     if (m_targets.find(type) != m_targets.end() && type >= kElement_1Red && type <= kElement_6Pink) {
                         if (types.find(type) != types.end()) {
@@ -3104,7 +3076,7 @@ int FMGameNode::getTypeInMap(int elementType)
             FMGameGrid * g = getNeighbor(i, j, kDirection_C);
             if (g && !g->isNone()) {
                 FMGameElement * e = g->getElement();
-                if (e && e->isMovable() && !e->isMatched()) {
+                if (e && (e->m_elementFlag & kFlag_Movable) && !e->isMatched()) {
                     kElementType type = e->getElementType();
                     if (type == targetType) {
                         return targetType;
@@ -3854,7 +3826,6 @@ void FMGameNode::update(float delta)
                     delete mg;
                 }
                 m_matchedGroups.clear();
-                m_matchedGroupsIndex = 0;
 
                 bool haveMatch = checkMatch();
                 bool gridsStable = checkGridsStable();
@@ -3980,10 +3951,10 @@ void FMGameNode::update(float delta)
             bool matchEnded = false;
             
             
-//            for (std::map<int, FMMatchGroup *>::iterator it = m_matchedGroups.begin(); it != m_matchedGroups.end(); it++ ) {
-            if (m_matchedGroups.size() > m_matchedGroupsIndex) {
-                std::map<int, FMMatchGroup *>::iterator it = m_matchedGroups.begin();
-                std::advance(it, m_matchedGroupsIndex);
+            for (std::map<int, FMMatchGroup *>::iterator it = m_matchedGroups.begin(); it != m_matchedGroups.end(); it++ ) {
+//            if (m_matchedGroups.size() > m_matchedGroupsIndex) {
+//                std::map<int, FMMatchGroup *>::iterator it = m_matchedGroups.begin();
+//                std::advance(it, m_matchedGroupsIndex);
                 FMMatchGroup * mg = it->second;
                 if (mg->isAnimationDone(false)) {
                     if (!mg->isMatchEnd()) {
@@ -3995,7 +3966,8 @@ void FMGameNode::update(float delta)
                 if (mg->isMatchEnd()) {
                     matchEnded = true;
                 }
-            }else if (m_matchedGroups.size() == 0){
+            }
+            if (m_matchedGroups.size() == 0){
                 matchEnded = true;
             }
             
@@ -4003,12 +3975,12 @@ void FMGameNode::update(float delta)
             
             if (matchEnded && m_animChecker->isAnimationDone(false)) {
                 //all match effects are done, move to harvest
-                m_matchedGroupsIndex++;
-                if (m_matchedGroups.size() > m_matchedGroupsIndex) {
-                    beginMatch();
-                }else{
+//                m_matchedGroupsIndex++;
+//                if (m_matchedGroups.size() > m_matchedGroupsIndex) {
+//                    beginMatch();
+//                }else{
                     beginFalling();
-                }
+//                }
             }
         }
             break;
@@ -4042,10 +4014,10 @@ void FMGameNode::update(float delta)
                             FMGameElement * e = g->getElement();
                             kElementType t = e->getElementType();
            
-                            if (e->isFrozen()) {
+                            if (e->hasStatus(kStatus_Frozen)) {
                                 //remove the ice
                                 
-                                e->breakIce();
+                                e->removeStatus(kStatus_Frozen);
 //                                triggerAddValueToSpecailTarget(kElement_TargetIce);
                                 m_animChecker->setMatchEnd(true);
                                 m_animChecker->resetPhase();
@@ -4689,9 +4661,9 @@ EditorItemData gEditorItemsData[] = {
 //    {kEditorItem_Wall, kWallNone, "墙-去掉", "FMElements_CandyWall.ani", "No", "Vertical"},
 //    {kEditorItem_Wall, kWallNormal, "墙-1", "FMElements_CandyWall.ani", "1Idle", "Vertical"},
 //    {kEditorItem_Wall, kWallBreak, "墙-2", "FMElements_CandyWall.ani", "2Idle", "Vertical"},
-    {kEditorItem_Status, kStatus_NoStatus, "清除状态", "Map.plist|gzclean.png"},
-    {kEditorItem_Status, kStatus_Ice, "状态-冰", "Map.plist|ice.png"},
-    {kEditorItem_Status, kStatus_Spawner, "状态-生成", "Map.plist|gzspawner.png"},
+    {kEditorItem_Status, kGridStatus_NoStatus, "清除状态", "Map.plist|gzclean.png"},
+    {kEditorItem_Status, kGridStatus_Ice, "状态-冰", "Map.plist|ice.png"},
+    {kEditorItem_Status, kGridStatus_Spawner, "状态-生成", "Map.plist|gzspawner.png"},
 //    {kEditorItem_Status, kStatus_Snail, "状态-蜗牛", "FMElementSnail.ani", "snailmove"},
 //    {kEditorItem_Status, kStatus_4Bonus, "4消格子", "FMGridBonus.ani", "4"},
 //    {kEditorItem_Status, kStatus_5Bonus, "5消格子", "FMGridBonus.ani", "5"},
@@ -4976,7 +4948,7 @@ void FMGameNode::showSpawner(bool show)
                 spawner->removeFromParent();
             }
             if (show) {
-                if (grid->hasGridStatus(kStatus_Spawner)) {
+                if (grid->hasGridStatus(kGridStatus_Spawner)) {
                     spawner = CCSprite::createWithSpriteFrameName("Map.plist|spawner.png");
                     spawner->setAnchorPoint(ccp(0.5f, 0.5f));
                     grid->getAnimNode()->getParent()->addChild(spawner, 1000);
@@ -5018,22 +4990,22 @@ void FMGameNode::changeGridData(int row, int col)
             FMGameGrid * grid = getNeighbor(row, col, kDirection_C);
             if (!grid->isNone()) {
                 switch (status) {
-                    case kStatus_NoStatus:
+                    case kGridStatus_NoStatus:
                     {
                         grid->cleanGridStatus();
-                        if (grid->getElement()->isFrozen()) {
-                            grid->getElement()->setFrozen(false);
+                        if (grid->getElement()->hasStatus(kStatus_Frozen)) {
+                            grid->getElement()->removeStatus(kStatus_Frozen);
                         }
                     }
                         break;
-                    case kStatus_Ice:
+                    case kGridStatus_Ice:
                     {
                         if (m_isStatusOn) {
-                            grid->getElement()->setFrozen(true);
+                            grid->getElement()->addStatus(kStatus_Frozen);
                             grid->addGridStatus(status);
                         }
                         else {
-                            grid->getElement()->setFrozen(false);
+                            grid->getElement()->removeStatus(kStatus_Frozen);
                             grid->removeGridStatus(status);
                         }
                     }
@@ -5074,8 +5046,8 @@ void FMGameNode::changeGridData(int row, int col)
                 grid->getElement()->setElementType(type);
 
             }
-            if (grid->hasGridStatus(kStatus_Ice)) {
-                grid->getElement()->setFrozen(true);
+            if (grid->hasGridStatus(kGridStatus_Ice)) {
+                grid->getElement()->addStatus(kStatus_Frozen);
             }
         }
             break;
@@ -5151,17 +5123,17 @@ void FMGameNode::setToolIconWithGrid(FMGameGrid * grid)
 //                type = kEditorItem_Status;
 //                value = kStatus_4Bonus;
 //            }
-            if (grid->hasGridStatus(kStatus_Ice)) {
+            if (grid->hasGridStatus(kGridStatus_Ice)) {
                 type = kEditorItem_Status;
-                value = kStatus_Ice;
+                value = kGridStatus_Ice;
             }
 //            else if (gtype == kGridGrass){
 //                type = kEditorItem_Grid;
 //                value = kGridGrass;
 //            }
-            else if (grid->hasGridStatus(kStatus_Spawner)) {
+            else if (grid->hasGridStatus(kGridStatus_Spawner)) {
                 type = kEditorItem_Status;
-                value = kStatus_Spawner;
+                value = kGridStatus_Spawner;
             }
             else{
                 type = kEditorItem_Element;
@@ -5258,11 +5230,11 @@ void FMGameNode::updateLevelData()
                     gridData->addObject(CCNumber::create(gtype));
                     gridData->addObject(CCNumber::create(etype));
                     FMGameElement * element = grid->getElement();
-                    if (element && element->isFrozen()) {
-                        gridData->addObject(CCNumber::create(kStatus_Ice));
+                    if (element && element->hasStatus(kStatus_Frozen)) {
+                        gridData->addObject(CCNumber::create(kGridStatus_Ice));
                     }
-                    if (grid->hasGridStatus(kStatus_Spawner)) {
-                        gridData->addObject(CCNumber::create(kStatus_Spawner));
+                    if (grid->hasGridStatus(kGridStatus_Spawner)) {
+                        gridData->addObject(CCNumber::create(kGridStatus_Spawner));
                     }
 //                    if (grid->hasGridStatus(kStatus_Snail)) {
 //                        gridData->addObject(CCNumber::create(kStatus_Snail));
@@ -6917,28 +6889,7 @@ void FMGameNode::useItem(kGameBooster type)
     
     updateBoosters();
 }
-
-void FMGameNode::elementShuffleToGrid(FMGameElement * e, FMGameGrid * g)
-{
-    CCPoint coord = g->getCoord();
-    CCPoint target = getPositionForCoord(coord.x, coord.y);
-    float distance = ccpDistance(e->getAnimNode()->getPosition(), target);
-    float speed = 240.f;
-    float time = distance/speed;
-    int moves = floor(distance / 30.f);
-    e->setZOrder(moves*10+100);
-    e->addSwapHand();
-    e->playAnimation("Move");
-    CCCallFunc * makeNormal = CCCallFunc::create(e, callfunc_selector(FMGameElement::removeSwapHand));
-    CCMoveTo * j = CCMoveTo::create(time, target);
-    CCScaleTo * s1 = CCScaleTo::create(0.3f, 1.4f);
-    CCScaleTo * s2 = CCScaleTo::create(0.3f, 1.f);
-    CCCallFuncO * reorder = CCCallFuncO::create(this, callfuncO_selector(FMGameNode::resetZOrder), g);
-    CCSequence* seq = CCSequence::create(s1,j,s2, reorder, makeNormal, NULL);
-    e->getAnimNode()->stopAllActions();
-    m_animChecker->addCCNode(e->getAnimNode(), seq, "cc flag 1");
-}
-
+ 
 void FMGameNode::triggerItem(int row, int col)
 {
     m_animChecker->cleanCheckingAnims();
@@ -7140,23 +7091,23 @@ void FMGameNode::triggerItem(int row, int col)
             FMSound::playEffect("pigfall.mp3");
         }
             break;
-        case kBooster_Shuffle:
-        {
-            if (m_swapGrid2 == NULL) {
-                showSelectedGrids(false);
-                return;
-            }
-            
-            FMGameElement * e1 = m_swapGrid1->getElement();
-            FMGameElement * e2 = m_swapGrid2->getElement();
-            
-            m_swapGrid2->setOccupyElement(e1);
-            m_swapGrid1->setOccupyElement(e2);
-            
-            elementShuffleToGrid(e1, m_swapGrid2);
-            elementShuffleToGrid(e2, m_swapGrid1);
-        }
-            break;
+//        case kBooster_Shuffle:
+//        {
+//            if (m_swapGrid2 == NULL) {
+//                showSelectedGrids(false);
+//                return;
+//            }
+//            
+//            FMGameElement * e1 = m_swapGrid1->getElement();
+//            FMGameElement * e2 = m_swapGrid2->getElement();
+//            
+//            m_swapGrid2->setOccupyElement(e1);
+//            m_swapGrid1->setOccupyElement(e2);
+//            
+//            elementShuffleToGrid(e1, m_swapGrid2);
+//            elementShuffleToGrid(e2, m_swapGrid1);
+//        }
+//            break;
         default:
             break;
     } 
@@ -7267,7 +7218,7 @@ void FMGameNode::showSelectedGrids(bool show, int row, int col)
             for (int i=0; i<kGridNum; i++) {
                 FMGameGrid * grid = getNeighbor(row, i, kDirection_C);
                 FMGameElement * e = grid->getElement();
-                if (e && !e->isFrozen()) {
+                if (e && !e->hasStatus(kStatus_Frozen)) {
                     if (e->acceptBooster(kBooster_Harvest1Row)) {
                         e->showSelected(true);
                     }
@@ -7276,7 +7227,7 @@ void FMGameNode::showSelectedGrids(bool show, int row, int col)
             for (int i = 0; i < kGridNum; i++) {
                 FMGameGrid * grid = getNeighbor(i, col, kDirection_C);
                 FMGameElement * e = grid->getElement();
-                if (e && !e->isFrozen()) {
+                if (e && !e->hasStatus(kStatus_Frozen)) {
                     if (e->acceptBooster(kBooster_Harvest1Row)) {
                         e->showSelected(true);
                     }

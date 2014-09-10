@@ -199,7 +199,8 @@ void FMMatchGroup::updateMatchType()
             FMGameGrid * g = *it;
             FMGameElement * e = g->getElement();
             if (e) {
-                if (e->m_matchX && e->m_matchY) {
+                if (e->m_elementFlag & kFlag_MatchX &&
+                    e->m_elementFlag & kFlag_MatchY) {
                     //cross pattern
                     crossGrid = g;
                     break;

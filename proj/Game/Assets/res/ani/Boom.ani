@@ -1,0 +1,213 @@
+<NEAFileData Version="0.5.3.3">
+ <StringCache>
+  <String String="" SID="-1"/>
+  <String String="" SID="0"/>
+  <String String="Hengxiao" SID="1012"/>
+  <String String="Elements.plist|00.png" SID="1013"/>
+  <String String="Shuxiao" SID="1014"/>
+  <String String="Elements.plist|01.png" SID="1015"/>
+  <String String="Xxiao" SID="1016"/>
+  <String String="Lingxing" SID="1018"/>
+  <String String="Elements.plist|Xxiao.png" SID="1041"/>
+  <String String="Elements.plist|a0.png" SID="1042"/>
+  <String String="Elements.plist|a1.png" SID="1043"/>
+  <String String="Elements.plist|a2.png" SID="1044"/>
+  <String String="Elements.plist|b0.png" SID="1045"/>
+  <String String="Elements.plist|b1.png" SID="1046"/>
+  <String String="Elements.plist|b2.png" SID="1047"/>
+  <String String="Elements.plist|c0.png" SID="1048"/>
+  <String String="Elements.plist|c1.png" SID="1049"/>
+  <String String="Elements.plist|c2.png" SID="1050"/>
+  <String String="Elements.plist|d0.png" SID="1051"/>
+  <String String="Elements.plist|d1.png" SID="1052"/>
+  <String String="Elements.plist|d2.png" SID="1053"/>
+  <String String="Elements.plist|e0.png" SID="1054"/>
+  <String String="Elements.plist|e1.png" SID="1055"/>
+  <String String="Elements.plist|e2.png" SID="1056"/>
+  <String String="Elements.plist|f0.png" SID="1057"/>
+  <String String="Elements.plist|f1.png" SID="1058"/>
+  <String String="Elements.plist|f2.png" SID="1059"/>
+  <String String="Elements.plist|hengxiao.png" SID="1060"/>
+  <String String="Elements.plist|jellolight-72.png" SID="1061"/>
+  <String String="Elements.plist|lingxiao.png" SID="1062"/>
+  <String String="Elements.plist|none.png" SID="1063"/>
+  <String String="Elements.plist|random.png" SID="1064"/>
+  <String String="Elements.plist|shuxiao.png" SID="1065"/>
+ </StringCache>
+ <xidLinks>
+  <Link SID="1013" XID="1"/>
+  <Link SID="1042" XID="2"/>
+  <Link SID="1045" XID="3"/>
+  <Link SID="1048" XID="4"/>
+  <Link SID="1051" XID="5"/>
+  <Link SID="1054" XID="6"/>
+  <Link SID="1057" XID="7"/>
+  <Link SID="1060" XID="8"/>
+  <Link SID="1062" XID="9"/>
+  <Link SID="1065" XID="10"/>
+  <Link SID="1041" XID="11"/>
+ </xidLinks>
+ <Variables>
+  <Var VID="0" name="basic"/>
+  <Var VID="1" name="hengxiao"/>
+  <Var VID="2" name="shuxiao"/>
+  <Var VID="3" name="3"/>
+  <Var VID="4" name="4"/>
+ </Variables>
+ <Skins>
+  <Skin name="Red">
+   <Keyframe type="0" data="0|1.25318" VID="1" changeType="1" changeClass="0"/>
+   <Keyframe type="0" data="0|2.49592" VID="2" changeType="1" changeClass="0"/>
+   <Keyframe type="0" data="0|0.987198" VID="3" changeType="1" changeClass="0"/>
+   <Keyframe type="0" data="0|1.49011" VID="4" changeType="1" changeClass="0"/>
+  </Skin>
+  <Skin name="Orange">
+   <Keyframe type="8" data="3" VID="0" changeType="0" changeClass="0"/>
+   <Keyframe type="0" data="0|0.745055" VID="2" changeType="1" changeClass="0"/>
+   <Keyframe type="0" data="0|0.745055" VID="3" changeType="1" changeClass="0"/>
+   <Keyframe type="0" data="0|0.745048" VID="4" changeType="1" changeClass="0"/>
+  </Skin>
+  <Skin name="Yellow">
+   <Keyframe type="8" data="4" VID="0" changeType="0" changeClass="0"/>
+   <Keyframe type="0" data="0|-0.741318" VID="1" changeType="1" changeClass="0"/>
+   <Keyframe type="0" data="0|1.00581" VID="2" changeType="1" changeClass="0"/>
+   <Keyframe type="0" data="0|0.242149" VID="4" changeType="1" changeClass="0"/>
+  </Skin>
+  <Skin name="Green">
+   <Keyframe type="8" data="5" VID="0" changeType="0" changeClass="0"/>
+   <Keyframe type="0" data="0|0.98841" VID="1" changeType="1" changeClass="0"/>
+   <Keyframe type="0" data="0|2.23516" VID="2" changeType="1" changeClass="0"/>
+   <Keyframe type="0" data="0|1.75087" VID="3" changeType="1" changeClass="0"/>
+   <Keyframe type="0" data="0|1.99301" VID="4" changeType="1" changeClass="0"/>
+  </Skin>
+  <Skin name="Blue">
+   <Keyframe type="8" data="6" VID="0" changeType="0" changeClass="0"/>
+   <Keyframe type="0" data="0|1.00607" VID="1" changeType="1" changeClass="0"/>
+   <Keyframe type="0" data="0|1.75088" VID="2" changeType="1" changeClass="0"/>
+   <Keyframe type="0" data="0|-0.745055" VID="3" changeType="1" changeClass="0"/>
+   <Keyframe type="0" data="0|1.24796" VID="4" changeType="1" changeClass="0"/>
+  </Skin>
+  <Skin name="Purple">
+   <Keyframe type="8" data="7" VID="0" changeType="0" changeClass="0"/>
+   <Keyframe type="0" data="0|-0.74131" VID="1" changeType="1" changeClass="0"/>
+   <Keyframe type="0" data="0|0.48429" VID="2" changeType="1" changeClass="0"/>
+   <Keyframe type="0" data="0|1.00582" VID="3" changeType="1" changeClass="0"/>
+  </Skin>
+  <Skin name="Random">
+   <Keyframe type="8" data="1" VID="0" changeType="0" changeClass="0"/>
+   <Keyframe type="0" data="0|-0.76368" VID="1" changeType="1" changeClass="0"/>
+   <Keyframe type="0" data="0|0.745055" VID="2" changeType="1" changeClass="0"/>
+  </Skin>
+ </Skins>
+ <NodeStructure>
+  <Node From="-1" Type="1" To="0" Name="根节点"/>
+  <Node From="0" Type="2" To="1" Name="xx"/>
+  <Node From="0" Type="2" To="2" Name="图层"/>
+ </NodeStructure>
+ <Animations>
+  <Animation>
+   <TextureFiles>
+    <TexFile FileName="Elements.plist"/>
+   </TextureFiles>
+   <Keyframes>
+    <Node NodeID="0">
+     <Property Type="16">
+      <Keyframe index="0" data="1012" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="19">
+      <Keyframe index="0" data="1" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+    </Node>
+    <Node NodeID="2">
+     <Property Type="0">
+      <Keyframe index="0" data="0|0" ref="1" changeType="1" changeClass="0"/>
+     </Property>
+     <Property Type="7">
+      <Keyframe index="0" data="1" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="8">
+      <Keyframe index="0" data="8" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+    </Node>
+   </Keyframes>
+  </Animation>
+  <Animation>
+   <TextureFiles>
+    <TexFile FileName="Elements.plist"/>
+   </TextureFiles>
+   <Keyframes>
+    <Node NodeID="0">
+     <Property Type="16">
+      <Keyframe index="0" data="1014" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="19">
+      <Keyframe index="0" data="1" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+    </Node>
+    <Node NodeID="2">
+     <Property Type="0">
+      <Keyframe index="0" data="0|0" ref="2" changeType="1" changeClass="0"/>
+     </Property>
+     <Property Type="7">
+      <Keyframe index="0" data="1" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="8">
+      <Keyframe index="0" data="10" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+    </Node>
+   </Keyframes>
+  </Animation>
+  <Animation>
+   <TextureFiles>
+    <TexFile FileName="Elements.plist"/>
+   </TextureFiles>
+   <Keyframes>
+    <Node NodeID="0">
+     <Property Type="16">
+      <Keyframe index="0" data="1016" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="19">
+      <Keyframe index="0" data="1" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+    </Node>
+    <Node NodeID="2">
+     <Property Type="0">
+      <Keyframe index="0" data="0|0" ref="3" changeType="1" changeClass="0"/>
+     </Property>
+     <Property Type="7">
+      <Keyframe index="0" data="1" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="8">
+      <Keyframe index="0" data="11" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+    </Node>
+   </Keyframes>
+  </Animation>
+  <Animation>
+   <TextureFiles>
+    <TexFile FileName="Elements.plist"/>
+   </TextureFiles>
+   <Keyframes>
+    <Node NodeID="0">
+     <Property Type="16">
+      <Keyframe index="0" data="1018" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="19">
+      <Keyframe index="0" data="1" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+    </Node>
+    <Node NodeID="2">
+     <Property Type="0">
+      <Keyframe index="0" data="0|0" ref="4" changeType="1" changeClass="0"/>
+     </Property>
+     <Property Type="7">
+      <Keyframe index="0" data="1" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+     <Property Type="8">
+      <Keyframe index="0" data="9" ref="-1" changeType="0" changeClass="0"/>
+     </Property>
+    </Node>
+   </Keyframes>
+  </Animation>
+ </Animations>
+</NEAFileData>

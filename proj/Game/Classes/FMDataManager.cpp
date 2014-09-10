@@ -1003,20 +1003,6 @@ void FMDataManager::addGameResources(int itemType, int numModify)
     }
     bool modify = true;
     switch (itemType) {
-        case kItemType_Gem:
-        {
-            int num = getGoldNum();
-            num += numModify;
-            setGoldNum(num);
-        }
-            break;
-        case kItemType_Mushroom:
-        {
-            int num = getMushroomNum();
-            num += numModify;
-            setMushroomNum(num);
-        }
-            break;
         case kItemType_Booster1:
         case kItemType_Booster2:
         case kItemType_Booster3:

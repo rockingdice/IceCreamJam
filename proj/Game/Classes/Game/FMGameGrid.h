@@ -23,9 +23,10 @@ typedef enum kGridType {
 } kGridType;
 
 typedef enum kGridStatus {
-    kStatus_NoStatus = 0,
-    kStatus_Spawner = 1,
-    kStatus_Ice = 2,
+    kGridStatus_NoStatus = 0,
+    kGridStatus_Spawner = 1,
+    kGridStatus_Ice = 2,
+//    kStatus_Ice = 2,
 //    kStatus_Snail = 3,
 //    kStatus_4Bonus = 4,
 //    kStatus_5Bonus = 5,

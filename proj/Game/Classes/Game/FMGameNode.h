@@ -254,7 +254,7 @@ private:
     std::set<FMGameElement*> m_movingElements;
     
     std::map<int, FMMatchGroup * > m_matchedGroups;
-    int m_matchedGroupsIndex;
+//    int m_matchedGroupsIndex;
     //int: groupID
     //CCArray*: matched Elements
     
@@ -399,7 +399,6 @@ public:
     void useItemMode(bool useItem);
     void showSelectedGrids(bool show, int row = -1, int col = -1);
     void triggerItem(int row, int col);
-    void elementShuffleToGrid(FMGameElement * e, FMGameGrid * g);
     void enterUseItemMode(int booster);
     void gridNextPhase(FMMatchGroup * mg, FMGameGrid * grid, float harvestDelay = 0.f);
     void tractorCallback(FMGameGrid * grid);

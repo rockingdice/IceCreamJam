@@ -152,7 +152,7 @@ bool FMGameGrid::isSwappable()
         return false;
     }
     if (m_elementPtr) {
-        return m_elementPtr->isSwappable();
+        return m_elementPtr->m_elementFlag & kFlag_Swappable;
     }
     return false;
 }
@@ -160,7 +160,7 @@ bool FMGameGrid::isSwappable()
 bool FMGameGrid::isExistMovableElement()
 {
     bool exist = false;
-    if (m_elementPtr && m_elementPtr->isMovable()) {
+    if (m_elementPtr && m_elementPtr->m_elementFlag & kFlag_Movable) {
         exist = true;
     }
     return exist;
@@ -169,7 +169,7 @@ bool FMGameGrid::isExistMovableElement()
 bool FMGameGrid::isExistImmovableElement()
 {
     bool exist = false;
-    if (m_elementPtr && !m_elementPtr->isMovable()) {
+    if (m_elementPtr && !m_elementPtr->m_elementFlag & kFlag_Movable) {
         exist = true;
     }
     return exist;
@@ -185,7 +185,7 @@ void FMGameGrid::setOccupyElement(FMGameElement *element)
 
 void FMGameGrid::queueSpawnElement(FMGameElement *element)
 {
-    element->m_spawned = false;
+    element->m_elementFlag &= ~kFlag_Spawned;
     element->getAnimNode()->setVisible(false);
     m_spawnQueue.push_back(element);
     if (m_spawnQueue.size() == 1) {
@@ -214,16 +214,11 @@ void FMGameGrid::spawnNextElement()
     FMGameElement * element = m_spawnQueue.front();
     element->getAnimNode()->setPosition(ccp(m_coord.y * kGridWidth, - (m_coord.x-1) * kGridHeight));
     element->getAnimNode()->setVisible(true);
-    element->m_spawned = true;
+    element->m_elementFlag |= kFlag_Spawned;
 }
 
 void FMGameGrid::cleanSpawnQueue()
-{
-//    for (int i=0; i<m_spawnQueue.size(); i++) {
-//        FMGameElement * e = m_spawnQueue[i];
-//        e->getAnimNode()->removeFromParentAndCleanup(true);
-//        delete e;
-//    }
+{ 
     m_spawnQueue.clear();
 }
 
