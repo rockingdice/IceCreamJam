@@ -161,13 +161,6 @@ void FMLoadingScene::facebookLoginSuccess()
     anim->runAnimationsForSequenceNamed("InitEN1");
 }
 
-//void FMLoadingScene::clickBoss(cocos2d::CCObject *object, CCControlEvent event)
-//{
-//    int rand = FMDataManager::getRandom();
-//    rand = rand % 5 + 1;
-//    CCString* str= CCString::createWithFormat("Loading%d", rand);
-//    ((CCBAnimationManager *)m_ccbNode->getUserObject())->runAnimationsForSequenceNamed(str->getCString());
-//}
 
 extern bool isLoadingDone;
 void FMLoadingScene::update(float delta)

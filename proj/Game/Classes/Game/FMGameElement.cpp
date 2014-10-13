@@ -16,6 +16,7 @@
 FMGameElement::FMGameElement() :
     m_elementType(kElement_None),
     m_color(-1),
+    m_objIndex(-1),
     m_isMatchable(false),
     m_matchGroup(-1),
     m_velocity(CCPointZero),

@@ -84,12 +84,6 @@ void FMUIGreenPanel::setGameMode(int gameMode)
             m_targetInfoLabel->setString(FMDataManager::sharedManager()->getLocalizedString("V100_LEVEL_TARGET_HARVEST"));
         }
             break; 
-        case kGameMode_Boss:
-        {
-            ((CCBAnimationManager *)targetNode->getUserObject())->runAnimationsForSequenceNamed("Text");
-            m_targetInfoLabel->setString(FMDataManager::sharedManager()->getLocalizedString("V100_LEVEL_TARGET_BOSS"));
-        }
-            break;
         default:
             break;
     }

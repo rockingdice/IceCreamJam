@@ -38,7 +38,7 @@ typedef enum kGameMode
 {
     kGameMode_Classic,
     kGameMode_Harvest,
-    kGameMode_Boss,
+//    kGameMode_Boss,
     kGameMode_Max
 }kGameMode;
 
@@ -171,17 +171,12 @@ private:
     CCControlButton * m_buttons[7];
     CCNode * m_modeParent;
     CCNode * m_modeNode[3];
-//    CCNode * m_harvestMode;
-////    CCNode * m_bossMode;
-//    CCNode * m_vegeMode;
-    int m_bossIndex;
-    NEAnimNode * m_bossGround[3];
+
     NEAnimNode * m_harvestCrowds;
     
     NEAnimNode * m_targetAnimNode[4];
     CCLabelBMFont * m_targetLabel[4];
-    CCSprite * m_targetBossElement[4];
-    //CCNode * m_scorebarParent;
+
     CCScale9Sprite * m_scorebar;
     CCLabelBMFont * m_scoreLabel;;
     CCNode * m_levelStatus;
@@ -201,6 +196,10 @@ private:
     std::map<int, elementTarget> m_levelLimits;
     
     std::map<int, int> m_currentLimits;
+    
+    std::vector<FMGameElement *> m_elementsCache;
+    int m_elementsCount;
+    
     
     kGameMode m_gameMode;
     kGameBooster m_suggestedBooster;
@@ -222,8 +221,7 @@ private:
     
     bool m_enableManiaMode;
     bool m_isLevelFirstIn;
-//    int m_snailMax;
-//    int m_snailSameTime;
+    
     float m_thinkingTime;
     float m_idleTime;
     
@@ -237,11 +235,6 @@ private:
     bool m_gameEnd;
     bool m_userQuit;
 
-//    bool m_snailTrigger;
-//    bool m_ghostTrigger;
-//    bool m_randomEleTrigger;
-    int m_bossState;
-    bool m_bossHurtTurn;
     int m_harvestedInMove;
 //combo
     int m_combo;
@@ -323,7 +316,7 @@ public:
     int getLeftMoves();
     int getBoosterUsed(int boosterType) { return m_boosterUsed[boosterType]; }
     int getContinueTimes() { return m_continueTimes; }
-    bool isBossMode() { return m_gameMode == kGameMode_Boss; }
+
     int getGameMode() { return m_gameMode; }
     bool hasPlus5Booster() { return m_hasPlus5BeforeLevel; } 
     bool isGameOver() { return m_gameEnd; }

@@ -94,7 +94,6 @@ FMGameNode::FMGameNode() :
     m_targetsCompleted(false),
     m_enableManiaMode(true),
     m_maniaModeBegin(false),
-    m_bossHurtTurn(false), 
     m_isLevelFirstIn(true),
     m_phase(kPhase_NoInput),
     m_usingItem(-1),
@@ -107,6 +106,7 @@ FMGameNode::FMGameNode() :
     m_starNum(0),
     m_starNumCurrent(0),
     m_totalWeight(0),
+    m_elementsCount(0),
     m_thinkingTime(0.f),
     m_idleTime(idleTimePeriod),
     m_score(0),
@@ -258,20 +258,8 @@ FMGameNode::FMGameNode() :
             m_targetAnimNode[i] = (NEAnimNode *)parent->getChildByTag(0);
             m_targetAnimNode[i]->releaseControl("Label");
             m_targetLabel[i] = (CCLabelBMFont *)(m_targetAnimNode[i]->getNodeByName("Label"));
-//            m_targetBossElement[i] = (CCSprite *)m_bossMode->getChildByTag(3)->getChildByTag(i);
         }
 
-        //BOSS
-//        for (int i=0; i<4; i++) {
-//            NEAnimNode * target = NEAnimNode::createNodeFromFile("FMElementUI.ani");
-//            CCNode * parent = m_bossMode->getChildByTag(3);
-//            
-//            target->setScale(0.5f);
-//            float x = i % 2 == 0 ? -1 : 1;
-//            float y = i / 2 == 0 ? 1 : -1;
-//            target->setPosition(ccp(x * 9.f, y * 9.f));
-//            parent->addChild(target, 1, i);
-//        }
     }
     
     //boosters
@@ -314,49 +302,13 @@ FMGameNode::FMGameNode() :
         m_star[i] = (NEAnimNode *)m_levelStatus->getChildByTag(i);
     }
     
-    
-//    //boss
-//    for (int i=0; i<3; i++) {
-//        NEAnimNode * ground = NEAnimNode::createNodeFromFile("FMBossGround.ani");
-//        m_bossGround[i] = ground;
-//        ground->setSmoothPlaying(true);
-//        NEAnimNode * boss = NEAnimNode::createNodeFromFile("FMBoss.ani");
-//        boss->setSmoothPlaying(true);
-//        boss->playAnimation("Boss1Idle");
-//        boss->pauseAnimation();
-//        ground->replaceNode("1", boss);
-//        ground->playAnimation("Pop");
-//        CCNode * node = m_bossMode->getChildByTag(i);
-//        node->addChild(ground);
-//    }
-    
-    //vege mode
-//    {
-//        m_harvestCrowds = NEAnimNode::createNodeFromFile("FMHarvestCrowds.ani");
-//        m_harvestCrowds->playAnimation("Init");
-//        CCNode * node1 = m_vegeMode->getChildByTag(1);
-//        node1->addChild(m_harvestCrowds);
-//        
-//        CCNode * node3 = m_vegeMode->getChildByTag(3);
-//        NEAnimNode * checkedAnim =  NEAnimNode::createNodeFromFile("FMCheckBox.ani");
-//        checkedAnim->playAnimation("Empty");
-//        node3->addChild(checkedAnim, 111, 1);
-//    }
-    
     //tutorial buttons ref
     m_buttons[0] = m_closeButton;
     for (int i=0; i<6; i++) {
         m_buttons[1 + i] = (CCControlButton *)m_boosterParent->getChildByTag(i)->getChildByTag(1);
     }
     
-    
-    
-//    m_data = loadFromJsonFile();
-//    m_data->retain();
-//    loadFromJsonFile();
-//    loadLevel(0, 0, false);
-    
-    
+ 
 }
 
 FMGameNode::~FMGameNode()
@@ -783,7 +735,6 @@ void FMGameNode::makeInit()
     m_maniaModeBegin = false;
     m_movePlus = false;
     m_aiChecked = false;
-    m_bossHurtTurn = false;
     m_swapGrid1 = NULL;
     m_swapGrid2 = NULL;
     m_currentSelection = NULL;
@@ -794,7 +745,6 @@ void FMGameNode::makeInit()
     m_soundEffectCombo = 0;
     m_harvestedInMove = 0;
     m_hasPlus5BeforeLevel = false;
-    m_bossIndex = FMDataManager::getRandom() % 3;
     updateBackGrids();
 //    m_mysticBox->setVisible(false);
     //check plus move booster 
@@ -822,40 +772,7 @@ void FMGameNode::makeInit()
         m_modeNode[i]->setVisible(i == m_gameMode);
     }
     CCNode * modeNode = m_modeNode[m_gameMode];
-    if (m_gameMode == kGameMode_Boss) {
-//        m_harvestMode->setVisible(false);
-//        m_vegeMode->setVisible(false);
-//        m_bossMode->setVisible(true);
-//        
-//        
-//        for (int i=0; i<3; i++) {
-//            NEAnimNode * boss = (NEAnimNode *)m_bossGround[i]->getNodeByName("1");
-//            boss->playAnimation("Hide");
-//            m_bossGround[i]->playAnimation("Hide");
-//        }
-//        
-//        std::map<int, elementTarget>::iterator it = m_targets.begin();
-//        std::stringstream ss;
-//        CCNode * parent = m_bossMode->getChildByTag(3);
-//        for (; it != m_targets.end(); it++) {
-//            ss.str("");
-//            kElementType type = (kElementType)it->first;
-//            elementTarget target = it->second;
-//            int index = target.index;
-//
-//            if (index < 4) {
-//                NEAnimNode * target = (NEAnimNode *)parent->getChildByTag(index);
-//                target->xidChange(1, type);
-//                target->playAnimation("Init");
-//                target->setVisible(true);
-//            }
-//        }
-//        for (int i = m_targets.size(); i < 4; i++) {
-//            NEAnimNode * target = (NEAnimNode *)parent->getChildByTag(i);
-//            target->setVisible(false);
-//        }
-    }
-    else if (m_gameMode == kGameMode_Harvest) {
+    if (m_gameMode == kGameMode_Harvest) {
         NEAnimNode * checkedAnim = (NEAnimNode *)modeNode->getChildByTag(20);
         checkedAnim->playAnimation("Init");
 
@@ -1090,7 +1007,7 @@ void FMGameNode::mapDataRemake()
 #endif
             {
                 if (!grid->isNone() && grid->getElement()) {
-                    if (elementType != kElement_Random) {
+                    if (elementType != kElement_None) {
                         FMGameElement * e = grid->getElement();
                         e->cleanStatus();
                         kElementType type = elementType;
@@ -1320,10 +1237,20 @@ int FMGameNode::getNewElementType()
 FMGameElement * FMGameNode::createNewElement(int type)
 {
     CCNode * offsetNode = m_gridParent->getChildByTag(1);
-    FMGameElement * e = new FMGameElement;
-    e->autorelease();
-    e->retain();
-    CCAssert(e != NULL, "new error");
+    FMGameElement * e = NULL;
+    if (m_elementsCache.size() > m_elementsCount) {
+        e = m_elementsCache[m_elementsCount];
+        m_elementsCount++;
+    }
+    else {
+        e = new FMGameElement;
+        e->autorelease();
+        e->retain();
+        m_elementsCache.push_back(e);
+        m_elementsCount++;
+        e->m_objIndex = m_elementsCount;
+        CCAssert(e != NULL, "new error");
+    }
     offsetNode->addChild(e->getAnimNode());
 
     kElementType t = (kElementType)type;
@@ -1338,7 +1265,23 @@ FMGameElement * FMGameNode::createNewElement(int type)
 void FMGameNode::removeElement(FMGameElement *element)
 {
     element->getAnimNode()->removeFromParentAndCleanup(true);
-    element->release();
+    element->cleanMoveQueue();
+    element->cleanStatus();
+    element->m_elementFlag = 0;
+    std::vector<FMGameElement *>::iterator itElement1 = m_elementsCache.begin() + element->m_objIndex;
+    std::vector<FMGameElement *>::iterator itElement2 = m_elementsCache.begin() + m_elementsCount - 1;
+    if (itElement1 != itElement2) {
+        FMGameElement * e1 = *itElement1;
+        FMGameElement * e2 = *itElement2;
+
+        int e1index = e1->m_objIndex;
+        e1->m_objIndex = e2->m_objIndex;
+        e2->m_objIndex = e1index;
+        
+        std::swap(itElement1, itElement2);
+    }
+    
+    m_elementsCount--;
 }
 
 bool FMGameNode::checkGridMatch(FMGameGrid *grid)
@@ -2051,10 +1994,7 @@ void FMGameNode::gridNextPhase(FMMatchGroup *mg, FMGameGrid *grid, float harvest
                 m_gameUI->addChild(e->getAnimNode(), 200);
                 e->getAnimNode()->setPosition(posInUi);
                 CCPoint posInUiTarget = CCPointZero;
-                if (m_gameMode == kGameMode_Boss) {
-                    //posInUiTarget = m_bossGround[m_bossIndex]->convertToWorldSpace(CCPointZero);
-                }
-                else if (m_gameMode == kGameMode_Harvest) {
+                if (m_gameMode == kGameMode_Harvest) {
                     NEAnimNode * animTarget = (NEAnimNode *)m_modeNode[kGameMode_Harvest]->getChildByTag(type-1);
                     posInUiTarget = animTarget->convertToWorldSpace(CCPointZero);
                 }
@@ -2062,11 +2002,7 @@ void FMGameNode::gridNextPhase(FMMatchGroup *mg, FMGameGrid *grid, float harvest
                     posInUiTarget = m_targetAnimNode[et.index]->convertToWorldSpace(CCPointZero);
                 }
                 posInUiTarget = m_gameUI->convertToNodeSpace(posInUiTarget);
-                if (m_gameMode == kGameMode_Boss) {
-                    posInUiTarget.x += FMDataManager::getRandom() % 10 - 5;
-                    posInUiTarget.y += FMDataManager::getRandom() % 10 + 5;
-                }
-                else if (m_gameMode == kGameMode_Harvest) {
+                if (m_gameMode == kGameMode_Harvest) {
 //                    posInUiTarget.x += FMDataManager::getRandom() % 80 - 40;
 //                    posInUiTarget.y += FMDataManager::getRandom() % 20 - 10;
                 }
@@ -2085,39 +2021,11 @@ void FMGameNode::gridNextPhase(FMMatchGroup *mg, FMGameGrid *grid, float harvest
                 CCSpawn * spa = CCSpawn::create(seq1, ease, NULL);
                 CCCallFuncO * remove = NULL; 
                 remove = CCCallFuncO::create(this, callfuncO_selector(FMGameNode::triggerAddValueToTarget), e);
-                
-//                if (m_gameMode == kGameMode_Boss) {
-////                    remove = CCCallFuncO::create(this, callfuncO_selector(FMGameNode::triggerHitBoss), e);
-//                }
-//                else if (m_gameMode == kGameMode_Harvest) {
-//                    remove = CCCallFuncO::create(this, callfuncO_selector(FMGameNode::triggerHarvest), e);
-//                }
-//                else {
-//                    remove = CCCallFuncO::create(this, callfuncO_selector(FMGameNode::triggerAddValueToTarget), e);
-//                }
-                
+   
+            
                 
                 CCSequence * seq2 = NULL;
-                if (m_gameMode == kGameMode_Boss) {
-                    static float flyDistance = 30.f;
-                    float x = (FMDataManager::getRandom() % 2 - 0.5) * 2.f * flyDistance + posInUiTarget.x + FMDataManager::getRandom() % 10 - 5.f;
-                    float y = posInUiTarget.y + FMDataManager::getRandom() % 20 - 10.f;
-                    float angle = FMDataManager::getRandom() % 1080 - 540.f;
-                    float height = FMDataManager::getRandom() % (int)flyDistance + flyDistance * 0.5f;
-                    CCJumpTo * fly = CCJumpTo::create(0.7f, ccp(x, y), height, 1);
-                    CCRotateBy * rot = CCRotateBy::create(0.7f, angle);
-                    CCSpawn * spawn = CCSpawn::create(fly, rot, NULL);
-                    CCCallFuncO * removedone = CCCallFuncO::create(this, callfuncO_selector(FMGameNode::triggerHitDone), e);
-                    seq2 = CCSequence::create(del, makenormal, spa, remove, spawn, removedone, NULL);
-                }
-                else if (m_gameMode == kGameMode_Harvest) {
-//                    NEAnimNode * hiteffect = NEAnimNode::createNodeFromFile("FMEffectHitStar.ani");
-//                    m_gameUI->addChild(hiteffect, 2011);
-//                    hiteffect->setPosition(posInUiTarget);
-//                    hiteffect->setAutoRemove(true);
-//                    CCString * animName = CCString::createWithFormat("Star%d", FMDataManager::getRandom() % 2 + 1);
-//                    CCCallFuncO * call = CCCallFuncO::create(hiteffect, callfuncO_selector(NEAnimNode::playAnimationCallback), animName);
-//                    seq2 = CCSequence::create(del, makenormal, spa, remove, call, NULL);
+                if (m_gameMode == kGameMode_Harvest) {
                     seq2 = CCSequence::create(del, makenormal, spa, remove, NULL);
                 }
                 else {
@@ -3543,101 +3451,11 @@ void FMGameNode::triggerAddValueToTarget(FMGameElement * element)
     
     checkTargetComplete();
 }
-//
-//void FMGameNode::triggerHarvest(FMGameElement * element)
-//{
-//    kElementType type = element->getElementType();
-//    if (m_targets.find(type) != m_targets.end()) {
-//        m_harvestCrowds->playAnimation("Grow");
-//        
-//        int totalHarvested = 0;
-//        int totalTarget = 0;
-//        for (std::map<int, elementTarget>::iterator it = m_targets.begin(); it != m_targets.end(); it++) {
-//            elementTarget & t = it->second;
-//            totalHarvested += t.harvested;
-//            totalTarget += t.target;
-//        }
-//        
-//        bool check = totalHarvested < totalTarget;
-//        int value = element->getValue();
-//        elementTarget & et = m_targets[type];
-//        et.harvested += value + 1;
-//        
-//        if (check) {
-//            if (totalHarvested + value + 1 >= totalTarget) {
-//                //bingo
-//                NEAnimNode * checkedAnim = (NEAnimNode *)m_vegeMode->getChildByTag(3)->getChildByTag(1);
-//                checkedAnim->playAnimation("Checked");
-//                FMSound::playEffect("gainsdone.mp3");
-//            }
-//        }
-//
-//        //update ui
-//        updateHarvestTargets();
-//        FMSound::playEffect("gains.mp3");
-//    }
-//    
-//    removeElement(element);
-//}
-//
-//void FMGameNode::triggerHitBoss(FMGameElement *element)
-//{
-//    kElementType type = element->getElementType();
-//    m_bossHurtTurn = true;
-//    if (m_targets.find(type) != m_targets.end()) {
-//        int value = element->getValue();
-//        elementTarget & et = m_targets[type]; 
-//        et.harvested += value + 1;
-//        NEAnimNode * boss = (NEAnimNode *)m_bossGround[m_bossIndex]->getNodeByName("1");
-//        boss->setDelegate(this);
-//        boss->playAnimation("Hit");
-//        NEAnimNode * anim = (NEAnimNode *)m_targetAnimNode[et.index]->getNodeByName("Element");
-//        anim->playAnimation("TargetHarvest");
-//        
-//        //update ui
-//        updateHarvestTargets();
-//        FMSound::playEffect("hitboss.mp3", 0.5f, 0.05f);
-//    }
-//}
 
 void FMGameNode::triggerHitDone(FMGameElement *element)
 { 
     removeElement(element);
 }
-
-//void FMGameNode::triggerGetSnail(FMGameElement *element)
-//{
-//    kElementType type = kElement_Snail;
-//    if (m_targets.find(type) != m_targets.end()) {
-//        int value = element->getValue();
-//        elementTarget & et = m_targets[type];
-//        bool check = false;
-//        if (et.harvested < et.target) {
-//            check = true;
-//        }
-//        et.harvested += value + 1;
-//        if (m_gameMode == kGameMode_Classic && check && et.harvested >= et.target) {
-//            //satisfied this target
-//            
-//            CCNode * parent = m_modeNode[kGameMode_Classic]->getChildByTag(et.index);
-//            NEAnimNode * checkedAnim = (NEAnimNode *)parent->getChildByTag(3);
-//            checkedAnim->playAnimation("Checked");
-//            
-//            FMSound::playEffect("gainsdone.mp3");
-//        }
-//        NEAnimNode * anim = (NEAnimNode *)m_targetAnimNode[et.index]->getNodeByName("Element");
-//        anim->playAnimation("TargetHarvest");
-//        
-//        //update ui
-//        updateHarvestTargets();
-//        FMSound::playEffect("gains.mp3");
-//    }
-//
-//    if (element && element->isSnailOn()) {
-//        element->destroySnailAnim();
-//        element->setDisabled(false);
-//    }
-//}
 
 std::set<FMGameGrid*> FMGameNode::getGridsAroundMatchGroup(FMMatchGroup *mg)
 {
@@ -3850,14 +3668,6 @@ void FMGameNode::update(float delta)
     
                     
                     if (m_targetsCompleted || checkMatchable()) {
-                        if (m_gameMode == kGameMode_Boss) {
-                            //switch a new hole
-                            if (m_bossHurtTurn) {
-                                m_bossHurtTurn = false;
-                                m_bossGround[m_bossIndex]->setDelegate(this);
-                                m_bossGround[m_bossIndex]->playAnimation("Run");
-                            }
-                        }
                         beforeNewTurn();
                     }
                     else {
@@ -5697,13 +5507,6 @@ CCPoint FMGameNode::getTutorialPosition(int index)
             return wp;
         }
             break;
-        case 7:
-        {
-            //boss target
-//            CCPoint wp = m_bossMode->getChildByTag(3)->convertToWorldSpace(CCPointZero);
-//            return wp;
-        }
-            break;
         case 8:
         {
             //harvest target
@@ -5800,37 +5603,7 @@ void FMGameNode::updateHarvestTargets()
         default:
             break;
     }
-    
-
-//    int percent = totalHarvested * 100.f / (float) totalTarget;
-//    if (m_gameMode == kGameMode_Boss) {
-//        if (percent > 100) {
-//            percent = 100;
-//        }
-//        percent = 100 - percent;
-//        
-//        m_bossState = 6;
-//        int p = percent;
-//        while (p > 0) {
-//            p -= 20;
-//            m_bossState--;
-//            CCAssert(m_bossState > 0, "ddd");
-//        }
-//    }
-//    else if (m_gameMode == kGameMode_Harvest) {
-//        if (percent > 100) {
-//            percent = 100;
-//        } 
-//        
-//        CCLabelBMFont * harvested = (CCLabelBMFont *)m_vegeMode->getChildByTag(2);
-//        ss.str("");
-//        ss << totalHarvested << "/" << totalTarget;
-//        harvested->setString(ss.str().c_str());
-//    }
-//    ss.str("");
-//    ss << percent << "%";
-//    m_percentageLabel->setString(ss.str().c_str());
-}
+    }
 
 void FMGameNode::updateMoves()
 {
@@ -6336,46 +6109,6 @@ void FMGameNode::resetScorebar()
         default:
             break;
     }
-//    if (m_scorebar && m_scorebar->getParent()) {
-//        m_scorebar->removeFromParent();
-//    }
-//    
-//    static const char * scoreFile[3] = {
-//        "scorebar.png",
-//        "scorebarboss.png",
-//        "scorebarharvest.png"
-//    };
-//
-//    const char * scoreFileName = scoreFile[m_gameMode < kGameMode_Boss ? 0 : m_gameMode-1]; 
-//    m_scorebar = CCScale9Sprite::createWithSpriteFrameName(scoreFileName, CCRect(4.f, 0.f, 173.f, 8.f));
-//    m_scorebar->setPosition(ccp(3.f, 3.f));
-//    m_scorebar->setPreferredSize(CCSize(181.f, 8.f));
-//    m_scorebar->setAnchorPoint(ccp(0.f, 0.f));
-//    //m_scorebarParent->addChild(m_scorebar, 0, 0);
-//    //CCNode * flowersParent = m_scorebarParent->getChildByTag(1);
-////    flowersParent->setVisible(m_gameMode == kGameMode_Classic || m_gameMode == kGameMode_Collection);
-////    m_scorebarParent->reorderChild(flowersParent, 1);
-//    
-//    if (m_gameMode == kGameMode_Boss || m_gameMode == kGameMode_Harvest) {
-//        
-//    }
-//    else {
-////        CCScale9Sprite * scorebar = (CCScale9Sprite *)m_scorebarParent->getChildByTag(0);
-////        scorebar->setPreferredSize(CCSize(scorebarMin, scorebarHeight));
-////        
-////        CCNode * parent = m_scorebarParent->getChildByTag(1);
-////
-////        int maxScoreCap = m_scoreCaps[2] + scoreCapMaxAdd;
-////        for (int i=0; i<3; i++) {
-////            NEAnimNode * star = (NEAnimNode *)parent->getChildByTag(i);
-////            star->playAnimation("Init");
-//////            CCSprite * star = (CCSprite *)parent->getChildByTag(i);
-//////            CCSpriteFrame * frame = CCSpriteFrameCache::sharedSpriteFrameCache()->spriteFrameByName("star_grey.png");
-//////            star->setDisplayFrame(frame);
-////            float t = m_scoreCaps[i] / (float)maxScoreCap;
-////            star->setPosition(ccp(t * (scorebarMax - scorebarMin) + scorebarMin, 0));
-////        }
-//    }
 }
 
 void FMGameNode::uiSlide(bool movein)
@@ -6419,7 +6152,7 @@ void FMGameNode::checkTargetComplete()
     }
     
     bool allDone = true;
-    if (m_gameMode == kGameMode_Boss || m_gameMode == kGameMode_Harvest) {
+    if (m_gameMode == kGameMode_Harvest) {
         int total = 0;
         int totalNeed = 0;
         for (std::map<int, elementTarget>::iterator it = m_targets.begin(); it != m_targets.end(); it++) {
@@ -6475,7 +6208,7 @@ bool FMGameNode::checkWinner()
         return true;
     }
     if (m_targetsCompleted) {
-        if (m_leftMoves <= 0 || (m_gameMode == kGameMode_Boss || m_gameMode == kGameMode_Harvest)) {
+        if (m_leftMoves <= 0 || (m_gameMode == kGameMode_Harvest)) {
             levelComplete();
             return true;
         }
@@ -7594,324 +7327,3 @@ int FMGameNode::getDefaultMoves()
 {
     return ((CCNumber *)m_levelData->objectForKey("moves"))->getIntValue();;
 }
-
-#pragma mark - gameControl
- /*
- ////test
- //void makeInitJsonFile() {
- //    CCDictionary * dict = CCDictionary::create();
- //
- //    dict->setObject(CCArray::create(), "targets");
- //    dict->setObject(CCArray::create(), "gameModeData");
- //    dict->setObject(CCNumber::create(0), "gameMode");
- //    dict->setObject(CCNumber::create(0), "suggestedItem");
- //    dict->setObject(CCNumber::create(20), "moves");
- //    dict->setObject(CCArray::create(), "spawnables");
- //    dict->setObject(CCArray::create(), "percentage");
- //    CCArray * map = CCArray::create();
- //    dict->setObject(map, "map");
- //    for (int i=0; i<8; i++) {
- //        CCArray * row = CCArray::create();
- //        map->addObject(row);
- //        for (int j=0; j<8; j++) {
- //            row->addObject(CCArray::create());
- //        }
- //    }
- //
- //    const char * s = CCJSONConverter::sharedConverter()->strFrom(dict)->getCString();
- //    CCLOG("%s", s);
- //}
- //
- //int getDataConvertion(int input)
- //{
- //    switch (input) {
- //        case 1:
- //            return 4;
- //        case 2:
- //            return 6;
- //        case 4:
- //            return 2;
- //        case 6:
- //            return 1;
- //        case 7:
- //            return 10;
- //        case 8:
- //            return 12;
- //        case 10:
- //            return 8;
- //        case 12:
- //            return 7;
- //        case 701:
- //            return 101;
- //        case 702:
- //            return 102;
- //        case 703:
- //            return 103;
- //        case 704:
- //            return 104;
- //        case 710:
- //            return 105;
- //        default:
- //            return input;
- //            break;
- //    }
- //
- //}
- //
- //static std::map<int, int> spawnablesAnalyst;
- //CCDictionary * loadFromJsonFile() {
- //    CCString * s = CCString::createWithContentsOfFile("NeedDelete.dat");
- //    CCDictionary * map = CCJSONConverter::sharedConverter()->dictionaryFrom(s->getCString());
- //    CCArray * levels = (CCArray *)map->objectForKey("levels");
- //    CCDictionary * ret = CCDictionary::create();
- //
- //    for (int i=0; i<levels->count(); i++) {
- //        CCDictionary * leveldic = (CCDictionary *)levels->objectAtIndex(i);
- //        CCNumber * id = (CCNumber *)leveldic->objectForKey("id");
- //        CCDictionary * level = (CCDictionary *)leveldic->objectForKey("level");
- //        CCDictionary * convert = CCDictionary::create();
- //        CCString * key = CCString::createWithFormat("%d", id->getIntValue());
- //        ret->setObject(convert, key->getCString());
- //
- //        convert->setObject(id, "id");
- //
- //        //targets
- //        CCArray * cTargets = CCArray::create();
- //        convert->setObject(cTargets, "targets");
- //        CCArray * itemTargets = (CCArray *)level->objectForKey("itemTargets");
- //        for (int i=0; i<itemTargets->count(); i++) {
- //            CCDictionary * d = (CCDictionary *)itemTargets->objectAtIndex(i);
- //            CCNumber * amount = (CCNumber *)d->objectForKey("amount");
- //            CCNumber * type = (CCNumber *)d->objectForKey("type");
- //            if (amount->getIntValue() == 0) {
- //                continue;
- //            }
- //            CCArray * t = CCArray::create();
- //            cTargets->addObject(t);
- //            CCNumber * typeConvert = CCNumber::create(getDataConvertion(type->getIntValue()));
- //            t->addObject(typeConvert);
- //            t->addObject(amount);
- //        }
- //
- //
- //        //gameMode
- //        CCString * gameModeString = (CCString *)level->objectForKey("gameMode");
- //        int gameMode = 0;
- //        if (strcmp(gameModeString->getCString() , "farm_king_classic") == 0) {
- //            gameMode = 0;
- //        }
- //        else if (strcmp(gameModeString->getCString() , "farm_king_collection") == 0) {
- //            gameMode = 1;
- //        }
- //        else if (strcmp(gameModeString->getCString() , "farm_king_boss") == 0) {
- //            gameMode = 2;
- //        }
- //
- //        CCNumber * cgm = CCNumber::create(gameMode);
- //        convert->setObject(cgm, "gameMode");
- //
- //        //sellingItem
- //        CCNumber * si = CCNumber::create(0);
- //        convert->setObject(si, "sellingItem");
- //
- //        //gameModeData
- //        CCArray * cgmd = CCArray::create();
- //        convert->setObject(cgmd, "gameModeData");
- //        switch (gameMode) {
- //            case 0:
- //            {
- //                CCDictionary * outputs = (CCDictionary *)level->objectForKey("gameModeConfiguration");
- //                CCArray * a = (CCArray *)outputs->objectForKey("outputs");
- //                cgmd->addObject(a->objectAtIndex(0));
- //                cgmd->addObject(a->objectAtIndex(1));
- //                cgmd->addObject(a->objectAtIndex(2));
- //
- //            }
- //                break;
- //            case 1:
- //            {
- //                CCDictionary * outputs = (CCDictionary *)level->objectForKey("gameModeConfiguration");
- //                CCArray * a = (CCArray *)outputs->objectForKey("collectibleRewardIds");
- //                cgmd->addObject(a->objectAtIndex(0));
- //                cgmd->addObject(a->objectAtIndex(1));
- //                cgmd->addObject(a->objectAtIndex(2));
- //            }
- //                break;
- //            case 2:
- //            {
- //                CCDictionary * outputs = (CCDictionary *)level->objectForKey("gameModeConfiguration");
- //                CCArray * a = (CCArray *)outputs->objectForKey("levelSoftCurrencyInfos");
- //                std::vector<int> vec;
- //                for (int i=0; i<3; i++) {
- //                    CCDictionary * dic = (CCDictionary *)a->objectAtIndex(i);
- //                    int input = ((CCNumber *)dic->objectForKey("input"))->getIntValue();
- //                    vec.push_back(input);
- //                }
- //                std::sort(vec.begin(), vec.end());
- //
- //                cgmd->addObject(CCNumber::create(vec[0]));
- //                cgmd->addObject(CCNumber::create(vec[1]));
- //                cgmd->addObject(CCNumber::create(vec[2]));
- //            }
- //                break;
- //            default:
- //                break;
- //        }
- //
- //        //suggestedItem
- //        CCString * suggestedString = (CCString *)level->objectForKey("suggestedBooster");
- //        int suggested = 0;
- //        if (strcmp(suggestedString->getCString() , "Shovel") == 0) {
- //            suggested = 0;
- //        }
- //        else if (strcmp(suggestedString->getCString() , "Tractor") == 0) {
- //            suggested = 1;
- //        }
- //        else if (strcmp(suggestedString->getCString() , "PlusOne") == 0) {
- //            suggested = 2;
- //        }
- //        else if (strcmp(suggestedString->getCString() , "Hunter") == 0) {
- //            suggested = 3;
- //        }
- //        else {
- //            suggested = 4;
- //        }
- //        convert->setObject(CCNumber::create(suggested), "suggestedItem");
- //
- //        //moves
- //        CCNumber * moves = (CCNumber *)level->objectForKey("numberOfTurns");
- //        convert->setObject(CCNumber::create(moves->getIntValue()), "moves");
- //
- //        //spawnables
- //        CCArray * cSpawnables = CCArray::create();
- //        convert->setObject(cSpawnables, "spawnables");
- //        CCArray * spawnableItems = (CCArray *)level->objectForKey("spawnableItems");
- //        for (int j=0; j<spawnableItems->count(); j++) {
- //            CCObject * aa = spawnableItems->objectAtIndex(j);
- //            int type = 0;
- //            int weight = 100;
- //            if (dynamic_cast<CCNumber *>(aa) != NULL) {
- //                CCNumber * item = (CCNumber *)aa;
- //                type = item->getIntValue();
- //            }
- //            else {
- //                CCDictionary * item = (CCDictionary*) aa;
- //                CCNumber * tn = (CCNumber *)item->objectForKey("type");
- //                CCNumber * tw = (CCNumber *) item->objectForKey("weight");
- //                type = tn->getIntValue();
- //                weight = tw->getIntValue();
- //            }
- //            CCArray * s = CCArray::create();
- //            cSpawnables->addObject(s);
- //            s->addObject(CCNumber::create(getDataConvertion(type)));
- //            s->addObject(CCNumber::create(weight));
- //        }
- //
- //        //analyst
- //        int spc = cSpawnables->count();
- //        if (spawnablesAnalyst.find(spc) == spawnablesAnalyst.end()) {
- //            spawnablesAnalyst[spc] = 0;
- //        }
- //        spawnablesAnalyst[spc]++;
- //
- //        //percentage
- //        CCArray * cPercentage = CCArray::create();
- //        CCArray * cp = (CCArray *)level->objectForKey("starlevel");
- //        cPercentage->addObject(cp->objectAtIndex(0));
- //        cPercentage->addObject(cp->objectAtIndex(1));
- //        cPercentage->addObject(cp->objectAtIndex(2));
- //        convert->setObject(cPercentage, "percentage");
- //
- //        //map
- //        CCArray * boardState = (CCArray *)level->objectForKey("boardState");
- //        CCArray * cMap = CCArray::create();
- //        convert->setObject(cMap, "map");
- //        for (int i=0; i<8; i++) {
- //            CCArray * crow = CCArray::create();
- //            cMap->addObject(crow);
- //            for (int j=0; j<8; j++) {
- //                CCArray * citem = CCArray::create();
- //                crow->addObject(citem);
- //                CCArray * item = (CCArray *)boardState->objectAtIndex(i*8+j);
- //
- //                kGridType gt = kGridNormal;
- //                kElementType et = kElement_Random;
- //                std::vector<kGridStatus> status;
- //
- //                for (int k=0; k<item->count(); k++) {
- //                    CCNumber * n = (CCNumber *)item->objectAtIndex(k);
- //                    int nn = n->getIntValue();
- //                    nn = getDataConvertion(nn);
- //                    switch (nn) {
- //                        case 502:
- //                            status.push_back(kStatus_Ice);
- //                            break;
- //                        case 601:
- //                            status.push_back(kStatus_Spawner);
- //                            break;
- //                        case 504:
- //                            gt = kGridNone;
- //                            break;
- //                        case 711:
- //                            gt = kGridGrass;
- //                            break;
- //                        default:
- //                            et = (kElementType)nn;
- //                            break;
- //                    }
- //
- //                }
- //
- //                if (status.size() == 0) {
- //                    // 2 or 1 or 0
- //                    if (et == kElement_Random) {
- //                        //1 or 0
- //                        if (gt == kGridNormal) {
- //                            //0
- //                        }
- //                        else {
- //                            //1
- //                            citem->addObject(CCNumber::create(gt));
- //                        }
- //                    }
- //                    else  {
- //                        //2
- //                        citem->addObject(CCNumber::create(gt));
- //                        citem->addObject(CCNumber::create(et));
- //                    }
- //                }
- //                else {
- //                    //3 or 3+
- //                    citem->addObject(CCNumber::create(gt));
- //                    citem->addObject(CCNumber::create(et));
- //                    for (int v=0; v<status.size(); v++) {
- //                        kGridStatus s = status.at(v);
- //                        citem->addObject(CCNumber::create(s));
- //                    }
- //                }
- //            }
- //        }
- //
- //    }
- //    CCLOG("Data Analyst ");
- //    for (std::map<int, int>::iterator it = spawnablesAnalyst.begin(); it != spawnablesAnalyst.end(); it++) {
- //        CCLOG("used %d spawnables, stages: %d", it->first, it->second);
- //    }
- //
- //    const char * out = CCJSONConverter::sharedConverter()->strFrom(ret)->getCString();
- //
- //    std::string path = CCFileUtils::sharedFileUtils()->getWriteablePath();
- //    std::stringstream ss;
- //    ss.str("");
- //    ss << path << "output" << ".dat";
- //    std::string filePath = ss.str();
- //
- //    FILE * fp = fopen(filePath.c_str(), "w");
- //    if (fp) {
- //        fputs(out, fp);
- //    }
- //    fclose(fp);
- //    return ret;
- //}
- ////test
- */

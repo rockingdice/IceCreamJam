@@ -42,7 +42,7 @@ private:
     CCNode * m_ccbNode;
     CCLabelBMFont * m_loadingLabel;
     CCLabelBMFont * m_loadingLabel2;
-//    void clickBoss(cocos2d::CCObject *object, CCControlEvent event);
+
     virtual void update(float delta);
     virtual void onEnter();
     virtual void onExit();

@@ -1,37 +1,12 @@
-<NEAFileData Version="0.5.3.3">
+<NEAFileData Version="0.5.4.2">
  <StringCache>
   <String String="" SID="-1"/>
   <String String="Xxiao" SID="1000"/>
-  <String String="00.png" SID="1001"/>
-  <String String="01.png" SID="1002"/>
-  <String String="a0.png" SID="1003"/>
-  <String String="a1.png" SID="1004"/>
-  <String String="a2.png" SID="1005"/>
-  <String String="b0.png" SID="1006"/>
-  <String String="b1.png" SID="1007"/>
-  <String String="b2.png" SID="1008"/>
-  <String String="c0.png" SID="1009"/>
-  <String String="c1.png" SID="1010"/>
-  <String String="c2.png" SID="1011"/>
-  <String String="d0.png" SID="1012"/>
-  <String String="d1.png" SID="1013"/>
-  <String String="d2.png" SID="1014"/>
-  <String String="e0.png" SID="1015"/>
-  <String String="e1.png" SID="1016"/>
-  <String String="e2.png" SID="1017"/>
-  <String String="f0.png" SID="1018"/>
-  <String String="f1.png" SID="1019"/>
-  <String String="f2.png" SID="1020"/>
-  <String String="hengxiao.png" SID="1021"/>
-  <String String="lingxiao.png" SID="1022"/>
-  <String String="shuxiao.png" SID="1023"/>
-  <String String="Xxiao.png" SID="1024"/>
   <String String="Init" SID="1025"/>
   <String String="FMElements_Ghost" SID="1026"/>
   <String String="Bounce" SID="1027"/>
   <String String="BoomH" SID="1028"/>
   <String String="Dropping" SID="1029"/>
-  <String String="gezi0-02.png" SID="1030"/>
   <String String="BoomS" SID="1031"/>
   <String String="Boom" SID="1032"/>
   <String String="Match" SID="1033"/>
@@ -97,7 +72,6 @@
   <String String="Elements.plist|none.png" SID="1093"/>
   <String String="Elements.plist|random.png" SID="1094"/>
   <String String="Elements.plist|shuxiao.png" SID="1095"/>
-  <String String="Elements.plist|gezi0-02.png" SID="1096"/>
  </StringCache>
  <xidLinks>
   <Link SID="1053" XID="1"/>
@@ -124,6 +98,8 @@
   <Link SID="1092" XID="22"/>
   <Link SID="1095" XID="23"/>
   <Link SID="1057" XID="24"/>
+  <Link SID="1093" XID="1001"/>
+  <Link SID="1094" XID="1002"/>
  </xidLinks>
  <Variables>
   <Var VID="0" name="basic"/>
@@ -180,6 +156,20 @@
    <Keyframe type="31" data="1038" VID="3" changeType="0" changeClass="0"/>
    <Keyframe type="31" data="1038" VID="6" changeType="0" changeClass="0"/>
   </Skin>
+  <Skin name="Random">
+   <Keyframe type="8" data="1002" VID="0" changeType="0" changeClass="0"/>
+   <Keyframe type="8" data="20" VID="1" changeType="0" changeClass="0"/>
+   <Keyframe type="8" data="19" VID="2" changeType="0" changeClass="0"/>
+   <Keyframe type="31" data="1038" VID="3" changeType="0" changeClass="0"/>
+   <Keyframe type="31" data="1038" VID="6" changeType="0" changeClass="0"/>
+  </Skin>
+  <Skin name="None">
+   <Keyframe type="8" data="1001" VID="0" changeType="0" changeClass="0"/>
+   <Keyframe type="8" data="20" VID="1" changeType="0" changeClass="0"/>
+   <Keyframe type="8" data="19" VID="2" changeType="0" changeClass="0"/>
+   <Keyframe type="31" data="1038" VID="3" changeType="0" changeClass="0"/>
+   <Keyframe type="31" data="1038" VID="6" changeType="0" changeClass="0"/>
+  </Skin>
   <Skin name="R_P">
    <Keyframe type="8" data="18" VID="5" changeType="0" changeClass="0"/>
   </Skin>
@@ -193,11 +183,11 @@
   </Skin>
  </Skins>
  <NodeStructure>
-  <Node From="-1" Type="1" To="0" Name="根节点"/>
-  <Node From="0" Type="2" To="1" Name="basic"/>
-  <Node From="0" Type="2" To="3" Name="light"/>
-  <Node From="0" Type="5" To="5" Name="动画片段"/>
-  <Node From="0" Type="5" To="4" Name="动画片段"/>
+  <Node From="-1" Type="1" To="0" Flag="0" FileSID="-1" Name="根节点"/>
+  <Node From="0" Type="2" To="1" Flag="0" FileSID="-1" Name="basic"/>
+  <Node From="0" Type="2" To="3" Flag="0" FileSID="-1" Name="light"/>
+  <Node From="0" Type="5" To="5" Flag="0" FileSID="-1" Name="动画片段"/>
+  <Node From="0" Type="5" To="4" Flag="0" FileSID="-1" Name="动画片段"/>
  </NodeStructure>
  <Animations>
   <Animation>
@@ -448,6 +438,7 @@
   <Animation>
    <TextureFiles>
     <TexFile FileName="Elements.plist"/>
+    <TexFile FileName=""/>
    </TextureFiles>
    <Keyframes>
     <Node NodeID="0">
@@ -524,6 +515,7 @@
   <Animation>
    <TextureFiles>
     <TexFile FileName="Elements.plist"/>
+    <TexFile FileName=""/>
    </TextureFiles>
    <Keyframes>
     <Node NodeID="0">
@@ -556,6 +548,7 @@
   <Animation>
    <TextureFiles>
     <TexFile FileName="Elements.plist"/>
+    <TexFile FileName=""/>
    </TextureFiles>
    <Keyframes>
     <Node NodeID="0">
@@ -625,6 +618,7 @@
   <Animation>
    <TextureFiles>
     <TexFile FileName="Elements.plist"/>
+    <TexFile FileName=""/>
    </TextureFiles>
    <Keyframes>
     <Node NodeID="0">
@@ -648,6 +642,7 @@
   <Animation>
    <TextureFiles>
     <TexFile FileName="Elements.plist"/>
+    <TexFile FileName=""/>
    </TextureFiles>
    <Keyframes>
     <Node NodeID="0">
@@ -701,6 +696,7 @@
   <Animation>
    <TextureFiles>
     <TexFile FileName="Elements.plist"/>
+    <TexFile FileName=""/>
    </TextureFiles>
    <Keyframes>
     <Node NodeID="0">
@@ -760,6 +756,7 @@
   <Animation>
    <TextureFiles>
     <TexFile FileName="Elements.plist"/>
+    <TexFile FileName=""/>
    </TextureFiles>
    <Keyframes>
     <Node NodeID="0">
@@ -855,6 +852,7 @@
   <Animation>
    <TextureFiles>
     <TexFile FileName="Elements.plist"/>
+    <TexFile FileName=""/>
    </TextureFiles>
    <Keyframes>
     <Node NodeID="0">
@@ -950,6 +948,7 @@
   <Animation>
    <TextureFiles>
     <TexFile FileName="Elements.plist"/>
+    <TexFile FileName=""/>
    </TextureFiles>
    <Keyframes>
     <Node NodeID="0">
@@ -1045,6 +1044,7 @@
   <Animation>
    <TextureFiles>
     <TexFile FileName="Elements.plist"/>
+    <TexFile FileName=""/>
    </TextureFiles>
    <Keyframes>
     <Node NodeID="0">
@@ -1140,6 +1140,7 @@
   <Animation>
    <TextureFiles>
     <TexFile FileName="Elements.plist"/>
+    <TexFile FileName=""/>
    </TextureFiles>
    <Keyframes>
     <Node NodeID="0">
@@ -1174,6 +1175,7 @@
   <Animation>
    <TextureFiles>
     <TexFile FileName="Elements.plist"/>
+    <TexFile FileName=""/>
    </TextureFiles>
    <Keyframes>
     <Node NodeID="0">
@@ -1208,6 +1210,7 @@
   <Animation>
    <TextureFiles>
     <TexFile FileName="Elements.plist"/>
+    <TexFile FileName=""/>
    </TextureFiles>
    <Keyframes>
     <Node NodeID="0">
@@ -1231,6 +1234,7 @@
   <Animation>
    <TextureFiles>
     <TexFile FileName="Elements.plist"/>
+    <TexFile FileName=""/>
    </TextureFiles>
    <Keyframes>
     <Node NodeID="0">
@@ -1254,6 +1258,7 @@
   <Animation>
    <TextureFiles>
     <TexFile FileName="Elements.plist"/>
+    <TexFile FileName=""/>
    </TextureFiles>
    <Keyframes>
     <Node NodeID="0">
@@ -1320,6 +1325,7 @@
   <Animation>
    <TextureFiles>
     <TexFile FileName="Elements.plist"/>
+    <TexFile FileName=""/>
    </TextureFiles>
    <Keyframes>
     <Node NodeID="0">

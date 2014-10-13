@@ -125,6 +125,7 @@ public:
 
     
 public:
+    int m_objIndex;     //object index in elements vector
     int m_elementFlag;  //initrandom, spawned, match flags, etc
     int m_matchGroup;
     int m_countDown;    //element has round countdown property
